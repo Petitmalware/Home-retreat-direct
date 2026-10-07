@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next';export default function robots():MetadataRoute.Robots{return {rules:{userAgent:'*',allow:process.env.DEVELOPMENT_CATALOG==='true'?undefined:'/',disallow:process.env.DEVELOPMENT_CATALOG==='true'?'/':['/admin','/api','/account','/orders','/review','/checkout','/cart']},sitemap:(process.env.APP_ORIGIN??'http://127.0.0.1:3000')+'/sitemap.xml'}}

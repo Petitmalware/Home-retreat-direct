@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <div className="container empty-state"><p className="eyebrow">A DIFFERENT PATH HOME</p><h1>This page has moved on.</h1><p>The page or product you are looking for is unavailable. There is still plenty to explore.</p><Link className="button dark" href="/collections/all">Explore collections</Link></div>}

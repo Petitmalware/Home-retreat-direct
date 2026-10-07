@@ -1,0 +1,1 @@
+import {user} from '@/lib/security';import {Account,AuthForm} from '@/components/store/account';export const dynamic='force-dynamic';export const metadata={title:'Your account',robots:{index:false,follow:false}};export default async function Page(){const u=await user();return u?<Account role={u.staff?.active?u.staff.role:null}/>:<AuthForm/>}

@@ -1,0 +1,20 @@
+'use client';
+import {track} from '@/lib/analytics-client';
+import {createContext,useContext,useEffect,useState,useCallback} from 'react';
+import {toast,Toaster} from 'sonner';
+export type CartItem={id:string;variantId:string;productId:string;name:string;slug:string;image:string;variant:string;quantity:number;unitPrice:number;delivery:string};
+export async function api<T=Record<string,unknown>>(path:string,method='GET',data?:unknown):Promise<T>{const r=await fetch(path,{method,headers:data?{'Content-Type':'application/json'}:undefined,body:data?JSON.stringify(data):undefined});const d=await r.json() as T&{error?:string};if(!r.ok)throw new Error(d.error??'Something went wrong. Please try again.');return d;}
+type Store={items:CartItem[];loading:boolean;refresh:()=>Promise<void>;add:(variantId:string,quantity?:number)=>Promise<void>;update:(variantId:string,quantity:number)=>Promise<void>;remove:(variantId:string)=>Promise<void>;compare:string[];toggleCompare:(id:string)=>void;clearCompare:()=>void;save:(id:string)=>Promise<void>};
+const StoreContext=createContext<Store|null>(null);
+export function StoreProvider({children}:{children:React.ReactNode}){const[items,setItems]=useState<CartItem[]>([]),[loading,setLoading]=useState(true),[compare,setCompare]=useState<string[]>([]);
+const refresh=useCallback(async()=>{try{const d=await api<{items:CartItem[]}>('/api/cart');setItems(d.items);}catch{}finally{setLoading(false)}},[]);
+useEffect(()=>{let active=true;api<{items:CartItem[]}>('/api/cart').then(d=>{if(active)setItems(d.items)}).catch(()=>{}).finally(()=>{if(active)setLoading(false)});return()=>{active=false}},[]);
+const add=useCallback(async(variantId:string,quantity=1)=>{const d=await api<{items:CartItem[]}>('/api/cart','POST',{variantId,quantity});setItems(d.items);track('add_to_cart',{items:[{item_id:variantId}],quantity});toast.success('Added to your bag',{description:'Payment is requested only after order approval.'})},[]);
+const update=async(variantId:string,quantity:number)=>{const d=await api<{items:CartItem[]}>('/api/cart','PATCH',{variantId,quantity});setItems(d.items)};
+const remove=async(variantId:string)=>{const d=await api<{items:CartItem[]}>('/api/cart','DELETE',{variantId});setItems(d.items)};
+const toggleCompare=(id:string)=>setCompare(list=>{if(list.includes(id))return list.filter(x=>x!==id);if(list.length>=4){toast.error('Compare up to four products at a time.');return list}return [...list,id]});
+const save=async(productId:string)=>{await api('/api/wishlist','POST',{productId});toast.success('Your saved products have been updated.')};
+useEffect(()=>{const documentWithTools=document as Document&{modelContext?:{registerTool:(tool:unknown,options:{signal:AbortSignal})=>Promise<void>|void}};if(!documentWithTools.modelContext)return;const lifecycle=new AbortController();void Promise.resolve(documentWithTools.modelContext.registerTool({name:'add_product_variant_to_cart',description:'Add an available catalog variant to the persisted shopping bag. Does not submit an order or collect payment.',inputSchema:{type:'object',properties:{variantId:{type:'string'},quantity:{type:'integer',minimum:1,maximum:20}},required:['variantId'],additionalProperties:false},annotations:{readOnlyHint:false},execute:async(input:{variantId:string;quantity?:number})=>{if(typeof input.variantId!=='string'||input.quantity!==undefined&&(!Number.isInteger(input.quantity)||input.quantity<1||input.quantity>20))throw new Error('Invalid variant or quantity.');await add(input.variantId,input.quantity??1);return {added:true,paymentCollected:false}}},{signal:lifecycle.signal})).catch(()=>{});return()=>lifecycle.abort()},[add]);
+return <StoreContext.Provider value={{items,loading,refresh,add,update,remove,compare,toggleCompare,clearCompare:()=>setCompare([]),save}}>{children}<Toaster position="bottom-right" richColors/></StoreContext.Provider>}
+export function useStore(){const value=useContext(StoreContext);if(!value)throw new Error('Store provider is required.');return value;}
+

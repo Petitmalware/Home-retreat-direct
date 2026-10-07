@@ -1,0 +1,4 @@
+import type {NextConfig} from 'next';
+const hosted=process.env.SITES_BUILD==='true';
+const config:NextConfig={output:'standalone',outputFileTracingExcludes:{'/*':['./.sites-runtime/**/*','./.open-next/**/*','./.env*','./tests/**/*','./test-results/**/*','./dist/**/*','./.next/dev/**/*',...(hosted?['./node_modules/**/*.wasm']:[])]},turbopack:hosted?{resolveAlias:{'@/generated/prisma/client':'./generated/prisma-worker/client.ts'}}:undefined,images:{remotePatterns:[{protocol:'https',hostname:'res.cloudinary.com'}],unoptimized:process.env.SITES_RUNTIME==='true'},poweredByHeader:false,async headers(){return [{source:'/:path*',headers:[{key:'X-Content-Type-Options',value:'nosniff'},{key:'Referrer-Policy',value:'strict-origin-when-cross-origin'},{key:'X-Frame-Options',value:'SAMEORIGIN'}]}]}};
+export default config;

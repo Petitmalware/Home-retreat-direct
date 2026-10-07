@@ -1,0 +1,2 @@
+import {flushEmails} from '@/lib/email';import {createHash,timingSafeEqual} from 'node:crypto';
+export async function POST(req:Request){const secret=process.env.JOB_SECRET,value=req.headers.get('authorization')?.replace(/^Bearer /,'');if(!secret||!value||!timingSafeEqual(createHash('sha256').update(secret).digest(),createHash('sha256').update(value).digest()))return Response.json({error:'Unauthorized'},{status:401});await flushEmails();return Response.json({ok:true})}

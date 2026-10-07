@@ -1,0 +1,2 @@
+ALTER TABLE "Order" ADD COLUMN "submissionCartId" TEXT NOT NULL DEFAULT '';
+ALTER TABLE "EmailLog" ADD COLUMN "claimedAt" TIMESTAMP(3);

@@ -1,0 +1,2 @@
+import {staff,csrf,failure} from '@/lib/security';import {db} from '@/lib/db';import {uploadImage} from '@/lib/media-upload';
+export async function POST(req:Request){try{csrf(req);const u=await staff('products'),form=await req.formData(),image=await uploadImage(form.get('file'),'home-retreat-direct/products');await db.adminAuditLog.create({data:{staffId:u.staff.id,action:'UPLOAD_IMAGE',entityType:'ProductImage',entityId:image.publicId}});return Response.json(image)}catch(e){return failure(e)}}

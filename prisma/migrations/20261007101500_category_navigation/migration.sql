@@ -1,0 +1,1 @@
+ALTER TABLE "Category" ADD COLUMN "group" TEXT NOT NULL DEFAULT 'Outdoor Living';UPDATE "Category" SET "group"='Home Comfort' WHERE "slug" IN ('electric-fireplaces','premium-furniture');UPDATE "Category" SET "group"='Wellness' WHERE "slug" IN ('saunas','massage-chairs');

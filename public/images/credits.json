@@ -1,0 +1,89 @@
+{
+  "usage": "Licensed development stock; category representatives, not verified HOME RETREAT DIRECT inventory.",
+  "licenseSources": {
+    "Pexels": "https://www.pexels.com/license/",
+    "Unsplash": "https://unsplash.com/license"
+  },
+  "images": [
+    {
+      "category": "hero",
+      "localFile": "hero-terrace.jpg",
+      "photographer": "Ahmet ÇÖTÜR",
+      "sourcePage": "https://www.pexels.com/photo/luxurious-terrace-with-scenic-mountain-view-at-sunset-32226003/",
+      "directImageUrl": "https://images.pexels.com/photos/32226003/pexels-photo-32226003.jpeg?cs=srgb&dl=pexels-ahmetcotur-32226003.jpg&fm=jpg",
+      "license": "Pexels",
+      "notes": "Verified visually: neutral upholstered terrace seating under pergola at twilight with mountain view and infinity pool. Mediterranean villa setting; not verified U.S. backyard or golden-hour scene."
+    },
+    {
+      "category": "hardtop-gazebo",
+      "localFile": "gazebo-pavilion.jpg",
+      "photographer": "Max Vakhtbovych",
+      "sourcePage": "https://www.pexels.com/photo/wooden-fence-and-roof-over-a-grill-and-a-table-with-chairs-in-a-garden-8092381/",
+      "directImageUrl": "https://images.pexels.com/photos/8092381/pexels-photo-8092381.jpeg?cs=srgb&dl=pexels-artbovich-8092381.jpg&fm=jpg",
+      "license": "Pexels",
+      "notes": "Representative solid-roof garden pavilion. Rustic log construction; not a verified retail aluminum hardtop gazebo. Exact suitable free-stock hardtop image unavailable."
+    },
+    {
+      "category": "patio-seating",
+      "localFile": "patio-seating-sm.jpg",
+      "photographer": "alleksana",
+      "sourcePage": "https://www.pexels.com/photo/willow-on-a-patio-and-modern-architecture-10610727/",
+      "directImageUrl": "https://images.pexels.com/photos/10610727/pexels-photo-10610727.jpeg?cs=srgb&dl=pexels-alleksana-10610727.jpg&fm=jpg",
+      "license": "Pexels",
+      "notes": "Modern courtyard with light outdoor seating, olive tree, and terracotta accent pillows. Portrait composition."
+    },
+    {
+      "category": "fire-pit",
+      "localFile": "firepit.jpg",
+      "photographer": "Nasim Didar",
+      "sourcePage": "https://www.pexels.com/photo/patio-with-fireplace-9584819/",
+      "directImageUrl": "https://images.pexels.com/photos/9584819/pexels-photo-9584819.jpeg?cs=srgb&dl=pexels-nasim-didar-1990505-9584819.jpg&fm=jpg",
+      "license": "Pexels",
+      "notes": "Verified visually: modern square fire table with active flame and surrounding cushioned chairs on timber deck."
+    },
+    {
+      "category": "electric-fireplace",
+      "localFile": "electric-fireplace-sm.jpg",
+      "photographer": "Max Vakhtbovych",
+      "sourcePage": "https://www.pexels.com/photo/cozy-living-room-with-electric-fireplace-and-comfortable-couch-6283964/",
+      "directImageUrl": "https://images.pexels.com/photos/6283964/pexels-photo-6283964.jpeg?cs=srgb&dl=pexels-artbovich-6283964.jpg&fm=jpg",
+      "license": "Pexels",
+      "notes": "Source explicitly identifies electric fireplace; visually verified modern living room, stone wall, dark sofa. Fireplace switched off."
+    },
+    {
+      "category": "neutral-sofa",
+      "localFile": "neutral-sofa.jpg",
+      "photographer": "Dorin Ursulescu",
+      "sourcePage": "https://www.pexels.com/photo/a-beige-sofa-in-the-living-room-7160605/",
+      "directImageUrl": "https://images.pexels.com/photos/7160605/pexels-photo-7160605.jpeg?cs=srgb&dl=pexels-dorin-ursulescu-21435818-7160605.jpg&fm=jpg",
+      "license": "Pexels",
+      "notes": "Verified visually: light beige contemporary sectional with matching ottoman in uncluttered living room."
+    },
+    {
+      "category": "massage-chair",
+      "localFile": "massage-chair.jpg",
+      "photographer": "Rebalanse Health Devices",
+      "sourcePage": "https://unsplash.com/photos/a-white-and-beige-massage-chair-with-a-black-background-5xP2fYKrR5E",
+      "directImageUrl": "https://images.unsplash.com/photo-1711837061882-addca1473ae4?auto=format&fit=crop&fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000",
+      "license": "Unsplash",
+      "notes": "Verified visually: cream branded Rebalanse massage chair on black background. Development category representative; do not label as HOME RETREAT DIRECT inventory or imply endorsement."
+    },
+    {
+      "category": "sauna",
+      "localFile": "sauna.jpg",
+      "photographer": "hi room",
+      "sourcePage": "https://www.pexels.com/photo/interior-of-sauna-17227605/",
+      "directImageUrl": "https://images.pexels.com/photos/17227605/pexels-photo-17227605.jpeg?cs=srgb&dl=pexels-hiroom-17227605.jpg&fm=jpg",
+      "license": "Pexels",
+      "notes": "Verified visually: empty warm wooden sauna with benches and electric heater. Wood species is unverified; do not claim cedar."
+    }
+  ],
+  "alternateShelter": {
+    "localFile": "gazebo-sm.jpg",
+    "photographer": "Douglas Ozolin",
+    "sourcePage": "https://www.pexels.com/photo/gazebos-in-the-garden-9380143/",
+    "directImageUrl": "https://images.pexels.com/photos/9380143/pexels-photo-9380143.jpeg?cs=srgb&dl=pexels-ozolin-9380143.jpg&fm=jpg",
+    "license": "Pexels",
+    "notes": "Premium garden pergola framed by cream drapes. Better aesthetic fit, but does not show a hardtop gazebo."
+  }
+}

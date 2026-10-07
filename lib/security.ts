@@ -1,0 +1,22 @@
+import {Buffer} from 'node:buffer';
+import {cookies} from 'next/headers';
+import {randomBytes,createHash,createCipheriv,createDecipheriv} from 'node:crypto';
+import {db} from './db';
+import {can,WorkflowError} from './workflow';
+import type {StaffRole} from '@/generated/prisma/client';
+export class HttpError extends Error{constructor(public status:number,message:string){super(message)}}
+export const token=()=>Buffer.from(randomBytes(32)).toString('base64url');
+export const hash=(s:string)=>createHash('sha256').update(s).digest('hex');
+function key(){const k=process.env.ENCRYPTION_KEY;if(!k||!/^[a-f0-9]{64}$/i.test(k))throw new Error('A 32-byte ENCRYPTION_KEY is required.');return Buffer.from(k,'hex')}
+export function encrypt(s:string){const iv=randomBytes(12),c=createCipheriv('aes-256-gcm',key(),iv),v=Buffer.concat([c.update(s,'utf8'),c.final()]);return [Buffer.from(iv).toString('hex'),Buffer.from(c.getAuthTag()).toString('hex'),v.toString('hex')].join('.')}
+export function decrypt(s:string){const[iv,tag,v]=s.split('.'),c=createDecipheriv('aes-256-gcm',key(),Buffer.from(iv,'hex'));c.setAuthTag(Buffer.from(tag,'hex'));return Buffer.concat([c.update(Buffer.from(v,'hex')),c.final()]).toString('utf8')}
+export async function user(){const t=(await cookies()).get('hrd_session')?.value;if(!t)return null;const session=await db.session.findUnique({where:{tokenHash:hash(t)},include:{user:{include:{staff:true}}}});if(!session||session.expiresAt<new Date())return null;return session.user;}
+export async function staff(permission:string){const u=await user();if(!u?.staff?.active||!can(u.staff.role,permission))throw new HttpError(403,'Your role does not allow this action.');return u as typeof u & {staff:{id:string;role:StaffRole}};}
+export async function requireUser(){const u=await user();if(!u)throw new HttpError(401,'Sign in to continue.');return u;}
+export function csrf(request:Request){const origin=request.headers.get('origin'),trusted=process.env.APP_ORIGIN;if(!trusted||origin!==new URL(trusted).origin)throw new HttpError(403,'This request could not be verified. Reload the page and try again.');if(request.headers.get('sec-fetch-site')==='cross-site')throw new HttpError(403,'Cross-site requests are not allowed.');}
+export async function limit(resource:string,identity:string,max=10,seconds=600){const k=hash(resource+':'+identity),expires=new Date(Date.now()+seconds*1000),now=new Date();const rows=await db.$queryRaw<{count:number}[]>`INSERT INTO "RateLimit" ("key","count","expiresAt") VALUES (${k},1,${expires}) ON CONFLICT ("key") DO UPDATE SET "count"=CASE WHEN "RateLimit"."expiresAt"<${now} THEN 1 ELSE "RateLimit"."count"+1 END, "expiresAt"=CASE WHEN "RateLimit"."expiresAt"<${now} THEN ${expires} ELSE "RateLimit"."expiresAt" END RETURNING "count"`;if(rows[0].count>max)throw new HttpError(429,'Too many attempts. Please try again later.');}
+export async function setSession(userId:string){const t=token();await db.session.create({data:{tokenHash:hash(t),userId,expiresAt:new Date(Date.now()+7*86400000)}});(await cookies()).set('hrd_session',t,{httpOnly:true,secure:process.env.NODE_ENV==='production',sameSite:'lax',path:'/',maxAge:7*86400});}
+export async function cart(){const jar=await cookies(),t=jar.get('hrd_cart')?.value;return t?db.cart.findUnique({where:{tokenHash:hash(t)},include:{items:{include:{variant:{include:{product:{include:{images:{orderBy:{position:'asc'}}}},inventory:true}}}}}}):null}
+export async function ensureCart(){let c=await cart();if(c)return c;const t=token();c=await db.cart.create({data:{tokenHash:hash(t)},include:{items:{include:{variant:{include:{product:{include:{images:{orderBy:{position:'asc'}}}},inventory:true}}}}}});(await cookies()).set('hrd_cart',t,{httpOnly:true,secure:process.env.NODE_ENV==='production',sameSite:'lax',path:'/',maxAge:30*86400});return c;}
+export function failure(error:unknown){if(error instanceof WorkflowError)return Response.json({error:error.message},{status:409});if(error instanceof HttpError)return Response.json({error:error.message},{status:error.status});if(error instanceof Error&&error.name==='ZodError'){return Response.json({error:'Please check the entered fields.',details:JSON.parse(error.message)},{status:400});}console.error('Request failed:',error instanceof Error?error.name:'Unknown error');return Response.json({error:'We could not complete this request. Your information has been preserved. Please try again.'},{status:500});}
+
