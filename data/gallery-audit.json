@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-08T11:31:23.524Z",
+  "totalRecords": 253,
+  "activeProducts": 250,
+  "completedOriginalProducts": 85,
+  "completedPhotographs": 1005,
+  "minimumPhotosPerCompletedProduct": 4,
+  "categoryCounts": {
+    "gazebos": 12,
+    "patio-furniture": 92,
+    "fire-pits": 10,
+    "electric-fireplaces": 12,
+    "premium-furniture": 100,
+    "massage-chairs": 12,
+    "saunas": 12
+  },
+  "emptyCategories": [],
+  "unpricedProducts": [],
+  "unexpectedDrafts": [],
+  "duplicatePhotographs": [],
+  "missingPhotographs": [],
+  "remainingOriginalProducts": 0,
+  "remainingByCategory": {},
+  "priceRangeUSD": {
+    "minimum": 59,
+    "maximum": 5698
+  },
+  "unresolvedProducts": []
+}

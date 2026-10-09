@@ -1,0 +1,5 @@
+import 'dotenv/config';import fs from 'node:fs';import {db} from '../lib/db';import {sourcedGalleries} from '../lib/gallery-provenance';import {syncSourceVariants} from '../lib/source-variants';
+async function main(){const marker='.local/catalog-variants-imported.json',done:string[]=fs.existsSync(marker)?JSON.parse(fs.readFileSync(marker,'utf8')):[],pending=sourcedGalleries.filter(p=>p.variants?.length&&!done.includes(p.id));if(!pending.length)return;
+ const backup=await db.productVariant.findMany({where:{productId:{in:pending.map(p=>p.id)}},include:{inventory:true}});fs.writeFileSync('.local/backups/variants-before-import-'+Date.now()+'.json',JSON.stringify(backup,null,2),{mode:0o600});
+ await db.$transaction(async tx=>{for(const entry of pending)await syncSourceVariants(tx,entry);},{timeout:120000});fs.writeFileSync(marker,JSON.stringify([...done,...pending.map(p=>p.id)]),{mode:0o600});console.log('Imported documented finish choices for '+pending.length+' models. Owner changes will be preserved on restart.');}
+main().finally(()=>db.$disconnect());

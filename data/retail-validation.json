@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-09T21:30:21.418Z",
+  "activeProducts": 250,
+  "photographs": 1005,
+  "minimumPhotographsPerProduct": 4,
+  "allCategoriesPopulated": true,
+  "allProductsPriced": true,
+  "allLocalImagesFullyDecoded": true,
+  "noRepeatedSelectedImageHashes": true,
+  "allBrowserGalleryViewsPassed": true,
+  "unitChecks": {
+    "passed": 39,
+    "failed": 0
+  },
+  "httpDatabaseChecks": {
+    "passed": 71,
+    "failed": 0
+  },
+  "browserWorkflows": {
+    "passed": 10,
+    "failed": 0,
+    "includes": [
+      "browse/filter/compare/gallery",
+      "mobile collections and purchasing pages",
+      "admin image/discount tools",
+      "finish/gallery synchronization",
+      "massage comfort and affordable price filters",
+      "customer review navigation, star filters and desktop form",
+      "mobile deliberate low-star review submission and private moderation",
+      "verified finish prices and 15% discount on desktop and mobile",
+      "server-rendered product details with unchanged tabs and working staff skip link",
+      "three business contact addresses and enquiry topics on desktop and mobile"
+    ],
+    "verification": "Nine existing browser workflows and the added business contact workflow passed."
+  },
+  "ownerImageAndPriceSaveVerified": true,
+  "productionBuild": "passed",
+  "eslint": "passed",
+  "localRestartPreservesCatalog": true,
+  "publicDeploymentPerformed": false,
+  "emailDocumentChecks": {
+    "passed": 9,
+    "failed": 0,
+    "provider": "mock only",
+    "actualEmailsSent": 0
+  },
+  "photoSourcesPrivacy": "authorized product staff only; minimal licence attribution in Terms",
+  "adminEmailUI": "passed",
+  "customerOrderAndReviewCopy": "passed; no public development notices; unpaid payment status retained",
+  "customerReviewChecks": {
+    "passed": 9,
+    "failed": 0,
+    "duplicateConcurrentSubmission": "one accepted, one rejected",
+    "positiveAndCriticalRatings": "equally included after approval",
+    "temporaryFixturesRemoved": true
+  },
+  "catalogPricing": {
+    "checkedAt": "2026-10-08T15:27:37.792Z",
+    "products": 250,
+    "verifiedMarketPrices": 59,
+    "unverifiedMarketPrices": 191,
+    "discountPercent": 15,
+    "regularProductPricesChanged": 4,
+    "regularVariantPricesChanged": 6,
+    "retiredUnmatchedVariants": 1,
+    "uniqueRegularPrices": 67,
+    "orderSnapshotsPreserved": true
+  },
+  "priceSourcesPrivacy": {
+    "passed": 5,
+    "failed": 0,
+    "access": "authorized product staff only",
+    "retiredVariantPrices": "staff historical reference only"
+  },
+  "variantAvailabilityChecks": {
+    "passed": 1,
+    "failed": 0,
+    "historicalReferencesPreserved": true,
+    "temporaryFixturesRemoved": true
+  },
+  "technicalSeo": {
+    "checkedAt": "2026-10-09T19:50:06.129Z",
+    "framework": "Next.js 16.3.8 App Router",
+    "origin": "http://localhost:3000",
+    "indexablePages": 270,
+    "products": 250,
+    "internalLinks": 401,
+    "internalDestinations": 285,
+    "openGraphImages": 251,
+    "requests": 831,
+    "errors": 0,
+    "warnings": 0,
+    "normalAndGooglebotResponses": true,
+    "uniqueTitlesDescriptionsCanonicals": true,
+    "allProductDetailsServerRendered": true,
+    "legacyPolicyAliasesPermanentlyRedirected": 7,
+    "privateAndUtilityNoindexIntentional": true,
+    "unpublishedPolicyFlagsPreserved": true,
+    "unitChecks": {
+      "passed": 30,
+      "failed": 0
+    },
+    "browserWorkflows": {
+      "passed": 9,
+      "failed": 0,
+      "finalAffectedWorkflowsRechecked": 2
+    },
+    "typecheck": "passed",
+    "eslint": "passed",
+    "productionBuild": "passed",
+    "publicDeploymentPerformed": false
+  }
+}

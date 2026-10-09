@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-09T21:30:21.418Z",
+  "framework": "Next.js 16.3.8 App Router",
+  "origin": "http://localhost:3000",
+  "indexablePages": 271,
+  "products": 250,
+  "internalLinks": 401,
+  "internalDestinations": 285,
+  "openGraphImages": 251,
+  "requests": 832,
+  "errors": 0,
+  "warnings": 0,
+  "normalAndGooglebotResponses": true,
+  "uniqueTitlesDescriptionsCanonicals": true,
+  "allProductDetailsServerRendered": true,
+  "legacyPolicyAliasesPermanentlyRedirected": 7,
+  "privateAndUtilityNoindexIntentional": true,
+  "unpublishedPolicyFlagsPreserved": true,
+  "unitChecks": {
+    "passed": 39,
+    "failed": 0
+  },
+  "browserWorkflows": {
+    "passed": 10,
+    "failed": 0,
+    "includesBusinessContactDesktopAndMobile": true
+  },
+  "typecheck": "passed",
+  "eslint": "passed",
+  "productionBuild": "passed",
+  "publicDeploymentPerformed": false,
+  "businessContactPublished": true
+}

@@ -1,0 +1,12 @@
+[Unit]
+Description=Back up Home Retreat Direct database and uploaded media
+Requires=docker.service
+After=docker.service
+
+[Service]
+Type=oneshot
+UMask=0077
+ExecStart=/usr/bin/bash /opt/home-retreat-direct/current/deploy/backup.sh
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7

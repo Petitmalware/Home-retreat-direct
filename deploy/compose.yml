@@ -1,0 +1,119 @@
+name: hrd
+
+services:
+  db:
+    image: postgres:17-bookworm
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: home_retreat_direct
+      POSTGRES_USER: hrd
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in the private deployment environment}
+    volumes:
+      - database:/var/lib/postgresql/data
+    networks:
+      - database
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U hrd -d home_retreat_direct']
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    mem_limit: 1g
+    cpus: 1.0
+    logging: &logging
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: '3'
+
+  app:
+    image: ${HRD_IMAGE:-home-retreat-direct:current}
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: runner
+    restart: unless-stopped
+    init: true
+    env_file:
+      - path: ${HRD_ENV_FILE:?Set HRD_ENV_FILE to the absolute private environment path}
+        required: true
+    environment:
+      NODE_ENV: production
+      HOSTNAME: 0.0.0.0
+      PORT: '3000'
+      DATABASE_TRANSPORT: pg
+      SITES_RUNTIME: 'false'
+      SITES_BUILD: 'false'
+      LOCAL_MEDIA_DIRECTORY: /app/.local/media
+    ports:
+      - '127.0.0.1:${APP_PORT:-3100}:3000'
+    volumes:
+      - state:/app/.local
+      - cache:/app/.next/cache
+    networks:
+      - web
+      - database
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    mem_limit: 2g
+    cpus: 1.5
+    logging: *logging
+
+  email-worker:
+    image: ${HRD_IMAGE:-home-retreat-direct:current}
+    restart: unless-stopped
+    init: true
+    command: [node, deploy/email-worker.mjs]
+    environment:
+      JOB_SECRET: ${JOB_SECRET:?Set JOB_SECRET in the private deployment environment}
+      EMAIL_JOB_URL: http://app:3000/api/jobs/email
+      EMAIL_JOB_INTERVAL_MS: '60000'
+    networks:
+      - web
+    depends_on:
+      app:
+        condition: service_healthy
+    mem_limit: 128m
+    cpus: 0.1
+    logging: *logging
+
+  tools:
+    profiles: [manual]
+    image: ${HRD_TOOLS_IMAGE:-home-retreat-direct-tools:current}
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+      target: tools
+    env_file:
+      - path: ${HRD_ENV_FILE:?Set HRD_ENV_FILE to the absolute private environment path}
+        required: true
+    environment:
+      DATABASE_TRANSPORT: pg
+      SITES_RUNTIME: 'false'
+      LOCAL_MEDIA_DIRECTORY: /app/.local/media
+    volumes:
+      - state:/app/.local
+    networks:
+      - database
+      - web
+    depends_on:
+      db:
+        condition: service_healthy
+    logging: *logging
+
+networks:
+  web:
+  database:
+    internal: true
+
+volumes:
+  database:
+  state:
+  cache:

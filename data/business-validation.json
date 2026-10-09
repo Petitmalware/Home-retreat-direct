@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-09T21:30:21.418Z",
+  "domain": "homeretreatdirect.com",
+  "serverIp": "63.141.255.57",
+  "businessMailboxes": [
+    "info@homeretreatdirect.com",
+    "orders@homeretreatdirect.com",
+    "support@homeretreatdirect.com"
+  ],
+  "framework": "Next.js 16.3.8 App Router",
+  "productionDatabase": "isolated PostgreSQL 17",
+  "unitChecks": {
+    "passed": 39,
+    "failed": 0
+  },
+  "httpDatabaseChecks": {
+    "passed": 71,
+    "failed": 0
+  },
+  "browserWorkflows": {
+    "passed": 10,
+    "failed": 0
+  },
+  "deploymentInitializerChecks": {
+    "passed": 6,
+    "failed": 0,
+    "isolatedDatabaseOnly": true
+  },
+  "encryptedMigrationRoundTrip": "passed; arrays, relationships and cents preserved; nonempty targets refused",
+  "emailProviderTests": "SMTP MIME and PDF bytes, TLS, role credentials, Reply-To and delivery retries tested with mocks only",
+  "invoiceAndReceiptPaymentGates": "passed",
+  "persistentMedia": "passed; private volume path, image bytes and traversal checks",
+  "seo": {
+    "indexablePages": 271,
+    "products": 250,
+    "errors": 0,
+    "warnings": 0
+  },
+  "typecheck": "passed",
+  "eslint": "passed",
+  "productionBuild": "passed",
+  "standaloneExcludesPrivateEnvironmentAndLocalData": true,
+  "linuxContainerBuild": "not run; Docker unavailable on this computer",
+  "serverDeployment": "not performed; server access and control-panel details not supplied",
+  "actualEmailsSent": 0,
+  "configuredDeliveryEnabled": false,
+  "launchApprovalAutomaticallyEnabled": false
+}

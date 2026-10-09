@@ -2,7 +2,7 @@
 import {track} from '@/lib/analytics-client';
 import {createContext,useContext,useEffect,useState,useCallback} from 'react';
 import {toast,Toaster} from 'sonner';
-export type CartItem={id:string;variantId:string;productId:string;name:string;slug:string;image:string;variant:string;quantity:number;unitPrice:number;delivery:string};
+export type CartItem={id:string;variantId:string;productId:string;name:string;slug:string;image:string;variant:string;quantity:number;unitPrice:number;delivery:string;available:boolean};
 export async function api<T=Record<string,unknown>>(path:string,method='GET',data?:unknown):Promise<T>{const r=await fetch(path,{method,headers:data?{'Content-Type':'application/json'}:undefined,body:data?JSON.stringify(data):undefined});const d=await r.json() as T&{error?:string};if(!r.ok)throw new Error(d.error??'Something went wrong. Please try again.');return d;}
 type Store={items:CartItem[];loading:boolean;refresh:()=>Promise<void>;add:(variantId:string,quantity?:number)=>Promise<void>;update:(variantId:string,quantity:number)=>Promise<void>;remove:(variantId:string)=>Promise<void>;compare:string[];toggleCompare:(id:string)=>void;clearCompare:()=>void;save:(id:string)=>Promise<void>};
 const StoreContext=createContext<Store|null>(null);

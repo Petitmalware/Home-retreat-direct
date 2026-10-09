@@ -1,0 +1,77 @@
+[
+  {
+    "id": "fermob-bistro",
+    "name": "Fermob Bistro Metal Folding Chair",
+    "brand": "Fermob",
+    "model": "Bistro",
+    "category": "patio-furniture",
+    "description": "A folding steel chair with curved slats. This documentary photograph identifies the Bistro design; its exact finish code and condition are not established.",
+    "material": "Steel",
+    "dimensions": "Confirm exact current model dimensions",
+    "features": [
+      "Folding frame",
+      "Curved steel seat and backrest slats",
+      "Plastic clips for folding"
+    ],
+    "included": [
+      "Chair; exact package contents to be confirmed"
+    ],
+    "source": "https://www.fermob.com/us/chair-bistro-metal-chair.html",
+    "alt": "Real Fermob Bistro folding chair outdoors; light finish with visible wear; finish SKU unconfirmed",
+    "image": "/images/products/fermob-bistro.jpeg",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:Folding_chair_%22Bistro%22_by_Fermob_-_France.jpeg",
+    "license": "Public-domain self release (PD-self)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Folding_chair_%22Bistro%22_by_Fermob_-_France.jpeg#Licensing",
+    "credit": "Optional: Fermob Bistro — Mishimishimishi, public-domain photograph via Wikimedia Commons."
+  },
+  {
+    "id": "ohco-m8le",
+    "name": "OHCO M.8LE Massage Chair (Earlier Model)",
+    "brand": "OHCO",
+    "model": "M.8LE",
+    "category": "massage-chairs",
+    "description": "An earlier M.8LE massage chair documented in the manufacturer owner manual. The photograph shows the older model in a showroom; it must not be used as a photograph of the newer M.8 NEO LE.",
+    "material": "Confirm exact earlier model upholstery",
+    "dimensions": "Confirm exact earlier model dimensions",
+    "features": [
+      "Home-use massage chair",
+      "Earlier M.8LE model, distinct from M.8 NEO LE"
+    ],
+    "included": [
+      "Confirm original package contents"
+    ],
+    "source": "https://ohcomassagechairs.com/wp-content/uploads/2023/02/M.8-M.8LE_Owners_Manual_English_W-16.pdf",
+    "alt": "Real red OHCO M.8LE massage chair behind a showroom window, photographed in 2020; reflections visible",
+    "image": "/images/products/ohco-m8le.jpg",
+    "photoSource": "https://commons.wikimedia.org/wiki/File:OHCOM8LEMassageChair.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "credit": "OHCO M.8LE Massage Chair — Youngphotons, CC BY-SA 4.0, via Wikimedia Commons."
+  },
+  {
+    "id": "huum-drop",
+    "name": "HUUM DROP Electric Sauna Heater",
+    "brand": "HUUM",
+    "model": "DROP family",
+    "category": "saunas",
+    "description": "A wall-mounted electric sauna heater with a rounded stone basket. This is a heater detail photo, not a complete sauna. The photographed power variant is unconfirmed; the exact electrical model must be selected before publication.",
+    "material": "Stainless steel details",
+    "dimensions": "590 × 390 × 335 mm (manufacturer DROP family dimensions)",
+    "features": [
+      "Wall-mounted electric sauna heater",
+      "Stone capacity: 55 kg",
+      "U.S. model family offers 4.5, 6, 7.5 and 9 kW variants; photo wattage unconfirmed"
+    ],
+    "included": [
+      "Heater and wall mount; model-specific contents to be confirmed",
+      "Control system, stones and power cable listed separately by the manufacturer"
+    ],
+    "source": "https://huumsauna.com/product/drop-electric-sauna-heater/",
+    "alt": "Real HUUM DROP sauna heater stone basket detail; power variant unconfirmed",
+    "image": "/images/products/huum-drop.jpg",
+    "photoSource": "https://unsplash.com/photos/a-glass-jar-with-rocks-in-it-SwXpT3M8QRY",
+    "license": "Unsplash License",
+    "licenseUrl": "https://unsplash.com/license",
+    "credit": "Optional: Photo by HUUM on Unsplash."
+  }
+]

@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import {spawnSync} from 'node:child_process';import {parse} from 'dotenv';
-const root=process.cwd(),local=fs.existsSync('.env')?parse(fs.readFileSync('.env')):{};
+const root=process.cwd(),local=fs.existsSync('.env.hosted')?parse(fs.readFileSync('.env.hosted')):fs.existsSync('.env')?parse(fs.readFileSync('.env')):{};
 const env={...process.env,...local,APP_ORIGIN:process.env.HOSTED_APP_ORIGIN??'https://home-retreat-direct.nearbykidd.chatgpt.site',SITES_BUILD:'true',SITES_RUNTIME:'true',NEXT_TELEMETRY_DISABLED:'1'};
 function run(args){const r=spawnSync(process.execPath,args,{stdio:'inherit',env});if(r.status!==0)throw new Error('Hosted build step failed.');}
 fs.mkdirSync('.sites-runtime',{recursive:true});

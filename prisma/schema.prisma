@@ -132,6 +132,7 @@ model Product {
  description String
  priceCents Int
  compareAtCents Int?
+ discountPercent Int @default(0)
  costCents Int?
  brand String
  model String
@@ -180,6 +181,7 @@ model ProductVariant {
  colorHex String
  size String
  priceCents Int
+ active Boolean @default(true)
  inventory Inventory?
  cartItems CartItem[]
  orderItems OrderItem[]
@@ -517,5 +519,15 @@ model ProductQuestion {
  answer String?
  approved Boolean @default(false)
  createdAt DateTime @default(now())
+}
+model ContactMessage {
+ id String @id @default(cuid())
+ name String
+ email String
+ subject String
+ message String
+ reviewed Boolean @default(false)
+ createdAt DateTime @default(now())
+ @@index([reviewed,createdAt])
 }
 

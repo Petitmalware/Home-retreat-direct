@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-10-07",
+  "images": [
+    {
+      "image": "/images/products/fermob-bistro.jpeg",
+      "model": "Fermob Bistro Metal Folding Chair",
+      "source": "https://commons.wikimedia.org/wiki/File:Folding_chair_%22Bistro%22_by_Fermob_-_France.jpeg",
+      "license": "Public-domain self release (PD-self)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Folding_chair_%22Bistro%22_by_Fermob_-_France.jpeg#Licensing",
+      "credit": "Optional: Fermob Bistro — Mishimishimishi, public-domain photograph via Wikimedia Commons.",
+      "manufacturer": "https://www.fermob.com/us/chair-bistro-metal-chair.html"
+    },
+    {
+      "image": "/images/products/ohco-m8le.jpg",
+      "model": "OHCO M.8LE Massage Chair (Earlier Model)",
+      "source": "https://commons.wikimedia.org/wiki/File:OHCOM8LEMassageChair.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "OHCO M.8LE Massage Chair — Youngphotons, CC BY-SA 4.0, via Wikimedia Commons.",
+      "manufacturer": "https://ohcomassagechairs.com/wp-content/uploads/2023/02/M.8-M.8LE_Owners_Manual_English_W-16.pdf"
+    },
+    {
+      "image": "/images/products/huum-drop.jpg",
+      "model": "HUUM DROP Electric Sauna Heater",
+      "source": "https://unsplash.com/photos/a-glass-jar-with-rocks-in-it-SwXpT3M8QRY",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "credit": "Optional: Photo by HUUM on Unsplash.",
+      "manufacturer": "https://huumsauna.com/product/drop-electric-sauna-heater/"
+    }
+  ]
+}

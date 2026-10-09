@@ -1,0 +1,8 @@
+# Add inside ONLY homeretreatdirect.com's existing HTTPS VirtualHost.
+# Requires the host's proxy / proxy_http / headers modules already enabled.
+# A panel should manage the vhost and SSL certificate. Do not replace httpd.conf.
+ProxyPreserveHost On
+ProxyPass / http://127.0.0.1:3100/ connectiontimeout=10 timeout=120
+ProxyPassReverse / http://127.0.0.1:3100/
+RequestHeader set X-Forwarded-Proto "https"
+LimitRequestBody 12582912
