@@ -79,6 +79,24 @@ jobs:
             *) printf '%s\n' 'Unexpected configuration-check failure.' >&2; exit 1 ;;
           esac
 
+      - name: Check domain-specific Nginx templates
+        run: |
+          nginx_check_directory=$(mktemp -d)
+          trap 'rm -rf -- "$nginx_check_directory"' EXIT
+          mkdir -p "$nginx_check_directory/live/homeretreatdirect.com"
+          openssl req -x509 -newkey rsa:2048 -nodes -days 1 \
+            -subj /CN=homeretreatdirect.com \
+            -keyout "$nginx_check_directory/live/homeretreatdirect.com/privkey.pem" \
+            -out "$nginx_check_directory/live/homeretreatdirect.com/fullchain.pem" \
+            >/dev/null 2>&1
+          printf '%s\n' 'ssl_protocols TLSv1.2 TLSv1.3;' > "$nginx_check_directory/options-ssl-nginx.conf"
+          for template in nginx-http.conf.example nginx-https.conf.example; do
+            docker run --rm --network none --entrypoint nginx \
+              --mount "type=bind,source=${GITHUB_WORKSPACE}/deploy/$template,target=/etc/nginx/conf.d/default.conf,readonly" \
+              --mount "type=bind,source=$nginx_check_directory,target=/etc/letsencrypt,readonly" \
+              nginx:stable-alpine -t
+          done
+
       - name: Prepare BuildKit
         run: |
           docker buildx create --name hrd-vps-ci --driver docker-container --use

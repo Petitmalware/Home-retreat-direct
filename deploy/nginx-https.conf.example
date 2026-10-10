@@ -1,0 +1,51 @@
+# For the confirmed native Nginx/Certbot VPS configuration.
+# First issue the certificate named homeretreatdirect.com with both domain names.
+# This server already has /etc/letsencrypt/options-ssl-nginx.conf.
+server {
+    listen 80;
+    listen [::]:80;
+    server_name homeretreatdirect.com www.homeretreatdirect.com;
+
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/www/home-retreat-direct-acme;
+        default_type text/plain;
+        try_files $uri =404;
+    }
+
+    location / {
+        return 301 https://homeretreatdirect.com$request_uri;
+    }
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name www.homeretreatdirect.com;
+    ssl_certificate /etc/letsencrypt/live/homeretreatdirect.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/homeretreatdirect.com/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    return 301 https://homeretreatdirect.com$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    server_name homeretreatdirect.com;
+    ssl_certificate /etc/letsencrypt/live/homeretreatdirect.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/homeretreatdirect.com/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+
+    location / {
+        proxy_pass http://127.0.0.1:3100;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header Connection "";
+        proxy_buffering off;
+        proxy_read_timeout 120s;
+        client_max_body_size 12m;
+    }
+}
