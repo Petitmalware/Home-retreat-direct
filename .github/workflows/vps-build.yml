@@ -1,0 +1,72 @@
+name: VPS Docker build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      BUILD_CACHE: ${{ runner.temp }}/hrd-build-cache
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Prepare BuildKit
+        run: |
+          docker buildx create --name hrd-vps-ci --driver docker-container --use
+          docker buildx inspect --bootstrap
+
+      - name: Build tools image
+        run: |
+          docker buildx build \
+            --builder hrd-vps-ci \
+            --file deploy/Dockerfile \
+            --target tools \
+            --platform linux/amd64 \
+            --tag home-retreat-direct-tools:ci \
+            --load \
+            --pull \
+            --progress plain \
+            --cache-to "type=local,dest=${BUILD_CACHE},mode=max" \
+            .
+
+      - name: Build runner image
+        run: |
+          docker buildx build \
+            --builder hrd-vps-ci \
+            --file deploy/Dockerfile \
+            --target runner \
+            --platform linux/amd64 \
+            --tag home-retreat-direct:ci \
+            --load \
+            --progress plain \
+            --cache-from "type=local,src=${BUILD_CACHE}" \
+            --cache-to "type=local,dest=${BUILD_CACHE},mode=max" \
+            .
+
+      - name: Validate the complete product catalog
+        run: |
+          docker run --rm home-retreat-direct-tools:ci \
+            node node_modules/tsx/dist/cli.mjs deploy/init-production.ts --check
+
+      - name: Verify production runtime and image processing
+        run: |
+          docker run --rm home-retreat-direct:ci node -e '
+            const fs = require("node:fs");
+            if (!fs.existsSync("server.js")) throw new Error("Production server is missing.");
+            if (fs.readdirSync(".").some(name => name === ".env" || name.startsWith(".env."))) throw new Error("Environment files were copied into the production image.");
+            require("sharp")({create: {width: 1, height: 1, channels: 3, background: "#000000"}}).png().toBuffer()
+              .then(() => console.log("Production server and native image processing are ready."))
+              .catch(error => { console.error(error.message); process.exitCode = 1; });
+          '
