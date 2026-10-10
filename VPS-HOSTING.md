@@ -91,6 +91,16 @@ If first initialization stops at the owner credential check, correct only SEED_O
 
 If initialization completed but app startup was interrupted, use `--resume` to finish starting that initialized store. Do not use `--fresh` on an existing database. For later live updates, use the backup and maintenance procedure in section 7. To preserve the local store instead, follow the manual migration path below.
 
+If the terminal already reported `"initialized":true` and the app later became unhealthy, the owner and catalog are saved. Pull the corrected release and resume startup:
+
+```sh
+sudo -H -u administrator git -C /opt/home-retreat-direct/current pull --ff-only &&
+cd /opt/home-retreat-direct/current &&
+sudo bash deploy/start-production.sh --resume
+```
+
+The production tracing configuration includes the Next.js API runtimes and PostgreSQL/Prisma runtime files required by the standalone server. GitHub CI starts the actual production images with PostgreSQL, initializes a disposable store and verifies health, public product content, prices and served images. Its `deploy/smoke-production.sh` is restricted to disposable GitHub-hosted runners and must never be used on the VPS.
+
 If an earlier Docker build failed with missing lock-file dependencies, fetch the repaired source before retrying. Run Git as the checkout owner. For the existing administrator-owned checkout, even from a root SSH shell:
 
 ```sh
