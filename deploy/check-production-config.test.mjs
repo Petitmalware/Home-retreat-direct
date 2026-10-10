@@ -28,9 +28,14 @@ function configuration() {
   }}}};
 }
 
+function composeJson(configuration) {
+  // Match normal Compose output, which escapes dollars after JSON serialization.
+  return JSON.stringify(configuration).replaceAll('$', () => '$$');
+}
+
 function run(input, mode = 'fresh', extraArguments = []) {
   const result = spawnSync(process.execPath, [checker, mode, ...extraArguments], {
-    input: typeof input === 'string' ? input : JSON.stringify(input),
+    input: typeof input === 'string' ? input : composeJson(input),
     encoding: 'utf8',
     windowsHide: true,
     timeout: 10000,
@@ -70,6 +75,38 @@ test('fresh mode rejects short owner passwords and accepts the minimum length', 
   assertRejected(run(compose), 'SEED_OWNER_PASSWORD');
   compose.services.app.environment.SEED_OWNER_PASSWORD = randomBytes(8).toString('hex');
   assert.equal(run(compose).code, 0);
+});
+
+test('fresh mode rejects a 15-character runtime password serialized as 19 characters', () => {
+  const compose = configuration();
+  const password = randomBytes(6).toString('hex').slice(0, 11) + '$'.repeat(4);
+  compose.services.app.environment.SEED_OWNER_PASSWORD = password;
+  const serialized = composeJson(compose);
+  assert.equal(password.length, 15);
+  assert.equal(JSON.parse(serialized).services.app.environment.SEED_OWNER_PASSWORD.length, 19);
+  assertRejected(run(serialized), 'SEED_OWNER_PASSWORD');
+});
+
+test('fresh mode accepts a 16-character runtime password containing dollars', () => {
+  const compose = configuration();
+  const password = randomBytes(6).toString('hex') + '$a$b';
+  compose.services.app.environment.SEED_OWNER_PASSWORD = password;
+  assert.equal(password.length, 16);
+  const result = run(compose);
+  assert.equal(result.code, 0);
+  assert.equal(result.stderr, '');
+});
+
+test('Compose dollar escaping is decoded once, preserving genuine consecutive dollars', () => {
+  const compose = configuration();
+  const password = randomBytes(4).toString('hex') + '$'.repeat(8);
+  compose.services.app.environment.SEED_OWNER_PASSWORD = password;
+  const serialized = composeJson(compose);
+  assert.equal(password.length, 16);
+  assert.equal(JSON.parse(serialized).services.app.environment.SEED_OWNER_PASSWORD.length, 24);
+  const result = run(serialized);
+  assert.equal(result.code, 0);
+  assert.equal(result.stderr, '');
 });
 
 test('fresh mode requires explicit initialization confirmation', () => {

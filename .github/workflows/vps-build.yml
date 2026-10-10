@@ -59,6 +59,24 @@ jobs:
             docker run --rm -i --network none \
               --mount "type=bind,source=${GITHUB_WORKSPACE}/deploy/check-production-config.mjs,target=/checks/check-production-config.mjs,readonly" \
               node:22-bookworm-slim node /checks/check-production-config.mjs fresh
+          node --input-type=module - "$validation_directory/server.env" <<'NODE'
+          import {readFileSync, writeFileSync} from 'node:fs';
+          const environmentPath = process.argv[2];
+          const shortPassword = 'a'.repeat(11) + '$'.repeat(4);
+          writeFileSync(environmentPath, readFileSync(environmentPath, 'utf8')
+            .replace(/^SEED_OWNER_PASSWORD=.*$/m, `SEED_OWNER_PASSWORD='${shortPassword}'`), {mode: 0o600});
+          NODE
+          if checker_errors=$(docker compose --env-file "$validation_directory/server.env" -f deploy/compose.yml -p hrd config --format json |
+            docker run --rm -i --network none \
+              --mount "type=bind,source=${GITHUB_WORKSPACE}/deploy/check-production-config.mjs,target=/checks/check-production-config.mjs,readonly" \
+              node:22-bookworm-slim node /checks/check-production-config.mjs fresh 2>&1); then
+            printf '%s\n' 'The runtime password minimum was not enforced.' >&2
+            exit 1
+          fi
+          case "$checker_errors" in
+            *SEED_OWNER_PASSWORD*) printf '%s\n' 'Short passwords are rejected after Compose dollar escaping.' ;;
+            *) printf '%s\n' 'Unexpected configuration-check failure.' >&2; exit 1 ;;
+          esac
 
       - name: Prepare BuildKit
         run: |

@@ -19,10 +19,15 @@ function databaseUrlMatches(value, password) {
 }
 
 function validateConfiguration(compose, mode) {
-  const environment = compose?.services?.app?.environment;
-  if (!environment || typeof environment !== 'object' || Array.isArray(environment)) {
+  const serializedEnvironment = compose?.services?.app?.environment;
+  if (!serializedEnvironment || typeof serializedEnvironment !== 'object' || Array.isArray(serializedEnvironment)) {
     return ['services.app.environment: Supply resolved application environment fields in the Compose JSON.'];
   }
+
+  // Input is normal `docker compose config --format json` output. Compose doubles
+  // literal dollars when rendering it; undo that escaping exactly once.
+  const environment = Object.fromEntries(Object.entries(serializedEnvironment).map(([field, value]) =>
+    [field, typeof value === 'string' ? value.replaceAll('$$', '$') : value]));
 
   const errors = [];
   const requireField = (field, valid, instruction) => {

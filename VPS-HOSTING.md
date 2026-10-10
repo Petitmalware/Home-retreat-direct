@@ -87,6 +87,8 @@ sudo bash deploy/start-production.sh --fresh
 
 The helper checks the resolved private settings before building, applies migrations, initializes the empty database and starts the app. It requires an owner password of at least 16 characters and matching internal database connections. Configuration errors identify the field without printing private values. A successful startup ends with `{"status":"ok"}`; continue with domain routing in section 4. The helper leaves email delivery disabled during first initialization.
 
+If first initialization stops at the owner credential check, correct only SEED_OWNER_EMAIL or SEED_OWNER_PASSWORD and rerun `--fresh`. Once PostgreSQL has started, retain its existing database password and encryption key. Use a generated hexadecimal owner password to avoid interpolation; single quotes preserve literal characters in a manually chosen password.
+
 If initialization completed but app startup was interrupted, use `--resume` to finish starting that initialized store. Do not use `--fresh` on an existing database. For later live updates, use the backup and maintenance procedure in section 7. To preserve the local store instead, follow the manual migration path below.
 
 If an earlier Docker build failed with missing lock-file dependencies, fetch the repaired source before retrying. Run Git as the checkout owner. For the existing administrator-owned checkout, even from a root SSH shell:
