@@ -116,7 +116,7 @@ const fields = {
   LOCAL_MEDIA_ENABLED: 'true',
   LOCAL_MEDIA_DIRECTORY: '/app/.local/media',
   // Configured fixture mailboxes; no worker or actual email delivery runs in CI.
-  EMAIL_DELIVERY_ENABLED: 'true',
+  EMAIL_DELIVERY_ENABLED: 'false',
   EMAIL_PROVIDER: 'smtp', SMTP_HOST: 'mail.example.test', SMTP_PORT: '465', SMTP_SECURE: 'true',
   INFO_EMAIL: 'info@example.test', ORDERS_EMAIL: 'orders@example.test', SUPPORT_EMAIL: 'support@example.test',
   SMTP_INFO_USER: 'info@example.test', SMTP_INFO_PASS: secret(),
@@ -138,6 +138,12 @@ hrd up --detach --no-build --wait --wait-timeout 90 db
 hrd run --rm --no-deps --pull never -T tools node node_modules/prisma/build/index.js migrate deploy
 hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts
 hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts --verify-initialized
+node --input-type=module - "$smoke_environment_file" <<'NODE'
+import {readFileSync, writeFileSync} from 'node:fs';
+const file = process.argv[2], source = readFileSync(file, 'utf8');
+if (!/^EMAIL_DELIVERY_ENABLED=false$/m.test(source)) throw new Error('Expected the disabled initialization fixture.');
+writeFileSync(file, source.replace(/^EMAIL_DELIVERY_ENABLED=false$/m, 'EMAIL_DELIVERY_ENABLED=true'), {mode: 0o600});
+NODE
 hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/complete-store-opening.ts --confirm-domain homeretreatdirect.com
 fixture_variant=$(hrd run --rm --no-deps --pull never -T tools node --input-type=module -e '
   import pg from "pg";
