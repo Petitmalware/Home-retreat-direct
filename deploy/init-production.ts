@@ -36,6 +36,19 @@ async function main() {
     console.log(JSON.stringify({ok: true, databaseTouched: false, ...totals}));
     return;
   }
+  if (process.argv.includes('--verify-initialized')) {
+    const {db} = await import('../lib/db');
+    try {
+      const [owners, products, categoryCount] = await Promise.all([
+        db.staff.count({where: {role: 'OWNER', active: true}}),
+        db.product.count({where: {isDemo: false}}),
+        db.category.count(),
+      ]);
+      if (!owners || !products || !categoryCount) throw new Error('Refusing resume: the database needs an initialized owner and catalog. Complete fresh initialization or restore the store first.');
+      console.log(JSON.stringify({ok: true, initialized: true, databaseChanged: false}));
+    } finally { await db.$disconnect(); }
+    return;
+  }
   if (process.env.INIT_PRODUCTION_CONFIRMED !== businessProfile.domain) throw new Error('Set INIT_PRODUCTION_CONFIRMED to the store domain for a fresh production database.');
   if (process.env.DEVELOPMENT_CATALOG !== 'false') throw new Error('Production initialization requires DEVELOPMENT_CATALOG=false.');
   if (new URL(process.env.APP_ORIGIN ?? '').origin !== businessProfile.origin) throw new Error('Set APP_ORIGIN to the final HTTPS store domain.');
@@ -107,6 +120,6 @@ async function main() {
 }
 
 main().catch(error => {
- const safe=error instanceof Error&&/^(Expected|Duplicate|Unknown catalog|Every product|Invalid catalog|Invalid finish|A catalog image|Set INIT_PRODUCTION|Production initialization requires|Set APP_ORIGIN|Supply|Refusing initialization)/.test(error.message);
+ const safe=error instanceof Error&&/^(Expected|Duplicate|Unknown catalog|Every product|Invalid catalog|Invalid finish|A catalog image|Set INIT_PRODUCTION|Production initialization requires|Set APP_ORIGIN|Supply|Refusing initialization|Refusing resume)/.test(error.message);
  console.error(safe?error.message:'Production initialization failed. Check the private server configuration and catalog files.');process.exitCode=1;
 });

@@ -22,6 +22,44 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Check startup configuration validation
+        run: |
+          bash -n deploy/start-production.sh
+          docker run --rm --network none \
+            --mount "type=bind,source=${GITHUB_WORKSPACE}/deploy,target=/checks,readonly" \
+            node:22-bookworm-slim node --test /checks/check-production-config.test.mjs
+
+      - name: Verify private environment resolution with Compose
+        run: |
+          validation_directory=$(mktemp -d)
+          trap 'rm -f -- "$validation_directory/server.env"; rmdir -- "$validation_directory"' EXIT
+          node --input-type=module - "$validation_directory/server.env" <<'NODE'
+          import {randomBytes} from 'node:crypto';
+          import {writeFileSync} from 'node:fs';
+          const environmentPath = process.argv[2];
+          const fields = {
+            HRD_ENV_FILE: environmentPath,
+            POSTGRES_PASSWORD: randomBytes(32).toString('hex'),
+            DATABASE_URL: 'postgresql://hrd:${POSTGRES_PASSWORD}@db:5432/home_retreat_direct',
+            DIRECT_DATABASE_URL: 'postgresql://hrd:${POSTGRES_PASSWORD}@db:5432/home_retreat_direct',
+            ENCRYPTION_KEY: randomBytes(32).toString('hex'),
+            JOB_SECRET: randomBytes(32).toString('hex'),
+            APP_ORIGIN: 'https://homeretreatdirect.com',
+            DEVELOPMENT_CATALOG: 'false',
+            SHOW_DEMO_REVIEWS: 'false',
+            LOCAL_MEDIA_ENABLED: 'true',
+            EMAIL_DELIVERY_ENABLED: 'false',
+            INIT_PRODUCTION_CONFIRMED: 'homeretreatdirect.com',
+            SEED_OWNER_EMAIL: 'owner@example.test',
+            SEED_OWNER_PASSWORD: randomBytes(32).toString('hex'),
+          };
+          writeFileSync(environmentPath, Object.entries(fields).map(([key, value]) => `${key}=${value}\n`).join(''), {mode: 0o600});
+          NODE
+          docker compose --env-file "$validation_directory/server.env" -f deploy/compose.yml -p hrd config --format json |
+            docker run --rm -i --network none \
+              --mount "type=bind,source=${GITHUB_WORKSPACE}/deploy/check-production-config.mjs,target=/checks/check-production-config.mjs,readonly" \
+              node:22-bookworm-slim node /checks/check-production-config.mjs fresh
+
       - name: Prepare BuildKit
         run: |
           docker buildx create --name hrd-vps-ci --driver docker-container --use

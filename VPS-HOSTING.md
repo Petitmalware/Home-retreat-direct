@@ -4,7 +4,7 @@ The deployment target is **homeretreatdirect.com**, on the Linux VPS at **63.141
 
 The source repository is [Petitmalware/Home-retreat-direct](https://github.com/Petitmalware/Home-retreat-direct), with deployment files at its root. The server clones its `main` branch and fetches later updates from GitHub; the database, uploaded images and private configuration remain on the VPS.
 
-This is a prepared deployment, not a completed installation on the VPS. The SSH login is administrator@63.141.255.57. Authentication, Linux distribution, control panel, existing proxy configuration, free memory/disk and SMTP authentication have not been tested. Docker is unavailable on this Windows computer; the Linux images must be built and checked on the server or Linux CI. Local tests cover the application, email adapters, production initialization and encrypted store migration.
+The SSH login is administrator@63.141.255.57. The VPS runs Ubuntu 24.04 with Docker and Compose installed. Both Linux deployment images, the complete catalog and native image processing passed the [GitHub build check](https://github.com/Petitmalware/Home-retreat-direct/actions/runs/38008264971). Server startup, the existing domain proxy and SMTP authentication still need verification on the VPS. Local tests cover the application, email adapters, production initialization and encrypted store migration.
 
 ## What is included
 
@@ -76,7 +76,28 @@ Create `server.env` only for the first installation. On later updates, edit the 
 
 Keep **EMAIL_DELIVERY_ENABLED=false** while preparing the server. Never change ENCRYPTION_KEY after database initialization: it protects stored emails, payment instructions and order access. If migrating the current local store, use its existing key instead of generating a replacement.
 
-Define this convenience function in your server shell:
+### Start a fresh store with one command
+
+After completing the private file, run:
+
+```sh
+cd /opt/home-retreat-direct/current
+sudo bash deploy/start-production.sh --fresh
+```
+
+The helper checks the resolved private settings before building, applies migrations, initializes the empty database and starts the app. It requires an owner password of at least 16 characters and matching internal database connections. Configuration errors identify the field without printing private values. A successful startup ends with `{"status":"ok"}`; continue with domain routing in section 4. The helper leaves email delivery disabled during first initialization.
+
+If initialization completed but app startup was interrupted, use `--resume` to finish starting that initialized store. Do not use `--fresh` on an existing database. For later live updates, use the backup and maintenance procedure in section 7. To preserve the local store instead, follow the manual migration path below.
+
+If an earlier Docker build failed with missing lock-file dependencies, fetch the repaired source before retrying. Run Git as the checkout owner. For the existing administrator-owned checkout, even from a root SSH shell:
+
+```sh
+sudo -H -u administrator git -C /opt/home-retreat-direct/current pull --ff-only
+```
+
+### Manual setup and local-store migration
+
+For the manual path, define this convenience function in your server shell:
 
 ```sh
 hrd() { docker compose --env-file /opt/home-retreat-direct/private/server.env -f /opt/home-retreat-direct/current/deploy/compose.yml -p hrd "$@"; }
