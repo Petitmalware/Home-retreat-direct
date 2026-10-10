@@ -115,7 +115,13 @@ const fields = {
   SITES_BUILD: 'false',
   LOCAL_MEDIA_ENABLED: 'true',
   LOCAL_MEDIA_DIRECTORY: '/app/.local/media',
-  EMAIL_DELIVERY_ENABLED: 'false',
+  // Configured fixture mailboxes; no worker or actual email delivery runs in CI.
+  EMAIL_DELIVERY_ENABLED: 'true',
+  EMAIL_PROVIDER: 'smtp', SMTP_HOST: 'mail.example.test', SMTP_PORT: '465', SMTP_SECURE: 'true',
+  INFO_EMAIL: 'info@example.test', ORDERS_EMAIL: 'orders@example.test', SUPPORT_EMAIL: 'support@example.test',
+  SMTP_INFO_USER: 'info@example.test', SMTP_INFO_PASS: secret(),
+  SMTP_ORDERS_USER: 'orders@example.test', SMTP_ORDERS_PASS: secret(),
+  SMTP_SUPPORT_USER: 'support@example.test', SMTP_SUPPORT_PASS: secret(),
   INIT_PRODUCTION_CONFIRMED: 'homeretreatdirect.com',
   SEED_OWNER_EMAIL: 'owner@example.test',
   SEED_OWNER_PASSWORD: secret(),
@@ -132,6 +138,14 @@ hrd up --detach --no-build --wait --wait-timeout 90 db
 hrd run --rm --no-deps --pull never -T tools node node_modules/prisma/build/index.js migrate deploy
 hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts
 hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts --verify-initialized
+hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/complete-store-opening.ts --confirm-domain homeretreatdirect.com
+fixture_variant=$(hrd run --rm --no-deps --pull never -T tools node --input-type=module -e '
+  import pg from "pg";
+  const client = new pg.Client({connectionString: process.env.DATABASE_URL});
+  await client.connect();
+  try { const result = await client.query("SELECT id FROM \"ProductVariant\" WHERE active=true ORDER BY id LIMIT 1"); console.log(result.rows[0].id); }
+  finally { await client.end(); }
+')
 printf '%s\n' 'Starting the production server and waiting for database-backed health...'
 hrd up --detach --no-build --pull never --wait --wait-timeout 210 app
 if [ "$(hrd port app 3000)" != 127.0.0.1:3100 ]; then
@@ -139,9 +153,9 @@ if [ "$(hrd port app 3000)" != 127.0.0.1:3100 ]; then
   exit 1
 fi
 
-node --input-type=module <<'NODE'
+node --input-type=module - "$smoke_environment_file" "$fixture_variant" <<'NODE'
 import assert from 'node:assert/strict';
-import {createHash} from 'node:crypto';
+import {createHash, randomUUID} from 'node:crypto';
 import {readFileSync} from 'node:fs';
 const origin = 'http://127.0.0.1:3100';
 const catalog = JSON.parse(readFileSync('data/product-galleries.json', 'utf8')).products;
@@ -158,6 +172,12 @@ const home = await (await request('/', 'text/html')).text();
 assert.ok(home.includes('<h1') && home.includes('Home Retreat Direct'), 'Home page did not render the store');
 const listing = await (await request('/collections/all', 'text/html')).text();
 assert.ok(listing.includes('All Collections') && listing.includes('href="/products/'), 'Catalog did not render database-backed product links');
+const sitemap = await (await request('/sitemap.xml', 'application/xml')).text();
+for (const path of ['/delivery', '/returns', '/privacy', '/terms', '/warranty', '/contact', '/payment-process']) {
+  const html = await (await request(path, 'text/html')).text();
+  assert.ok(html.includes('<h1') && !/<meta[^>]*name="robots"[^>]*content="noindex/.test(html), path + ' is not published/indexable');
+  assert.ok(sitemap.includes('https://homeretreatdirect.com' + path + '</loc>'), path + ' is missing from the sitemap');
+}
 for (const category of ['premium-furniture', 'gazebos', 'massage-chairs']) {
   const expected = catalog.find(product => product.category === category);
   assert.ok(expected, `Missing smoke fixture for ${category}`);
@@ -182,5 +202,48 @@ for (const category of ['premium-furniture', 'gazebos', 'massage-chairs']) {
 const imagePath = '/_next/image?url=' + encodeURIComponent(catalog[0].images[0].url) + '&w=640&q=75';
 const optimized = await request(imagePath, 'image/');
 assert.ok((await optimized.arrayBuffer()).byteLength > 100, 'Optimized product photograph is empty');
-console.log('Production startup passed: PostgreSQL health, home, catalog, product content and runtime image optimization.');
+// Only this isolated CI database receives orders. No SMTP worker is started.
+const cookies = new Map();
+async function api(path, method = 'GET', body, trustedOrigin = 'https://homeretreatdirect.com') {
+  const response = await fetch(origin + path, {method, signal: AbortSignal.timeout(15000), headers: {
+    origin: trustedOrigin, cookie: [...cookies].map(([name, value]) => name + '=' + value).join('; '),
+    ...(body ? {'content-type': 'application/json'} : {})}, body: body ? JSON.stringify(body) : undefined});
+  for (const cookie of response.headers.getSetCookie()) { const pair = cookie.split(';')[0], separator = pair.indexOf('='); cookies.set(pair.slice(0, separator), pair.slice(separator + 1)); }
+  return {response, data: await response.json()};
+}
+const cart = await api('/api/cart', 'POST', {variantId: process.argv[3], quantity: 1});
+assert.equal(cart.response.status, 200);
+const payload = {email: 'checkout@example.test', phone: '317-555-0100', shipping: {firstName: 'CI', lastName: 'Fixture', line1: '123 Fixture Street', city: 'Indianapolis', state: 'IN', postalCode: '46204', country: 'US'}, acceptTerms: true, idempotencyKey: randomUUID()};
+assert.equal((await api('/api/orders', 'POST', payload, 'https://untrusted.example')).response.status, 403);
+const submitted = await api('/api/orders', 'POST', payload);
+assert.equal(submitted.response.status, 201, 'Published store must accept a reviewed order');
+assert.equal(submitted.data.order.paymentReceived, false);
+assert.equal(submitted.data.order.shippingCents, null);
+assert.equal(submitted.data.order.taxCents, null);
+const replay = await api('/api/orders', 'POST', payload);
+assert.equal(replay.response.status, 201);
+assert.equal(replay.data.order.id, submitted.data.order.id);
+assert.equal(replay.data.accessToken, submitted.data.accessToken);
+const confirmation = await (await request('/orders/' + submitted.data.order.number + '?token=' + submitted.data.accessToken, 'text/html')).text();
+assert.ok(confirmation.includes('Order Received') && confirmation.includes('submitted successfully'), 'Customer confirmation did not render');
+const fixtureEnvironment = Object.fromEntries(readFileSync(process.argv[2], 'utf8').trim().split('\n').map(line => {const i = line.indexOf('='); return [line.slice(0, i), line.slice(i + 1)];}));
+const login = await api('/api/auth/login', 'POST', {email: fixtureEnvironment.SEED_OWNER_EMAIL, password: fixtureEnvironment.SEED_OWNER_PASSWORD});
+assert.equal(login.response.status, 200);
+const settings = await api('/api/admin/settings');
+assert.equal(settings.response.status, 200);
+assert.equal(settings.data.launchReadiness.acceptingOrders, true);
+assert.equal((await api('/api/admin/settings', 'POST', {announcement: 'Considered design. Everyday retreat.'})).response.status, 200);
+const contacts = await api('/api/admin/business-contacts');
+assert.equal(contacts.response.status, 200);
+assert.deepEqual(contacts.data, {phone: '', address: '', businessHours: ''});
+assert.equal((await api('/api/admin/staff', 'POST', {name: 'CI administrator', email: 'administrator@example.test', password: fixtureEnvironment.SEED_OWNER_PASSWORD, role: 'ADMINISTRATOR'})).response.status, 200);
+cookies.clear();
+assert.equal((await api('/api/admin/business-contacts')).response.status, 403);
+assert.equal((await api('/api/auth/login', 'POST', {email: 'administrator@example.test', password: fixtureEnvironment.SEED_OWNER_PASSWORD})).response.status, 200);
+assert.equal((await api('/api/admin/settings')).response.status, 403, 'Administrator must not receive owner-only settings');
+assert.equal((await api('/api/admin/business-contacts', 'POST', {phone: '317-555-0100', address: '123 Fixture Street, Indianapolis, IN 46204', businessHours: 'CI fixture only'})).response.status, 200);
+assert.equal((await api('/api/admin/business-contacts', 'POST', {launchApproved: 'false'})).response.status, 400, 'Contact editor cannot alter launch approval');
+const contactPage = await (await request('/contact', 'text/html')).text();
+assert.ok(contactPage.includes('317-555-0100') && contactPage.includes('123 Fixture Street'), 'Staff contact edits must appear publicly');
+console.log('Production startup passed: policies, sitemap, PostgreSQL health, catalog images, unpaid checkout, retries, customer confirmation and owner settings.');
 NODE

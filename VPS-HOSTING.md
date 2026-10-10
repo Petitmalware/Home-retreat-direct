@@ -332,6 +332,24 @@ The worker checks the outbox every minute using JOB_SECRET over the private cont
 
 ## 6. Complete opening checks in the studio
 
+### Publish the store rules and enable reviewed orders
+
+The checkout message asking you to contact support means the saved launch setting is still closed or a prerequisite is missing. Use this update for an initialized store:
+
+```sh
+sudo -H -u administrator git -C /opt/home-retreat-direct/current pull --ff-only &&
+cd /opt/home-retreat-direct/current &&
+sudo bash deploy/complete-store-opening.sh
+```
+
+This resumes the deployment, applies migrations, rebuilds the app, publishes shipping, returns, privacy, terms, warranty, contact, payment-process and matching FAQ pages, and enables unpaid order requests when the production catalog and all three email channels are configured. It starts the email worker. Success includes `"acceptingOrders":true` and the HTTPS health result. Products, prices, galleries, customers, existing orders and owner credentials are preserved. Published policies edited by staff are retained. If prerequisites fail, the policy/launch database transaction rolls back and reports the missing requirements.
+
+The owner-adopted rules accept United States delivery requests, quote shipping and taxes before payment, provide a 30-day change-of-mind return window for eligible unused/uninstalled products, charge no restocking fee, and make the customer responsible for change-of-mind return shipping. Damaged, defective and incorrect merchandise has separate remedies. Eligible change-of-mind refunds are processed within 10 business days after receipt and inspection; shorter legal deadlines take priority. No shipping price, carrier, universal delivery deadline, business phone or address is invented.
+
+The owner can add phone, address and business hours under **Settings → Business & brand**. Owners and staff with the Administrator role can also use **Business contacts**, without access to owner-only financial settings. Those details appear on Contact when supplied and are optional for unpaid order review. Edit store policies under **Policies & information**. **Settings → Services & launch** shows each opening requirement. Withdrawing a required policy or breaking email configuration blocks new submissions even if launch was previously approved.
+
+After updating, check the published pages and sitemap, submit a controlled unpaid order, and confirm its customer confirmation and staff notification arrive. The worker checks saved email messages every minute; provider configuration checks alone do not prove inbox delivery. Review or approve the order before requesting payment, configure your legitimate business payment method in Settings, and confirm actual funds received before issuing a payment receipt. Do not submit a catalog to a listing service until its required business identification, availability, shipping and checkout requirements are fulfilled; publication alone does not guarantee acceptance.
+
 ### Reset the saved owner password
 
 The initial owner login uses the SEED_OWNER_EMAIL and SEED_OWNER_PASSWORD supplied when the empty store was initialized. Editing those environment values later does not change the existing database account. After initialization, SEED_OWNER_PASSWORD can be removed from the private environment.
@@ -352,7 +370,7 @@ This maintenance command uses the already-built tools image and mounts the reset
 
 ### Review business settings and opening checks
 
-Open **https://homeretreatdirect.com/admin** with the owner you initialized or migrated. Set the verified business address and phone, review/publish the delivery, returns, privacy, terms and warranty policies, and configure a genuine approved payment channel. Review stock/availability, existing pricing evidence and private photography source/usage records. Public pricing is already populated; unresolved supplier/price evidence remains visible to staff rather than being invented.
+Open **https://homeretreatdirect.com/admin** with the owner you initialized or migrated. Add verified business address and phone when available, review the published delivery, returns, privacy, terms and warranty policies, and configure a genuine approved payment channel. Review stock/availability, existing pricing evidence and private photography source/usage records. Public pricing is already populated; unresolved supplier/price evidence remains visible to staff rather than being invented.
 
 Check all three contact topics/mailboxes and replies; product selection, cart, guest/account checkout, order tracking, discounts, image updates, order approval, approved invoice and shipment notifications. A payment receipt is issued only after actual payment has been independently verified. Keep the site restricted to your operator IP if doing controlled preopening checks. Enable Business launch approved in Settings after its prerequisites pass; remove access restrictions when opening publicly. Local tests never charge anyone or send real customer mail.
 
