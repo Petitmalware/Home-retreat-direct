@@ -332,6 +332,26 @@ The worker checks the outbox every minute using JOB_SECRET over the private cont
 
 ## 6. Complete opening checks in the studio
 
+### Reset the saved owner password
+
+The initial owner login uses the SEED_OWNER_EMAIL and SEED_OWNER_PASSWORD supplied when the empty store was initialized. Editing those environment values later does not change the existing database account. After initialization, SEED_OWNER_PASSWORD can be removed from the private environment.
+
+To change the actual saved owner password, run this in your SSH terminal:
+
+```sh
+sudo -H -u administrator git -C /opt/home-retreat-direct/current pull --ff-only &&
+cd /opt/home-retreat-direct/current &&
+sudo bash deploy/reset-owner-password.sh
+```
+
+Press Enter to use `info@homeretreatdirect.com`, then enter the new password twice. Input is hidden; passwords are passed only through standard input and never written to command arguments, logs or files. Use at least 12 characters and at most 72 UTF-8 bytes, consistent with account password rules. Dollar signs are preserved literally; do not type surrounding quote marks at the prompt. Use a fresh private password if the old one was shared.
+
+Success prints `{"ok":true,"passwordChanged":true,"sessionsRevoked":...}`. The helper updates only the matching active OWNER account, revokes its saved sessions, clears its login-attempt limit and records an audit entry in one transaction. Other accounts, products, orders, email configuration and encryption keys are retained. Sign in again at `https://homeretreatdirect.com/admin` with the owner email and the newly entered password.
+
+This maintenance command uses the already-built tools image and mounts the reset program read-only. It performs no build, migration, store initialization, app restart or email delivery. It refuses another deployment/database and refuses missing, inactive or non-owner accounts. It requires an interactive SSH terminal and the server operator's Docker/database permissions.
+
+### Review business settings and opening checks
+
 Open **https://homeretreatdirect.com/admin** with the owner you initialized or migrated. Set the verified business address and phone, review/publish the delivery, returns, privacy, terms and warranty policies, and configure a genuine approved payment channel. Review stock/availability, existing pricing evidence and private photography source/usage records. Public pricing is already populated; unresolved supplier/price evidence remains visible to staff rather than being invented.
 
 Check all three contact topics/mailboxes and replies; product selection, cart, guest/account checkout, order tracking, discounts, image updates, order approval, approved invoice and shipment notifications. A payment receipt is issued only after actual payment has been independently verified. Keep the site restricted to your operator IP if doing controlled preopening checks. Enable Business launch approved in Settings after its prerequisites pass; remove access restrictions when opening publicly. Local tests never charge anyone or send real customer mail.

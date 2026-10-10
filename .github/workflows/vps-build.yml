@@ -26,6 +26,7 @@ jobs:
         run: |
           bash -n deploy/start-production.sh
           bash -n deploy/smoke-production.sh
+          bash -n deploy/reset-owner-password.sh
           docker run --rm --network none \
             --mount "type=bind,source=${GITHUB_WORKSPACE}/deploy,target=/checks,readonly" \
             node:22-bookworm-slim node --test /checks/check-production-config.test.mjs
@@ -129,6 +130,11 @@ jobs:
             --cache-from "type=local,src=${BUILD_CACHE}" \
             --cache-to "type=local,dest=${BUILD_CACHE},mode=max" \
             .
+
+      - name: Test transactional owner password recovery
+        run: |
+          docker run --rm --network none home-retreat-direct-tools:ci \
+            node --test deploy/reset-owner-password.test.mjs
 
       - name: Validate the complete product catalog
         run: |
