@@ -53,6 +53,8 @@ Website enquiries are saved in **Customer messages**, where staff can reply. Inc
 
 ## Other everyday tasks
 
+**Christmas on / off:** open this page under **Your business** to show or hide the entire Christmas collection. The switch saves immediately. Optional dates can show it automatically for a season. Product photos, videos, prices and old orders stay saved when hidden. See [CHRISTMAS-COLLECTION.md](CHRISTMAS-COLLECTION.md) for the seasonal catalog and deployment details.
+
 **Products & photos:** open a product to change its images, description, prices or discount. Save the changes. **Contact details:** add verified phone, address and hours; new documents and the contact page use them. **Shipping & store policies:** edit and publish your adopted business terms. Access depends on the staff role assigned by the owner.
 
 ## Install this admin update on the existing VPS

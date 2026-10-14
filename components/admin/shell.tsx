@@ -14,6 +14,7 @@ const links=[
  {slug:'reviews',label:'Customer reviews',icon:Star,permission:'reviews',group:'daily'},
  {slug:'business-contacts',label:'Contact details',icon:Settings,permission:'policies',group:'business'},
  {slug:'policies',label:'Shipping & store policies',icon:FileText,permission:'policies',group:'business'},
+ {slug:'seasonal',label:'Christmas on / off',icon:Armchair,permission:'products',group:'business'},
  {slug:'taxonomy',label:'Categories & collections',icon:Armchair,permission:'products',group:'business'},
  {slug:'customers',label:'Customer accounts',icon:Users,permission:'customers',group:'advanced'},
  {slug:'settings',label:'Store settings & payments',icon:Settings,permission:'settings',group:'advanced'},

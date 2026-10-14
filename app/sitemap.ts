@@ -1,13 +1,16 @@
 import type {MetadataRoute} from 'next';
 import {db} from '@/lib/db';
 import {siteUrl} from '@/lib/seo';
+import {readChristmasSeason,visibleProductWhere} from '@/lib/seasonal-store';
+import {CHRISTMAS_COLLECTION,christmasCategorySlugs} from '@/lib/seasonal';
 
 export const dynamic='force-dynamic';
 export default async function sitemap():Promise<MetadataRoute.Sitemap>{
+ const season=await readChristmasSeason();
  const [products,categories,collections,policies]=await Promise.all([
-  db.product.findMany({where:{status:'ACTIVE',isDemo:false},select:{slug:true,updatedAt:true}}),
-  db.category.findMany({select:{slug:true}}),
-  db.collection.findMany({select:{slug:true}}),
+  db.product.findMany({where:visibleProductWhere(season.active),select:{slug:true,updatedAt:true}}),
+  db.category.findMany({where:season.active?{}:{NOT:{OR:[{group:'Christmas'},{slug:{in:christmasCategorySlugs}}]}},select:{slug:true}}),
+  db.collection.findMany({where:season.active?{}:{slug:{not:CHRISTMAS_COLLECTION}},select:{slug:true}}),
   db.policy.findMany({where:{published:true},select:{slug:true,updatedAt:true}}),
  ]);
  const publicCollections=[...new Set(['all','featured','best-sellers','new-arrivals',...categories.map(c=>c.slug),...collections.map(c=>c.slug)])];

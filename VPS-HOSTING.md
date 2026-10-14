@@ -1,5 +1,7 @@
 # Host Home Retreat Direct on your VPS
 
+For the Christmas catalog update, follow [CHRISTMAS-COLLECTION.md](CHRISTMAS-COLLECTION.md). The existing VPS needs a Git pull and `sudo bash deploy/update-production.sh`; seasonal imports preserve existing orders, products and staff edits.
+
 The deployment target is **homeretreatdirect.com**, on the Linux VPS at **63.141.255.57** (4 cores, 8 GB RAM, 140 GB SSD). This package adds a separate Home Retreat Direct app and PostgreSQL database. Your existing web server continues to handle the other two sites and HTTPS.
 
 The source repository is [Petitmalware/Home-retreat-direct](https://github.com/Petitmalware/Home-retreat-direct), with deployment files at its root. The server clones its `main` branch and fetches later updates from GitHub; the database, uploaded images and private configuration remain on the VPS.

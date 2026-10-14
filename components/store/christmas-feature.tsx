@@ -1,0 +1,5 @@
+import Link from 'next/link';
+import Image from 'next/image';
+export function ChristmasFeature({image}:{image:string}){
+ return <section className="container christmas-feature" aria-label="Christmas collection"><div className="christmas-feature-copy"><p className="eyebrow">CHRISTMAS AT HOME</p><h2>Make room for<br/>a little <em>Christmas magic.</em></h2><p>Find your tree. Dress your doorway. Bring a warm glow to the season.</p><Link href="/collections/christmas" className="button dark">Explore Christmas</Link><div className="christmas-feature-links"><Link href="/collections/christmas-trees">Christmas trees</Link><Link href="/collections/christmas-wreaths-garlands">Wreaths & garlands</Link><Link href="/collections/christmas-outdoor-decor">Lights & outdoor décor</Link></div></div><Link href="/collections/christmas" className="christmas-feature-image" aria-label="Shop the Christmas collection"><Image src={image} alt="Illuminated Christmas tree displayed in a festive room" fill sizes="(max-width: 760px) 100vw, 50vw"/></Link></section>;
+}

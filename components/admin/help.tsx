@@ -5,6 +5,7 @@ import type {StaffRole} from '@/generated/prisma/client';
 export function AdminHelp({role}:{role:StaffRole}){
  const tasks=[
   ['orders:read','/admin/orders','Handle an order','Open an order and follow the next step at the top.'],
+  ['products','/admin/seasonal','Show or hide Christmas','Use the switch to change the whole seasonal collection immediately, or choose start and end dates.'],
   ['products','/admin/products','Change products, images or discounts','Open a product, make your changes and save.'],
   ['customers','/admin/messages','Answer a customer','Read website enquiries and reply from Customer messages.'],
   ['policies','/admin/business-contacts','Update your phone, address or opening hours','Save verified details to update the public contact page and new documents.'],

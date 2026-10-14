@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import {staff} from '@/lib/security';
-import {sourcedGalleries} from '@/lib/gallery-provenance';
+import {allSourcedGalleries as sourcedGalleries} from '@/lib/gallery-provenance';
 import documentary from '@/data/photo-source-records/documentary.json';
 import decorative from '@/data/photo-source-records/decorative.json';
 

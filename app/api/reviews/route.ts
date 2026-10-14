@@ -1,5 +1,7 @@
 import {verifyPhoto} from '@/lib/media-upload';
 import {db} from '@/lib/db';
+import {readChristmasSeason} from '@/lib/seasonal-store';
+import {seasonalProductVisible} from '@/lib/seasonal';
 import {csrf, failure, hash, limit, user, HttpError} from '@/lib/security';
 import {reviewSchema} from '@/lib/validation';
 
@@ -34,8 +36,8 @@ export async function POST(req: Request) {
       if (!d.token && productId) {
         await tx.$queryRaw`SELECT "id" FROM "Product" WHERE "id" = ${productId} FOR UPDATE`;
       }
-      const product = productId ? await tx.product.findUnique({where: {id: productId}}) : null;
-      if (!productId || !product || (!d.token && (product.status !== 'ACTIVE' || product.isDemo))) {
+      const product = productId ? await tx.product.findUnique({where: {id: productId},include:{categories:{include:{category:true}},collections:{include:{collection:true}}}}) : null;
+      if (!productId || !product || (!d.token && (product.status !== 'ACTIVE' || product.isDemo || !seasonalProductVisible(product,(await readChristmasSeason(tx)).active)))) {
         throw new HttpError(404, 'Product not found.');
       }
 

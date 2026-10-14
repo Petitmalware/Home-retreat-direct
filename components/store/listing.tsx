@@ -1,6 +1,6 @@
 'use client';
-import {useMemo,useState} from 'react';import Link from 'next/link';import {Search,SlidersHorizontal} from 'lucide-react';import {Checkbox} from '@/components/ui/checkbox';import {Select,SelectContent,SelectItem,SelectTrigger,SelectValue} from '@/components/ui/select';import {Slider} from '@/components/ui/slider';import {ProductCard,CompareTray} from './card';import {categories,type CatalogProduct} from '@/lib/catalog';
-type Props={products:CatalogProduct[];title:string;intro?:string;query?:string;category?:string};
+import {useMemo,useState} from 'react';import Link from 'next/link';import {Search,SlidersHorizontal} from 'lucide-react';import {Checkbox} from '@/components/ui/checkbox';import {Select,SelectContent,SelectItem,SelectTrigger,SelectValue} from '@/components/ui/select';import {Slider} from '@/components/ui/slider';import {ProductCard,CompareTray} from './card';import {type CatalogProduct} from '@/lib/catalog';
+type Props={products:CatalogProduct[];title:string;intro?:string;query?:string;category?:string;categories:{slug:string;name:string}[]};
 const massageComfortOptions=[
  {value:'4d',label:'Premium 4D technology',pattern:/\b4d\b/},
  {value:'3d',label:'Adjustable 3D massage',pattern:/\b3d\b/},
@@ -13,7 +13,7 @@ function matchesMassageComfort(product:CatalogProduct,value:string){
  if(!option)return false;
  return [...product.features,...product.specs.map(spec=>spec.label+' '+spec.value)].some(fact=>option.pattern.test(fact.normalize('NFKC').toLowerCase().replace(/[-–—‑_]/g,' ')));
 }
-export function Listing({products,title,intro,query='',category='all'}:Props){
+export function Listing({products,title,intro,query='',category='all',categories}:Props){
  const[sort,setSort]=useState('featured'),[search,setSearch]=useState(query),[maxPrice,setMaxPrice]=useState(10000),[available,setAvailable]=useState(false),[rating,setRating]=useState('all'),[attribute,setAttribute]=useState('all'),[comfort,setComfort]=useState('all'),[material,setMaterial]=useState('all'),[color,setColor]=useState('all'),[brand,setBrand]=useState('all'),[page,setPage]=useState(1),[mobileFilters,setMobileFilters]=useState(false);
  const attributes=useMemo(()=>[...new Set(products.flatMap(p=>p.specs.filter(s=>['Technology','Heating type','Capacity','Roof type','Width','Placement','Fuel'].includes(s.label)).map(s=>s.value)))],[products]);
  const comfortChoices=useMemo(()=>massageComfortOptions.filter(option=>products.some(product=>matchesMassageComfort(product,option.value))),[products]);

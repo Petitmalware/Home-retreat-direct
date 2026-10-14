@@ -1,0 +1,3871 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-14T12:36:27.112Z",
+  "collection": {
+    "id": "christmas",
+    "slug": "christmas",
+    "name": "Christmas at Home",
+    "description": "Trees, festive greenery and illuminated decorations for a season worth coming home to."
+  },
+  "products": [
+    {
+      "id": "xmas-cw-cm22059",
+      "slug": "costway-7-5-ft-fir-tree-with-700-warm-white-leds-cm22059",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 7.5 ft Fir Tree with 700 Warm White LEDs",
+      "brand": "Costway",
+      "model": "CM22059",
+      "sku": "HRD-XMAS-CM22059",
+      "description": "A full fir-style tree with 1,968 tips and warm lighting. Eight lighting modes let you change its glow, while hinged sections make seasonal assembly and storage easier.",
+      "material": "PVC, metal",
+      "dimensions": "Overall dimension: 4.4 ft x 7.5 ft",
+      "weight": "29 lbs",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "1,968 branch tips",
+        "700 warm white LEDs",
+        "Eight lighting modes",
+        "Hinged branches and metal stand"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Green"
+        },
+        {
+          "label": "Material",
+          "value": "PVC, metal"
+        },
+        {
+          "label": "Adapter",
+          "value": "UL-certified"
+        },
+        {
+          "label": "Overall dimension",
+          "value": "4.4 ft x 7.5 ft"
+        },
+        {
+          "label": "Number of tips",
+          "value": "1968 tips"
+        },
+        {
+          "label": "Number of lights",
+          "value": "700"
+        },
+        {
+          "label": "Net weight",
+          "value": "29 lbs"
+        }
+      ],
+      "priceCents": 16999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/7-5-feet-pre-lit-pvc-national-christmas-fir-tree-with-led-light-and-stand.html",
+      "sourceSelection": [
+        "Select: 7.5 Ft with LED Light"
+      ],
+      "selectedSize": "7.5 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 16999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/01.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — room or display setting 1",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882151873700_885546.jpeg",
+          "imageId": "CM22059-1",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "8182401a958de6131e21274aa91d251b01770922cbfbcefc633e7c11c6348482"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/02.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882149251111_257079.jpeg",
+          "imageId": "CM22059-2",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "9dc37b83e610c169049491f6194455abf588cbf9e1639c6a39a289de08a1a5c3"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/03.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882150527549_224515.jpeg",
+          "imageId": "CM22059-3",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "ffcb149c2a6157b44de7e88abe5ea3434c2547a2eec7fb374a4207d1ee70f115"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/04.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882165986734_907358.jpeg",
+          "imageId": "CM22059-4",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "295f0ec7e07f91016f101f9a70ad80adc9c432a6f1cf8cfa776b97721e886b2a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/05.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882153255018_512270.jpeg",
+          "imageId": "CM22059-5",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "189163aed3168da24d70e03445b055a63b8d76732ab3d95bd627bdd6b4918487"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/06.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882154597354_776010.jpeg",
+          "imageId": "CM22059-6",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "1b9ca041230d96da472ad6c3f57fb4035e60800d495dce30b3d28af4cd7aebe2"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/07.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882156118776_715725.jpeg",
+          "imageId": "CM22059-7",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "a74f344f28dee5edc6790fa057566505bcae1afaa82c5dd61bef8378b49382e7"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/08.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882157502341_136912.jpeg",
+          "imageId": "CM22059-8",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "395a2f2802cb8ecc73e32b087271437279cc7fe5435499dee479ce2a05c563f0"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/09.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882158901686_421804.jpeg",
+          "imageId": "CM22059-9",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "22e6e481a6da993152ac7c206c6b8f72d821421a7e2333da5387e7a7714dfcd2"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/10.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882161611451_118938.jpeg",
+          "imageId": "CM22059-10",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "816a29e8878dc737bf8222db8c67ee9010e28d76eb15bdd5f077b49d2dde5b5a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22059/11.jpeg",
+          "alt": "7.5 ft Fir Tree with 700 Warm White LEDs — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/7/_/7_5_Feet_Artificial__1791882163168402_369858.jpeg",
+          "imageId": "CM22059-11",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "928858f5a7ad471537c64e064182a88069beb56322d9cb8fbc9da6e9b062b10b"
+        }
+      ],
+      "variants": [
+        {
+          "name": "7.5 ft",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM22059-STANDARD",
+          "priceCents": 16999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm20635cm20637",
+      "slug": "costway-7-ft-pre-lit-pine-cone-christmas-tree-cm20635cm20637",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 7 ft Pre-lit Pine Cone Christmas Tree",
+      "brand": "Costway",
+      "model": "CM20635CM20637",
+      "sku": "HRD-XMAS-CM20635CM20637",
+      "description": "Natural pine cones and mixed PE and PVC foliage add texture to this pre-lit tree. Its hinged branches open for shaping, and warm white lights provide a ready-made festive glow.",
+      "material": "PVC, PE, Metal",
+      "dimensions": "4 ft diameter × 7 ft high",
+      "weight": "23 lbs",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "925 branch tips",
+        "460 warm white LEDs",
+        "61 pine cones",
+        "Hinged construction"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand",
+        "Gloves",
+        "User guide"
+      ],
+      "specifications": [
+        {
+          "label": "Height",
+          "value": "7 ft"
+        },
+        {
+          "label": "Diameter",
+          "value": "4 ft"
+        },
+        {
+          "label": "Branch tips",
+          "value": "925"
+        },
+        {
+          "label": "LED lights",
+          "value": "460"
+        },
+        {
+          "label": "Pine cones",
+          "value": "61"
+        },
+        {
+          "label": "Stand diameter",
+          "value": "20 in"
+        },
+        {
+          "label": "Power cord",
+          "value": "4.9 ft"
+        }
+      ],
+      "priceCents": 11999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/7-7-5-8-feet-artificial-christmas-tree-with-led-lights-and-pine-cones.html",
+      "sourceSelection": [
+        "Select: 7/7.5/8 Feet Artificial Christmas Tree",
+        "Size: 7 ft"
+      ],
+      "selectedSize": "7 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 11999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/01.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157651300032_415619.jpeg",
+          "imageId": "CM20635CM20637-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "dc531cd245541f195d9dad6c66b9cc43ae3c99a3fa88e705603154dc28b8f9d6"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/02.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157653654745_929094.jpeg",
+          "imageId": "CM20635CM20637-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "7bccff2a1590a935ee73a22cb02779e7e1b993a86ce1eaa151e45819edc45175"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/03.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157654761267_233788.jpeg",
+          "imageId": "CM20635CM20637-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "4617336f57a2a84ea703180d26579a63bf99ea3438fbddb06a08685d2564459c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/04.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157652862425_197083.jpeg",
+          "imageId": "CM20635CM20637-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "ee000101722baf7b6e36840d336578336a02d87cec5d520204db07e9443c58f9"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/05.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157659752564_958192.jpeg",
+          "imageId": "CM20635CM20637-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "cd886771b9498d77d9468859eeb8a1370ebbc20f25f270c9d3c163f13295006e"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/06.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157655628699_304255.jpeg",
+          "imageId": "CM20635CM20637-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "eb28917da2d24e613aa9af0769db8b07155cacb2cbae61a23155447b9e0d3850"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/07.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157656483816_535634.jpeg",
+          "imageId": "CM20635CM20637-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "a0c6b33e6f15267b13e5e920677539a6838044ac952d9a3bdcb0ec0c44918776"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/08.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157657304928_963099.jpeg",
+          "imageId": "CM20635CM20637-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "ca81b7146a8398d1386e7e2b1649b180a65e50bf15dfeb025f9d28d46246a0b7"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/09.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157658143106_702592.jpeg",
+          "imageId": "CM20635CM20637-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "d482158ee6a2848ed5975f04a4a1da5a6bd02dbc1cb7849faf7cec0269f00043"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20635cm20637/10.jpeg",
+          "alt": "7 ft Pre-lit Pine Cone Christmas Tree — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/a/r/Artificial_Christmas_1788157658985822_773466.jpeg",
+          "imageId": "CM20635CM20637-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "40d8ba4071a3c2e1ddbaf00db0e7f9badb107d3ed0ef5d779a14da0626cdf223"
+        }
+      ],
+      "variants": [
+        {
+          "name": "7 ft",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM20635CM20637-STANDARD",
+          "priceCents": 11999
+        }
+      ],
+      "videoUrl": "https://cdn1.costway.com/media/us/Install_video/48265971.mp4",
+      "videoTitle": "Tree assembly video",
+      "videoSource": "https://www.costway.com/7-7-5-8-feet-artificial-christmas-tree-with-led-lights-and-pine-cones.html"
+    },
+    {
+      "id": "xmas-cw-cm24030us",
+      "slug": "costway-7-5-ft-slim-tree-with-colour-changing-leds-cm24030us",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 7.5 ft Slim Tree with Colour-changing LEDs",
+      "brand": "Costway",
+      "model": "CM24030US",
+      "sku": "HRD-XMAS-CM24030US",
+      "description": "A narrow tree for corners and smaller rooms. Mixed PE and PVC foliage pairs with warm white and multicolour lighting, controlled by a foot pedal.",
+      "material": "PVC, PE, Metal",
+      "dimensions": "Tree height: 7.5'; Tree width: 2.7'; Diameter of metal base: 21.5\"",
+      "weight": "16.5 lbs",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "796 branch tips",
+        "350 LEDs",
+        "Ten lighting modes",
+        "Foot pedal control"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Green"
+        },
+        {
+          "label": "Material",
+          "value": "PVC, PE, Metal"
+        },
+        {
+          "label": "Tree height",
+          "value": "7.5'"
+        },
+        {
+          "label": "Tree width",
+          "value": "2.7'"
+        },
+        {
+          "label": "Diameter of metal base",
+          "value": "21.5\""
+        },
+        {
+          "label": "Number of branch tips",
+          "value": "796"
+        },
+        {
+          "label": "Number of LED lights",
+          "value": "350"
+        },
+        {
+          "label": "Net weight",
+          "value": "16.5 lbs"
+        }
+      ],
+      "priceCents": 14999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/7-5-feet-pre-lit-full-artificial-christmas-tree-with-warm-white-and-multi-color-led-lights.html",
+      "sourceSelection": [],
+      "selectedSize": "7.5 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 14999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/01.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_4_.jpg",
+          "imageId": "CM24030US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "a814913803be511714bc64ea2a145c735eb49c2ff6e288383a7ec8096272be6a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/02.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_3_.jpg",
+          "imageId": "CM24030US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "74efd6780260e302f8abea31972e08b1116f3ab177adb227e06ff82ef16c5060"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/03.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_1_.jpg",
+          "imageId": "CM24030US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "00dc9f9af505e5a0b6688b71599afef57c46f77a4d0458e6e4ab2f8ecdfec9e6"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/04.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_2_.jpg",
+          "imageId": "CM24030US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "164d594b8fb3f15ce2a2070358b0063db6f57b4814b941679780336cef994dd6"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/05.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_10_.jpg",
+          "imageId": "CM24030US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "55620fac9353ece29038e23481eae9a1e16fe00d6f4f24af11eba2f855bce305"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/06.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_9_.jpg",
+          "imageId": "CM24030US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "c03e9f23cfa8bcb155f78cb9d30208402568a3aaad58255c68578a87c720d870"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/07.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_5_.jpg",
+          "imageId": "CM24030US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "03b7b30f869314265155d73437f309e407536c38315fcda5a4c87348f6386b70"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/08.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_6_.jpg",
+          "imageId": "CM24030US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "e96c7728281b56d771369063f7e5bfa88e0afcc3303b461f9ebc022a02fb10cb"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/09.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_8_.jpg",
+          "imageId": "CM24030US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "57d601d3efb4d1d134fbad5051c9cb1d7a5948417d77ba17f311ed0295bc119e"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24030us/10.jpg",
+          "alt": "7.5 ft Slim Tree with Colour-changing LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm24030us-1_7_.jpg",
+          "imageId": "CM24030US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "0622601f6ff8f1a0e592c22c0e9e3c0e79c7c7e9ff39e5a4947734c8557deeb2"
+        }
+      ],
+      "variants": [
+        {
+          "name": "7.5 ft",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM24030US-STANDARD",
+          "priceCents": 14999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm20638cm20640",
+      "slug": "costway-6-ft-spruce-tree-with-230-warm-white-leds-cm20638cm20640",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 6 ft Spruce Tree with 230 Warm White LEDs",
+      "brand": "Costway",
+      "model": "CM20638CM20640",
+      "sku": "HRD-XMAS-CM20638CM20640",
+      "description": "An evergreen spruce profile with pre-installed warm white lights. Hinged branches and a folding metal stand simplify setup before you add your own ornaments.",
+      "material": "PVC, iron",
+      "dimensions": "6 ft high",
+      "weight": "",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "735 branch tips",
+        "230 warm white LEDs",
+        "Hinged branches",
+        "Folding iron stand"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand"
+      ],
+      "specifications": [
+        {
+          "label": "Height",
+          "value": "6 ft"
+        },
+        {
+          "label": "Branch tips",
+          "value": "735"
+        },
+        {
+          "label": "LED lights",
+          "value": "230"
+        },
+        {
+          "label": "Lighting",
+          "value": "Warm white"
+        },
+        {
+          "label": "Input",
+          "value": "120 V / 60 Hz"
+        }
+      ],
+      "priceCents": 7499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/pre-lit-pvc-artificial-natural-christmas-tree-with-led-lights.html",
+      "sourceSelection": [
+        "Select: 7/7.5/8 Feet Pre-lit Artificial Natural Christmas Tree",
+        "Size: 6 ft"
+      ],
+      "selectedSize": "6 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 7499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/01.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056397245121_135409.jpeg",
+          "imageId": "CM20638CM20640-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "53186b2f1ed294b2b7d17c237855c3a72e510d2d118f2a48385c6d09a5e1f5a2"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/02.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056400537683_861457.jpeg",
+          "imageId": "CM20638CM20640-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "d745c32963bfd789d469771538ead5db4ed8244895a92e55f5e683e273c80d2f"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/03.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056398834320_673100.jpeg",
+          "imageId": "CM20638CM20640-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "ec528f064587a664ddf4b1b8adca489ed3e59d1ddc90b204c1ab02a6e1e1e111"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/04.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056398022166_292538.jpeg",
+          "imageId": "CM20638CM20640-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "e5628cffe61375ec6783fba2e560acd5d665daa5678b57d5e5691f304c4922e1"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/05.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056405675543_657833.jpeg",
+          "imageId": "CM20638CM20640-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "ddf14f2cccb83ffab76c7920605f93a9fd9dc333908365a2cb862a8be416bd37"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/06.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056399711077_902136.jpeg",
+          "imageId": "CM20638CM20640-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "e8b7e199f3cf7789757d1be0c050ab063cc4869b5250a3756f40b4a72daa0041"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/07.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056401421620_418122.jpeg",
+          "imageId": "CM20638CM20640-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "364efa09995267647d695e76bd4145f58719acb797cce53874cdebf432792fef"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/08.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056402311243_293803.jpeg",
+          "imageId": "CM20638CM20640-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "b3e51839ba758026925eafd5144f91fd8a822cb24151fb13abae8bfa551472d5"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/09.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056403238035_444611.jpeg",
+          "imageId": "CM20638CM20640-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "485a4850af786324637b55aeef8435cf06959b59b099f7e1870f085a69e5e264"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm20638cm20640/10.jpeg",
+          "alt": "6 ft Spruce Tree with 230 Warm White LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Pre_lit_Artif_1790056404059871_558092.jpeg",
+          "imageId": "CM20638CM20640-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "cf993bd74dbcf43ee236a1acac5058462f3ad412eaa1c97e5edfe315e257a71d"
+        }
+      ],
+      "variants": [
+        {
+          "name": "6 ft",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM20638CM20640-STANDARD",
+          "priceCents": 7499
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm23510cm23513us",
+      "slug": "costway-5-ft-snow-flocked-tree-with-remote-controlled-leds-cm23510cm23513us",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 5 ft Snow-flocked Tree with Remote-controlled LEDs",
+      "brand": "Costway",
+      "model": "CM23510CM23513US",
+      "sku": "HRD-XMAS-CM23510CM23513US",
+      "description": "A compact snow-flocked tree with a star topper and adjustable lighting. The remote changes its nine light settings, and hinged branches allow shaping after assembly.",
+      "material": "New PVC, metal",
+      "dimensions": "2.4 ft diameter × 5 ft high",
+      "weight": "9 lbs",
+      "color": "White",
+      "colorHex": "#eee9e1",
+      "features": [
+        "279 branch tips",
+        "140 LEDs",
+        "Nine lighting modes",
+        "Remote-controlled lights"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand",
+        "Remote control"
+      ],
+      "specifications": [
+        {
+          "label": "Height",
+          "value": "5 ft"
+        },
+        {
+          "label": "Diameter",
+          "value": "2.4 ft"
+        },
+        {
+          "label": "Branch tips",
+          "value": "279"
+        },
+        {
+          "label": "LED lights",
+          "value": "140"
+        },
+        {
+          "label": "Lighting modes",
+          "value": "9"
+        }
+      ],
+      "priceCents": 7499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/pre-lit-hinged-christmas-tree-with-remote-control-lights.html",
+      "sourceSelection": [
+        "Select: 5/6/7.5/8 Feet",
+        "Size: 5 ft"
+      ],
+      "selectedSize": "5 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 7499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/01.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_641_5.jpg",
+          "imageId": "CM23510CM23513US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "c466ea0af1e465569de58f47d77429518415c13c4616bf1dcb3e08977c5f9f55"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/02.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_574_20.jpg",
+          "imageId": "CM23510CM23513US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "6f9cd36a60e04c1d9aaa1f5ba3d0850fd0f88e34354442e7e115a45f2e312dc1"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/03.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/_/4_593_20.jpg",
+          "imageId": "CM23510CM23513US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "e3e032a53acd718eefa6b9c674bb6c68536fec183cea36043b85330e6fb90414"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/04.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/2/12_287_28.jpg",
+          "imageId": "CM23510CM23513US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "a897901e593e145dd7883c3a2a3fb49af28efc3957992f98cbdd29517e61ab1d"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/05.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/_/2_605_22.jpg",
+          "imageId": "CM23510CM23513US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "b0700be8f65f1fd786b89031a8ce40e5c24ecd6d4b16aa64afd9ffb3dc9fa8c8"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/06.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — room or display setting 6",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/5/_/5_567_19.jpg",
+          "imageId": "CM23510CM23513US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "1fa561a239e70449ed0035b16c8039cb537cf8bc47a5e4e99874c6a56baff78c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/07.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_602_20.jpg",
+          "imageId": "CM23510CM23513US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "328bb7b320f95e26b26c19c1b2f85bc845cd1baa81f064370df0b303ca133a94"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/08.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_553_18.jpg",
+          "imageId": "CM23510CM23513US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "39553ed200ebb64e362aa8bb164e3d38fe3fce5d0522108ef378b9d1c3ae1f69"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/09.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/1/11_380_44.jpg",
+          "imageId": "CM23510CM23513US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "562c8db99300bb78f036c63a8f8dcfcc477a51dfc436c2abf8ab5a667a64f71a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/10.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/9/_/9_483_40.jpg",
+          "imageId": "CM23510CM23513US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "184331b1c2c12c379eddebe338139e36d9f468167f71eea72cbdfc83f9159248"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/11.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/0/10_422_42.jpg",
+          "imageId": "CM23510CM23513US-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "58de0679c9a15ba296c3a6caff04f32963b5dae01a8216e9f297dc0bb5ec8f03"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23510cm23513us/12.jpg",
+          "alt": "5 ft Snow-flocked Tree with Remote-controlled LEDs — product detail 12",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/8/_/8_527_20.jpg",
+          "imageId": "CM23510CM23513US-12",
+          "width": 750,
+          "height": 750,
+          "sha256": "2a6d78902f3f09f50dca79138e8cb606e48a9556ccfb166c13c8bf00aebe599a"
+        }
+      ],
+      "variants": [
+        {
+          "name": "5 ft",
+          "color": "White",
+          "colorHex": "#eee9e1",
+          "sku": "HRD-XMAS-CM23510CM23513US-STANDARD",
+          "priceCents": 7499
+        }
+      ],
+      "videoUrl": "https://hooya.s3.us-west-1.amazonaws.com/Display+video/CM23510.mp4",
+      "videoTitle": "Snow-flocked tree product video",
+      "videoSource": "https://www.costway.com/pre-lit-hinged-christmas-tree-with-remote-control-lights.html"
+    },
+    {
+      "id": "xmas-cw-cm22830",
+      "slug": "costway-7-ft-rainbow-christmas-tree-cm22830",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 7 ft Rainbow Christmas Tree",
+      "brand": "Costway",
+      "model": "CM22830",
+      "sku": "HRD-XMAS-CM22830",
+      "description": "A rainbow of coloured branches creates a bold alternative to evergreen. This unlit tree has 1,213 tips, hinged sections and a metal stand, ready for your own lights and ornaments.",
+      "material": "New PVC + iron",
+      "dimensions": "Overall dimensions: 3.2' x 7'(Dia x H)",
+      "weight": "17.5 lbs",
+      "color": "Multicolor",
+      "colorHex": "#ad5373",
+      "features": [
+        "1,213 branch tips",
+        "Rainbow-coloured foliage",
+        "Unlit design",
+        "Hinged branches"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Multicolor"
+        },
+        {
+          "label": "Material",
+          "value": "New PVC + iron"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "3.2' x 7'(Dia x H)"
+        },
+        {
+          "label": "Number of Tips",
+          "value": "1213"
+        },
+        {
+          "label": "Net weight",
+          "value": "17.5 lbs"
+        }
+      ],
+      "priceCents": 7499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/7-feet-artificial-hinged-traditional-christmas-tree-with-metal-stand.html",
+      "sourceSelection": [],
+      "selectedSize": "7 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 7499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/01.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/1/_1_77_26.jpg",
+          "imageId": "CM22830-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "7333677aa48eb1c44ea18a53ee7349a6bae6986a252a4a332c4ec8753956f91f"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/02.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/1/_1_78_4.jpg",
+          "imageId": "CM22830-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "ff3723e470f2d062f37215c5399e476ac624366e1b6c69ece862d20e3b9013dc"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/03.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/f/i/file_181_38.jpg",
+          "imageId": "CM22830-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "a81f71369cff88509ddeec02e65467846afe844e38f2bb5d50fabc2b163b6fab"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/04.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/3/_3_37_3.jpg",
+          "imageId": "CM22830-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "99540b42f7c330ee88d012b37035acd3afea2aa20f69d2d01a08c1c54cb6040d"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/05.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/2/_2_86_34.jpg",
+          "imageId": "CM22830-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "f29218e35b2ad6c61b002d4b0e32818f345ab1528f63b4ffbce8e03ea79b71bb"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/06.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/3/_3_36_32.jpg",
+          "imageId": "CM22830-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "0d26182f95e67f34eb47fc06be9afa1f07b13e1dacbacb87b7af0c717e0b9023"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/07.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/1/_1_79_2.jpg",
+          "imageId": "CM22830-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "5eaf2e125a5f6eaa15e0b671300444863a590d45dc4bbb2b2113afd7e1806991"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/08.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/4/_4_20_20.jpg",
+          "imageId": "CM22830-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "d1596ac8b8b2a1785bc52ffb507da2a0617c4be10eecf98915dde07b01fea336"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/09.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/2/_2_87_9.jpg",
+          "imageId": "CM22830-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "7c6cced310a8f1578ecc5f4c4c74e2b704274d1ee6f8b50675801581c8cb4d33"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/10.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/_/3/_3_38.jpg",
+          "imageId": "CM22830-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "acb52a6d78d127bd1907053811eeaff989b4943e4f5d667dbf389bbaef6e649c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22830/11.jpg",
+          "alt": "7 ft Rainbow Christmas Tree — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_453_50.jpg",
+          "imageId": "CM22830-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "d8afc7524daefb7f0db3b549017dd36b8e2ceb23837cd05298770311d1aca2b2"
+        }
+      ],
+      "variants": [
+        {
+          "name": "7 ft",
+          "color": "Multicolor",
+          "colorHex": "#ad5373",
+          "sku": "HRD-XMAS-CM22830-STANDARD",
+          "priceCents": 7499
+        }
+      ],
+      "videoUrl": "https://cdn1.costway.com/Display+video/CM22830.mp4",
+      "videoTitle": "Rainbow tree product video",
+      "videoSource": "https://www.costway.com/7-feet-artificial-hinged-traditional-christmas-tree-with-metal-stand.html"
+    },
+    {
+      "id": "xmas-cw-cm25516piece",
+      "slug": "costway-24-in-pine-cone-wreath-with-35-leds-cm25516piece",
+      "asin": "",
+      "category": "christmas-wreaths-garlands",
+      "name": "Costway 24 in Pine Cone Wreath with 35 LEDs",
+      "brand": "Costway",
+      "model": "CM25516piece",
+      "sku": "HRD-XMAS-CM25516PIECE",
+      "description": "Brown winter foliage and natural pine cones frame a warm illuminated welcome. The battery-operated lights have a timer, making it easy to decorate without trailing power cords.",
+      "material": "PVC, PE, Metal",
+      "dimensions": "Diameter: 24 in; Inner diameter: 13 in",
+      "weight": "2 lbs",
+      "color": "Brown",
+      "colorHex": "#806746",
+      "features": [
+        "105 branch tips",
+        "Six natural pine cones",
+        "35 warm white LEDs",
+        "Battery-powered timer"
+      ],
+      "included": [
+        "One illuminated wreath"
+      ],
+      "specifications": [
+        {
+          "label": "Diameter",
+          "value": "24 in"
+        },
+        {
+          "label": "Inner diameter",
+          "value": "13 in"
+        },
+        {
+          "label": "LED lights",
+          "value": "35"
+        },
+        {
+          "label": "Battery requirement",
+          "value": "3 AA batteries, not included"
+        },
+        {
+          "label": "Timer",
+          "value": "6 hours on / 18 hours off"
+        }
+      ],
+      "priceCents": 3499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/24-inch-pre-lit-christmas-wreath-with-105-branch-tips-and-35-warm-white-led-lights.html",
+      "sourceSelection": [
+        "Size: Set of 1"
+      ],
+      "selectedSize": "24 in / single wreath",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 3499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/01.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657376089218_510091.jpg",
+          "imageId": "CM25516piece-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "2105c98394ced2c7d7941be66e84af62dc5ff51932670034c3a00160605d808c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/02.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657382500409_651034.jpg",
+          "imageId": "CM25516piece-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "72f77efdd562ca51386d9df91dfbca93ecc1ac9f474f2cc39187f05f57dbf057"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/03.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — room or display setting 3",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657383377270_740887.jpg",
+          "imageId": "CM25516piece-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "029e629c8b3eaa48e2ceb14a8587207379602e98935dd07e578ee9362b7b3487"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/04.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657376968713_979020.jpg",
+          "imageId": "CM25516piece-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "2a3b2986add4706def2003c81420891fcd855924f3a0bf422698f238fcf7587a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/05.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657384258508_781886.jpg",
+          "imageId": "CM25516piece-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "db4d722a54ed701c526e5dc1e3ef3008d2806e2c84b26b27d114bf6955bcda26"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/06.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657381724021_394080.jpg",
+          "imageId": "CM25516piece-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "c9ce99aab0df9d17869d605d8cffa0626a9c67375b0541cf92b44d82433127c1"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/07.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657378658127_193357.jpg",
+          "imageId": "CM25516piece-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "e60f0e8e3ec8b63f43a87e0852a541cb93ea5cb1a429c347e77c00e1abe64b93"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/08.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657379382541_156539.jpg",
+          "imageId": "CM25516piece-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "976b2bd1d9ac6381c33ddd33b2f3302ad4a069eccccc9b258893a976ebb4e459"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/09.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657380111270_202220.jpg",
+          "imageId": "CM25516piece-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "7da009cb4625b4f263151aa6dc48066d949ec40dd8931e0be2f1918c111b66f0"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25516piece/10.jpg",
+          "alt": "24 in Pine Cone Wreath with 35 LEDs — room or display setting 10",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1764657380913423_294348.jpg",
+          "imageId": "CM25516piece-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "00e9a3225566dbd3a614168c0ae99299a305477e15ea5fe5b5e02ec1ab273f52"
+        }
+      ],
+      "variants": [
+        {
+          "name": "24 in / single wreath",
+          "color": "Brown",
+          "colorHex": "#806746",
+          "sku": "HRD-XMAS-CM25516PIECE-STANDARD",
+          "priceCents": 3499
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm25521piece",
+      "slug": "costway-24-in-evergreen-wreath-with-35-leds-cm25521piece",
+      "asin": "",
+      "category": "christmas-wreaths-garlands",
+      "name": "Costway 24 in Evergreen Wreath with 35 LEDs",
+      "brand": "Costway",
+      "model": "CM25521piece",
+      "sku": "HRD-XMAS-CM25521PIECE",
+      "description": "Dense TPE foliage gives this wreath a fresh evergreen profile. Three light modes and a daily timer bring an adjustable glow to a doorway, window or mantel.",
+      "material": "TPE, Metal",
+      "dimensions": "Diameter: 24 in; Inner diameter: 13 in",
+      "weight": "3 lbs",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "108 branch tips",
+        "35 warm white LEDs",
+        "Three lighting modes",
+        "Daily timer"
+      ],
+      "included": [
+        "One illuminated wreath"
+      ],
+      "specifications": [
+        {
+          "label": "Diameter",
+          "value": "24 in"
+        },
+        {
+          "label": "Inner diameter",
+          "value": "13 in"
+        },
+        {
+          "label": "Branch tips",
+          "value": "108"
+        },
+        {
+          "label": "LED lights",
+          "value": "35"
+        },
+        {
+          "label": "Timer",
+          "value": "6 hours on / 18 hours off"
+        }
+      ],
+      "priceCents": 4499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/24-inch-pre-lit-christmas-wreath-with-108-branch-tips-and-35-warm-white-led-lights-for-wall-window.html",
+      "sourceSelection": [
+        "Select: 24 Inch Pre-lit Christmas Wreath",
+        "Size: Set of 1"
+      ],
+      "selectedSize": "24 in / single wreath",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 4499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/01.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — room or display setting 1",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352016831402_691985.jpg",
+          "imageId": "CM25521piece-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "b2894e8b5e4004794cfc5d39958846f7f56c0a311593bc881ad42e00ccabb3eb"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/02.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — room or display setting 2",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352021562196_998341.jpg",
+          "imageId": "CM25521piece-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "0e7690a4a8e1cf9b90511da5bfbfc048456d169742c7a260135e96afdc5bef95"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/03.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — room or display setting 3",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352020642876_574713.jpg",
+          "imageId": "CM25521piece-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "8116de27e7ef15e1e901c3b710559bc52b42bb4d47c134b09f784325f6ea2119"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/04.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352017595870_640907.jpg",
+          "imageId": "CM25521piece-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "220622fca95a0bf6115013a475a01cb5396ef3dd74a77af7e734abf014958b36"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/05.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — dimensions 5",
+          "kind": "DIMENSIONS",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352027599286_267738.jpg",
+          "imageId": "CM25521piece-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "b42afea8f80b94cf83e04fafa4c862d79105cc8201a7484f5feeaf433acce696"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/06.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — room or display setting 6",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352022597673_831394.jpg",
+          "imageId": "CM25521piece-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "d44912461e3fec656d73a64b43f9ccd178845e5388da9121b0323e9ef143debf"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/07.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352023600784_703973.jpg",
+          "imageId": "CM25521piece-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "0ed932eb655f71f730fa5dfd68bbb299defec61b1f3c7ae13564bf0482f63d55"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/08.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352024582857_560185.jpg",
+          "imageId": "CM25521piece-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "7c06580899d87b2969dd81b3e59d8d20194603f21c53094984a308521410b875"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/09.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — room or display setting 9",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352025616308_280297.jpg",
+          "imageId": "CM25521piece-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "2f5ec76df95d4fb41b9c2f05d059dd0d72862c9735095bb4508121b0e2a36891"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25521piece/10.jpg",
+          "alt": "24 in Evergreen Wreath with 35 LEDs — room or display setting 10",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24_Inch_Pre_lit_Chri_1765352026655068_785847.jpg",
+          "imageId": "CM25521piece-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "df54180e5a8749e446d000ccd0683f8f4be88663b1207a62b7dea6a9e1beb810"
+        }
+      ],
+      "variants": [
+        {
+          "name": "24 in / single wreath",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM25521PIECE-STANDARD",
+          "priceCents": 4499
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm24903us",
+      "slug": "costway-trio-of-lighted-wreaths-with-red-bows-cm24903us",
+      "asin": "",
+      "category": "christmas-wreaths-garlands",
+      "name": "Costway Trio of Lighted Wreaths with Red Bows",
+      "brand": "Costway",
+      "model": "CM24903US",
+      "sku": "HRD-XMAS-CM24903US",
+      "description": "Three illuminated wreaths hang together along a red ribbon. The warm white light and matching bows create a coordinated vertical display for a door or covered entrance.",
+      "material": "Metal, PVC",
+      "dimensions": "Total Length: 5.8 ft; Diameter of Each Wreath: 15\"",
+      "weight": "2 lbs",
+      "color": "Red",
+      "colorHex": "#a93235",
+      "features": [
+        "Three wreaths",
+        "450 warm white LEDs",
+        "Red ribbon and bows",
+        "Hanging hook"
+      ],
+      "included": [
+        "Three connected illuminated wreaths",
+        "Hanging hook"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Red"
+        },
+        {
+          "label": "Material",
+          "value": "Metal, PVC"
+        },
+        {
+          "label": "Total Length",
+          "value": "5.8 ft"
+        },
+        {
+          "label": "Diameter of Each Wreath",
+          "value": "15\""
+        },
+        {
+          "label": "Net Weight",
+          "value": "2 lbs"
+        },
+        {
+          "label": "Cord Length",
+          "value": "16.5 ft"
+        },
+        {
+          "label": "Number of LED Lights",
+          "value": "450"
+        }
+      ],
+      "priceCents": 4999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/set-of-3-christmas-lighted-wreaths-with-warm-white-led-lights-and-bows.html",
+      "sourceSelection": [],
+      "selectedSize": "Three-wreath set",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 4999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/01.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-1.jpg",
+          "imageId": "CM24903US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "ff094cf5b67ed83a0f85f8ed34bfb2543255682c6fa53aa4dd119b6aa1377d02"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/02.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-2.jpg",
+          "imageId": "CM24903US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "5449ba2cf2d0ff1b6d005e51f168415d1e78d2b72b69cc7fc3177a80080b1835"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/03.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-3.jpg",
+          "imageId": "CM24903US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "97d0b21df7f45a3ad4d2742b29419aa84add12c3fd26120b6273affab49a0a80"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/04.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — dimensions 4",
+          "kind": "DIMENSIONS",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows_Size-4.jpg",
+          "imageId": "CM24903US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "875539d016ada703e233a18d3e9d1776175da20bcd9bc45da6b0ba116acdcfb0"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/05.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — room or display setting 5",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-5.jpg",
+          "imageId": "CM24903US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "7fa5e13848a9fae3454da7714b3e1a991ed17314748a3f731b64b36183b47393"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/06.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-6.jpg",
+          "imageId": "CM24903US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "2710b578189b4abe63a180109507a7e65abb3cc33b8f94beec1d076de70214bd"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/07.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — room or display setting 7",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-7.jpg",
+          "imageId": "CM24903US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "d0c083bf31d4295c0a2deeed736f541776ca7249330c4c324424e28d75c9a1cb"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/08.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-8.jpg",
+          "imageId": "CM24903US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "243683ea42292dc979d4a842b22f04974102f2d8db2f5a3a24f08a79179500df"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/09.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-9.jpg",
+          "imageId": "CM24903US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "f1703259e723c035af5a662e5d0a492799c6b98f8f06d449cb8d9cd39d0b886b"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24903us/10.jpg",
+          "alt": "Trio of Lighted Wreaths with Red Bows — room or display setting 10",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/CM24903US/Set_of_3_Christmas_Lighted_Wreaths_with_Warm_White_LED_Lights_abd_Bows-10.jpg",
+          "imageId": "CM24903US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "1255446d8ee292f8d2d4ee5c53be66e4bdc4573674c43d05e3037c37a1a33251"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Three-wreath set",
+          "color": "Red",
+          "colorHex": "#a93235",
+          "sku": "HRD-XMAS-CM24903US-STANDARD",
+          "priceCents": 4999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm24767uscolor",
+      "slug": "costway-48-in-green-mesh-wreath-with-200-leds-cm24767uscolor",
+      "asin": "",
+      "category": "christmas-wreaths-garlands",
+      "name": "Costway 48 in Green Mesh Wreath with 200 LEDs",
+      "brand": "Costway",
+      "model": "CM24767UScolor",
+      "sku": "HRD-XMAS-CM24767USCOLOR",
+      "description": "An oversized green mesh wreath and red bow make a festive focal point. Its sectional frame assembles for display, with hanging hooks and a long power cord for positioning.",
+      "material": "Metal, Mesh Fabric",
+      "dimensions": "Diameter of Wreath: 48\"; Dimension of Bow: 29\" x 30\"",
+      "weight": "6 lbs",
+      "color": "Multicolour",
+      "colorHex": "#ad5373",
+      "features": [
+        "48-inch wreath",
+        "200 LEDs",
+        "Red bow",
+        "Hanging hooks"
+      ],
+      "included": [
+        "Wreath with bow",
+        "Hanging hooks"
+      ],
+      "specifications": [
+        {
+          "label": "Color of LED Light",
+          "value": "Warm White + Red"
+        },
+        {
+          "label": "Material",
+          "value": "Metal, Mesh Fabric"
+        },
+        {
+          "label": "Diameter of Wreath",
+          "value": "48\""
+        },
+        {
+          "label": "Dimension of Bow",
+          "value": "29\" x 30\""
+        },
+        {
+          "label": "Net Weight",
+          "value": "6 lbs"
+        },
+        {
+          "label": "Cord Length",
+          "value": "16.5 ft"
+        },
+        {
+          "label": "Number of LED Lights",
+          "value": "200"
+        }
+      ],
+      "priceCents": 7999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/48-inch-pre-lit-lighted-christmas-mesh-wreath-with-bow-and-200-led-bulbs.html",
+      "sourceSelection": [
+        "Color: Green"
+      ],
+      "selectedSize": "48 in / green",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 7999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/01.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003026226711_292108.jpg",
+          "imageId": "CM24767UScolor-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "77306c8016e81e2daef10b53bc371c819134fd17e41b7b31ba0b025932ecb496"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/02.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003005675970_333544.jpg",
+          "imageId": "CM24767UScolor-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "7fd1b6ad69819b70badbfa55ae5b80c62a2131c00cdea82c86a918d17b4e8603"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/03.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003006556140_889587.jpg",
+          "imageId": "CM24767UScolor-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "7a2672682c11530d4611fa5bcb2b4f453de6bd43e56443e6807037fb36729c94"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/04.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003052705025_830935.jpg",
+          "imageId": "CM24767UScolor-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "34f8e1350946c791525a1275e8a658a9fa02790f9590f9898d9ef30339e315b0"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/05.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003054473087_393517.jpg",
+          "imageId": "CM24767UScolor-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "c3740036e6c4621cf512fbc587063ac584269bc47c9fb3cc5d397465f0291030"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/06.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003053617847_271536.jpg",
+          "imageId": "CM24767UScolor-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "c134edb80ac36cf4b60079057cf1eb456b42134a5262708b5a482a7b097b5851"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/07.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003080625445_197426.jpg",
+          "imageId": "CM24767UScolor-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "11eb3e2bbead67af995541b73dc63c26c9cae633a02e3775ce7a832a5cd08533"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/08.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003081474606_334024.jpg",
+          "imageId": "CM24767UScolor-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "e571cbb78875dc3f45825feadb4c8bf62f5a89646a34e686b4fd303c23833944"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/09.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003082387741_216394.jpg",
+          "imageId": "CM24767UScolor-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "aa7d9f8c4579cd66bdf6592210f19262f30bb153cb722e9cd4b1f2788a4d2a73"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/10.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003083234394_690662.jpg",
+          "imageId": "CM24767UScolor-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "e17a89f8ae2f6e4ef4fc05335ac64916e742466117fe1baf2a0cd438e6a50c3d"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24767uscolor/11.jpg",
+          "alt": "48 in Green Mesh Wreath with 200 LEDs — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/8/48_Inch_Pre_Lit_Ligh_1758003084115843_812553.jpg",
+          "imageId": "CM24767UScolor-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "f483ba008163c921630b75cd68dd9a90600944d183b6db010407186756e9d478"
+        }
+      ],
+      "variants": [
+        {
+          "name": "48 in / green",
+          "color": "Multicolour",
+          "colorHex": "#ad5373",
+          "sku": "HRD-XMAS-CM24767USCOLOR-STANDARD",
+          "priceCents": 7999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm22796",
+      "slug": "costway-9-ft-silver-accent-garland-with-50-leds-cm22796",
+      "asin": "",
+      "category": "christmas-wreaths-garlands",
+      "name": "Costway 9 ft Silver-accent Garland with 50 LEDs",
+      "brand": "Costway",
+      "model": "CM22796",
+      "sku": "HRD-XMAS-CM22796",
+      "description": "Silver accents and pine cones dress this illuminated garland for the season. Its flexible length can frame a mantel, stair rail or doorway.",
+      "material": "New PVC, pine needle",
+      "dimensions": "Length: 9ft",
+      "weight": "2.4 lbs",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "Nine-foot length",
+        "50 warm white LEDs",
+        "Silver accents",
+        "Pine cone decoration"
+      ],
+      "included": [
+        "One pre-lit garland"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Green"
+        },
+        {
+          "label": "Material",
+          "value": "New PVC, pine needle"
+        },
+        {
+          "label": "Net weight",
+          "value": "2.4 lbs"
+        },
+        {
+          "label": "Length",
+          "value": "9ft"
+        }
+      ],
+      "priceCents": 3999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/9-feet-pre-lit-artificial-christmas-garland-with-led-lights.html",
+      "sourceSelection": [
+        "Select: Silver Leaf"
+      ],
+      "selectedSize": "9 ft / silver accents",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 3999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/01.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_389_11.jpg",
+          "imageId": "CM22796-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "cdf07a1fb46e82b475508aaf2135cf150d429e1f80948efad3455ea670318a30"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/02.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/_/2_384_9.jpg",
+          "imageId": "CM22796-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "b645bcf27b38ec59ba59e061a97cee0f21d492cf38f376097724c05569c2aadf"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/03.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_407_10.jpg",
+          "imageId": "CM22796-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "d064568cfb361eae52fd05671e63ef9b23865e830121255b2d8996bf79172b29"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/04.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/9/_/9_299_10.jpg",
+          "imageId": "CM22796-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "646d2ce3b29d30ba4dacf4830bb9b1e8fd6072097e7c272257b0f82c99ad9e1c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/05.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/8/_/8_315_38.jpg",
+          "imageId": "CM22796-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "927537fd89319b66d58e1199d69f62e474dd6a08c56bdbd0a9af41d799a56e19"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/06.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/_/4_383_11.jpg",
+          "imageId": "CM22796-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "5552bd68c6ab7fde05e09cafb32d6a17aa4da9d85d357c75d8eaff138d5a1de1"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/07.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_349_11.jpg",
+          "imageId": "CM22796-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "8ce6415a531f7ac51f1fb73002a832cc865df4941c51658ba3835574294424ff"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/08.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/5/_/5_365_11.jpg",
+          "imageId": "CM22796-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "067fd7c820759a9136b8fadf635376716890e930835f16d696977788f9a5e045"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22796/09.jpg",
+          "alt": "9 ft Silver-accent Garland with 50 LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_370_15.jpg",
+          "imageId": "CM22796-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "056dbc2cde1306cb584bf156c1fbd60fcd6313e488fc27b1de2c8c779adbe0f4"
+        }
+      ],
+      "variants": [
+        {
+          "name": "9 ft / silver accents",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM22796-STANDARD",
+          "priceCents": 3999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm24768us",
+      "slug": "costway-lighted-reindeer-and-sleigh-with-462-leds-cm24768us",
+      "asin": "",
+      "category": "christmas-outdoor-decor",
+      "name": "Costway Lighted Reindeer and Sleigh with 462 LEDs",
+      "brand": "Costway",
+      "model": "CM24768US",
+      "sku": "HRD-XMAS-CM24768US",
+      "description": "A reindeer and sleigh create a coordinated Christmas scene. Red and green accents, mesh surfaces and warm illumination make this two-piece display a festive garden feature.",
+      "material": "Mesh Fabric, PVC, Metal",
+      "dimensions": "Dimension of Reindeer: 31\" x 12\" x 5.4 ft; Dimension of Sleigh: 39\" x 19\" x 2.4 ft",
+      "weight": "11 lbs",
+      "color": "White, Red, Green",
+      "colorHex": "#eee9e1",
+      "features": [
+        "Two-piece display",
+        "462 LED lights",
+        "Metal frame",
+        "Ground stakes and zip ties"
+      ],
+      "included": [
+        "Lighted reindeer",
+        "Lighted sleigh",
+        "Ground stakes",
+        "Zip ties"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "White, Red, Green"
+        },
+        {
+          "label": "Material",
+          "value": "Mesh Fabric, PVC, Metal"
+        },
+        {
+          "label": "Dimension of Reindeer",
+          "value": "31\" x 12\" x 5.4 ft"
+        },
+        {
+          "label": "Dimension of Sleigh",
+          "value": "39\" x 19\" x 2.4 ft"
+        },
+        {
+          "label": "Net Weight",
+          "value": "11 lbs"
+        },
+        {
+          "label": "Number of LED Lights",
+          "value": "462"
+        }
+      ],
+      "priceCents": 12999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/led-lighted-christmas-reindeer-and-santas-sleigh.html",
+      "sourceSelection": [
+        "Select: 2-Piece"
+      ],
+      "selectedSize": "Two-piece set",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 12999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/01.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh-1.jpg",
+          "imageId": "CM24768US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "dd6c1c3b18dc3f7fdb7ac626205b17a3ae5617d88f812b0f69d621d137f31931"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/02.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh-2.jpg",
+          "imageId": "CM24768US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "c78778354c4fd88db41de4a30df8c94bf6d64d246839f5916fa47b94f4173c9e"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/03.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh-3.jpg",
+          "imageId": "CM24768US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "9b1d21c13544902042446099b44afb3f9c0c42a2d98a34042d9c21a7393398ab"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/04.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — dimensions 4",
+          "kind": "DIMENSIONS",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh_size-4.jpg",
+          "imageId": "CM24768US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "07843fdca281a02efd29f5715e8371c3e327807222589544084e66a28ef77fb2"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/05.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh-5.jpg",
+          "imageId": "CM24768US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "38a3859133f2825c13037fcdff316d1ab71a0f83d9ab794d9c82428a52299599"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/06.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh-7.jpg",
+          "imageId": "CM24768US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "041ae48cf942467440cb511e582e12eb86fdc4375dabde13b0ac850e08bfc023"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/07.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh-6.jpg",
+          "imageId": "CM24768US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "d4af8c678519e84d5cb116f099ffec47f2aeb21135e0a9b9d163465176424410"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm24768us/08.jpg",
+          "alt": "Lighted Reindeer and Sleigh with 462 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/l/e/led_lighted_christmas_reindeer_and_santas_sleigh-8.jpg",
+          "imageId": "CM24768US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "7affee1c42e5488c6dfa42d808b1819c173783ef0cb0b8266be5334ad6ee5090"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Two-piece set",
+          "color": "White, Red, Green",
+          "colorHex": "#eee9e1",
+          "sku": "HRD-XMAS-CM24768US-STANDARD",
+          "priceCents": 12999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm25115uscolor",
+      "slug": "costway-white-lighted-reindeer-and-sleigh-trio-cm25115uscolor",
+      "asin": "",
+      "category": "christmas-outdoor-decor",
+      "name": "Costway White Lighted Reindeer and Sleigh Trio",
+      "brand": "Costway",
+      "model": "CM25115UScolor",
+      "sku": "HRD-XMAS-CM25115USCOLOR",
+      "description": "Two reindeer and a sleigh form a festive outdoor scene. Matching red bows and illuminated frames coordinate the three pieces, with ground stakes for installation.",
+      "material": "Metal, Fabric",
+      "dimensions": "Dimensions of the Large Reindeer: 37\" x 14\" x 60\"; Dimensions of the Small Reindeer: 35\" x 10.5\" x 60\"; Dimensions of the Sleigh: 46\" x 18.5\" x 27.5\"",
+      "weight": "17 lbs",
+      "color": "White",
+      "colorHex": "#eee9e1",
+      "features": [
+        "Three-piece display",
+        "280 LED lights",
+        "Red bows",
+        "Ground stakes"
+      ],
+      "included": [
+        "Two lighted reindeer",
+        "Lighted sleigh",
+        "Ground stakes"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Multi-color"
+        },
+        {
+          "label": "Material",
+          "value": "Metal, Fabric"
+        },
+        {
+          "label": "Dimensions of the Large Reindeer",
+          "value": "37\" x 14\" x 60\""
+        },
+        {
+          "label": "Dimensions of the Small Reindeer",
+          "value": "35\" x 10.5\" x 60\""
+        },
+        {
+          "label": "Dimensions of the Sleigh",
+          "value": "46\" x 18.5\" x 27.5\""
+        },
+        {
+          "label": "Net Weight",
+          "value": "17 lbs"
+        },
+        {
+          "label": "Is Assembly Required",
+          "value": "Yes"
+        }
+      ],
+      "priceCents": 17499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/3-piece-christmas-lighted-reindeer-and-sleigh-set-for-lawn.html",
+      "sourceSelection": [
+        "Select: 3-Piece Christmas Lighted Reindeer",
+        "Color: White"
+      ],
+      "selectedSize": "Three-piece / white",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 17499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/01.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960404778196_673283.jpeg",
+          "imageId": "CM25115UScolor-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "e0f241ea54beaf2dfc7f9026006c751396903de4a597ad855dd147e1482d4b7a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/02.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960403226114_812748.jpeg",
+          "imageId": "CM25115UScolor-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "fc88c052b4b0aa7b7888b00d04c29b68004cd7904ce95c4b954c455c07118921"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/03.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960404002431_994433.jpeg",
+          "imageId": "CM25115UScolor-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "724bf48db92177d81427dee6302486aee6d7b04cc3e524fdc40dca841a0bd8bd"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/04.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960405644231_323593.jpeg",
+          "imageId": "CM25115UScolor-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "e95a59bf29926f4a298e0d93dd653a182bdb2811997ad25198f5c17e77f559ab"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/05.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960411257328_978121.jpeg",
+          "imageId": "CM25115UScolor-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "dc65bf7e2a5a24cc651117f7e52613a461087efc44f41cb99f0f3713601ea85a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/06.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960406446194_668102.jpeg",
+          "imageId": "CM25115UScolor-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "c2f51e4d3fd6c507c2502b00cfa667be640ebd161dcc45c7c396a49256769a86"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/07.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960407199220_296848.jpeg",
+          "imageId": "CM25115UScolor-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "d3e0b26225fa78b9158b8b1e2157bc70df8bdfbb47104a107e844d3ff27dcfd3"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/08.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960407945605_894164.jpeg",
+          "imageId": "CM25115UScolor-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "0eda4e7b1378dab61f31235c49e5960a02fc138f7fe95f1e1d4413e8b82cf65a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/09.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960408791974_102341.jpeg",
+          "imageId": "CM25115UScolor-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "fdd756d65e67ca33283fdb3261c4f81780f0d4461b6045b3df655b56624426d9"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/10.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960409671119_527037.jpeg",
+          "imageId": "CM25115UScolor-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "3a225600cf0ad910c6fbbb3f47640d05cdd10d859c35831b924b265e42331e74"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25115uscolor/11.jpeg",
+          "alt": "White Lighted Reindeer and Sleigh Trio — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_Piece_Christmas_Li_1789960410470618_965552.jpeg",
+          "imageId": "CM25115UScolor-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "76ba91a45fa0eec9826051c83b51f35708da7ded88e9bebd5e54b8ac13fa92a1"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Three-piece / white",
+          "color": "White",
+          "colorHex": "#eee9e1",
+          "sku": "HRD-XMAS-CM25115USCOLOR-STANDARD",
+          "priceCents": 17499
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm23730us",
+      "slug": "costway-6-ft-and-5-ft-inflatable-snowmen-set-cm23730us",
+      "asin": "",
+      "category": "christmas-outdoor-decor",
+      "name": "Costway 6 ft and 5 ft Inflatable Snowmen Set",
+      "brand": "Costway",
+      "model": "CM23730US",
+      "sku": "HRD-XMAS-CM23730US",
+      "description": "Two smiling snowmen greet visitors with an illuminated festive display. A built-in blower inflates the decoration, and the supplied anchoring accessories keep it in place.",
+      "material": "Waterproof polyester fabric",
+      "dimensions": "Height of taller snowman: 6 ft; Height of shorter snowman: 5ft",
+      "weight": "2.8 lbs",
+      "color": "Multicolour",
+      "colorHex": "#ad5373",
+      "features": [
+        "Six-foot and five-foot snowmen",
+        "Built-in LED lights",
+        "Built-in blower",
+        "Ground stakes and ropes"
+      ],
+      "included": [
+        "Inflatable snowmen decoration",
+        "Four ground stakes",
+        "Two ropes"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Waterproof polyester fabric"
+        },
+        {
+          "label": "Net weight",
+          "value": "2.8 lbs"
+        },
+        {
+          "label": "Height of taller snowman",
+          "value": "6 ft"
+        },
+        {
+          "label": "Height of shorter snowman",
+          "value": "5ft"
+        },
+        {
+          "label": "Exposed length of wire",
+          "value": "9.5 ft"
+        }
+      ],
+      "priceCents": 5299,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/6-feet-christmas-inflatable-snowmen-blow-up-christmas-decoration.html",
+      "sourceSelection": [
+        "Select: 6 Feet Snowmen Set"
+      ],
+      "selectedSize": "6 ft / 5 ft set",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 5299,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/01.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031399.jpg",
+          "imageId": "CM23730US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "ac1f54f2cb88c7d76188041ddc56e5feda5cce20fc64b34a8b316a73efc3c895"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/02.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031406.jpg",
+          "imageId": "CM23730US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "a5e9869e45e5631c3a3a5563727c4ac90b1f05c0b0784065f3072e50e9f4037b"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/03.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031385.jpg",
+          "imageId": "CM23730US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "91ebddf475585a55f0d05a6602bf2a2f3cca2f1c2310a7f4b8a82649b0c98989"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/04.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031405.jpg",
+          "imageId": "CM23730US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "33e252026ff06e78d2fa792c088383b0b11a086dacc8d63afa2757a960602300"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/05.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031384.jpg",
+          "imageId": "CM23730US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "52bef311f1f86da8f39313e2b0847d5f078c394d0eb8af510aec7df718a57056"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/06.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031303.jpg",
+          "imageId": "CM23730US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "81e8d1c2c15df000720b47995c41dd44a491865436aa0984d9757ef0999b0634"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/07.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031403.jpg",
+          "imageId": "CM23730US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "0ab408b3c41a477b53ee08fb376bc86f78047a5b6cde8ef9ad11d63c0f4fdaa6"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/08.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — room or display setting 8",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031395.jpg",
+          "imageId": "CM23730US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "f0908e0fc1d97979c7d2f2f3c4d0e37925cdd90240f037d64dc0ae80e6bdbfb5"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/09.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031381.jpg",
+          "imageId": "CM23730US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "c61ecf37fc645ece4cc1a23681c8cae1bc85bd2841c740f774bf29bef08e892c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23730us/10.jpg",
+          "alt": "6 ft and 5 ft Inflatable Snowmen Set — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/a/ia_100000031396.jpg",
+          "imageId": "CM23730US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "6510e1430deefc429d242608ebf468c56e465e94ae846036bfe877d0f668099c"
+        }
+      ],
+      "variants": [
+        {
+          "name": "6 ft / 5 ft set",
+          "color": "Multicolour",
+          "colorHex": "#ad5373",
+          "sku": "HRD-XMAS-CM23730US-STANDARD",
+          "priceCents": 5299
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm25278us",
+      "slug": "costway-6-ft-pine-cone-tree-with-200-leds-cm25278us",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 6 ft Pine Cone Tree with 200 LEDs",
+      "brand": "Costway",
+      "model": "CM25278US",
+      "sku": "HRD-XMAS-CM25278US",
+      "description": "A layered pine profile combines textured foliage with natural pine cones. Warm white lighting and hinged branches make this compact tree easy to prepare for the season.",
+      "material": "PVC",
+      "dimensions": "Tree Height: 6 ft; Tree Width: 3.3 ft",
+      "weight": "17 lbs",
+      "color": "Chocolate",
+      "colorHex": "#806746",
+      "features": [
+        "493 branch tips",
+        "52 pine cones",
+        "200 warm white LEDs",
+        "Hinged branches"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Chocolate"
+        },
+        {
+          "label": "Material",
+          "value": "PVC"
+        },
+        {
+          "label": "Tree Height",
+          "value": "6 ft"
+        },
+        {
+          "label": "Tree Width",
+          "value": "3.3 ft"
+        },
+        {
+          "label": "Diameter of Stand",
+          "value": "16\""
+        },
+        {
+          "label": "Number of Branch Tips",
+          "value": "493"
+        },
+        {
+          "label": "Number of LED Lights",
+          "value": "200"
+        },
+        {
+          "label": "Number of Pine Cones",
+          "value": "52"
+        },
+        {
+          "label": "Number of Sections",
+          "value": "3"
+        },
+        {
+          "label": "Net Weight",
+          "value": "17 lbs"
+        }
+      ],
+      "priceCents": 8999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/6-feet-artificial-christmas-tree-with-493-branch-tips-for-home-office-carnival.html",
+      "sourceSelection": [
+        "Select: 6 Feet"
+      ],
+      "selectedSize": "6 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 8999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/01.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632538390445_614343.jpg",
+          "imageId": "CM25278US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "7409d055907e4efc70417c12a42fc0ec8a8aeddf5bf9ea4f72e12cc224d92bcf"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/02.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632537633761_455204.jpg",
+          "imageId": "CM25278US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "a070bfdc23d89943a8be9e128f2dd142ebb322816bcc23a9196762ef22b3b4b3"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/03.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632536903628_631962.jpg",
+          "imageId": "CM25278US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "bb572a0e136139583a1eb78e4b7f051907be426dcffaea5a925be72f9f3a62d1"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/04.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632534519441_132616.jpg",
+          "imageId": "CM25278US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "d249e8f0620e9893965430edd476df71d7c1ed66074d4f3ac318ef94313b3a16"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/05.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632536122400_907718.jpg",
+          "imageId": "CM25278US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "32383fd36ecb658fce83ab59115429f9342a3815e059de6f15779ed36831d8a2"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/06.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632539192887_276345.jpg",
+          "imageId": "CM25278US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "849480588dda9c84812a1dfa926d1e4e69deb80207c2a3485d407f3728b20400"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/07.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632535295471_324898.jpg",
+          "imageId": "CM25278US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "a4b5bbf7fb1874f550f3e923392e1296fd6c4d4ed8acb2c7d51f9b22f9bcdc01"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/08.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632542358486_716094.jpg",
+          "imageId": "CM25278US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "8d7f0686676233e79919dbcd2031b7d196df5ce0aa293dc3717380060292dee3"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/09.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632539940115_393838.jpg",
+          "imageId": "CM25278US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "058b10d36cca2da529a76079f6016f94a2cdab3c789439be4a3159e1b6de7ccd"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/10.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632540711449_485446.jpg",
+          "imageId": "CM25278US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "d631b927bbfa9f5248649a3d4c0e3d3cbf4762513011b78740678589b413dba4"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25278us/11.jpg",
+          "alt": "6 ft Pine Cone Tree with 200 LEDs — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_Feet_Artificial_Ch_1758632541528662_665095.jpg",
+          "imageId": "CM25278US-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "4bedaf4d663b3c2dc408bd77d6ba03b3675d361346c4ab646cc5c88550167708"
+        }
+      ],
+      "variants": [
+        {
+          "name": "6 ft",
+          "color": "Chocolate",
+          "colorHex": "#806746",
+          "sku": "HRD-XMAS-CM25278US-STANDARD",
+          "priceCents": 8999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm23551us",
+      "slug": "costway-6-ft-snow-flocked-berry-tree-with-250-leds-cm23551us",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 6 ft Snow-flocked Berry Tree with 250 LEDs",
+      "brand": "Costway",
+      "model": "CM23551US",
+      "sku": "HRD-XMAS-CM23551US",
+      "description": "Snow-dusted branches, red berries and pine cones give this tree a traditional winter look. Warm white lights are already fitted, and three hinged sections simplify assembly.",
+      "material": "PVC, metal",
+      "dimensions": "Overall dimensions: 6' x 3.6' (H x D)",
+      "weight": "15.5 lbs",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "818 branch tips",
+        "250 warm white LEDs",
+        "Pine cones and red berries",
+        "Three-section tree"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Green"
+        },
+        {
+          "label": "Material",
+          "value": "PVC, metal"
+        },
+        {
+          "label": "Overall dimensions",
+          "value": "6' x 3.6' (H x D)"
+        },
+        {
+          "label": "Net weight",
+          "value": "15.5 lbs"
+        },
+        {
+          "label": "Number of lights",
+          "value": "250"
+        },
+        {
+          "label": "Number of tips",
+          "value": "818"
+        },
+        {
+          "label": "Number of sections",
+          "value": "3"
+        }
+      ],
+      "priceCents": 8999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/pre-lit-snow-flocked-christmas-tree-with-red-berries-and-led-lights.html",
+      "sourceSelection": [],
+      "selectedSize": "6 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 8999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/01.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_9__2.jpg",
+          "imageId": "CM23551US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "3ea0a0c429a93d4f7dd55c4f40e6f23f5379149fec73c23f8ba1b762108118f7"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/02.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_11__2.jpg",
+          "imageId": "CM23551US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "b355de74523b03e8d095874e70468020cc42c1fb8bcf9769fb88f98e61bb2241"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/03.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_2__2.jpg",
+          "imageId": "CM23551US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "0a7c31e3f95d6f070eb35d3a5a821d27e1924d51342bd3ae731c2b3530289310"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/04.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_3__2.jpg",
+          "imageId": "CM23551US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "77ea5841dbf5aa6cb81979583e9cac1503507be016ecfa553e2b2fc9dab6676d"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/05.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_13__2.jpg",
+          "imageId": "CM23551US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "a4e57110015c9b6d77746cf238e3a68f270ad6b9be5748191a0971fb66065334"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/06.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_12__2.jpg",
+          "imageId": "CM23551US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "a2a25d639567d448408e8675b515a06685012bb6356375cf583f9e3a053a5290"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/07.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_4__2.jpg",
+          "imageId": "CM23551US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "30168bae95fa6125960dac1f231493a76517e6991bf100e0cbbb81dccfd18dc9"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/08.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_10__2.jpg",
+          "imageId": "CM23551US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "b4a416145afa673b6e264fefee776500f382555bbabb49f4b646c2a7f3c602e0"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/09.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_6__2.jpg",
+          "imageId": "CM23551US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "1a616ff9087919e155f6dedc0cccfaa529c44552b15c266e675c71625d3f6769"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/10.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_8__2.jpg",
+          "imageId": "CM23551US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "48b20a3ea4f82e65381b2883303398eb548bf58ceefad58edd4bd374f4a6580c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/11.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_5__2.jpg",
+          "imageId": "CM23551US-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "d126d8b3049bb7c6732833b717a2feeee739e5664fa25bed44e59be79c64b10a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/12.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 12",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-2.jpg",
+          "imageId": "CM23551US-12",
+          "width": 750,
+          "height": 750,
+          "sha256": "8078f7d07461bb097c144251ed3fbae32650c2c27283eccd33a58226cda98396"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm23551us/13.jpg",
+          "alt": "6 ft Snow-flocked Berry Tree with 250 LEDs — product detail 13",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm23551-1_7__2.jpg",
+          "imageId": "CM23551US-13",
+          "width": 750,
+          "height": 750,
+          "sha256": "cad93dd09c65fc51769b2f99b5e75296321b4e805ecd51a1bc97683e5c217ea5"
+        }
+      ],
+      "variants": [
+        {
+          "name": "6 ft",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM23551US-STANDARD",
+          "priceCents": 8999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm25569",
+      "slug": "costway-3-ft-snow-flocked-tabletop-cypress-tree-cm25569",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 3 ft Snow-flocked Tabletop Cypress Tree",
+      "brand": "Costway",
+      "model": "CM25569",
+      "sku": "HRD-XMAS-CM25569",
+      "description": "An airy cypress-style tree for a tabletop or entry console. Snow-flocked PE foliage and natural pine cones sit above a linen-wrapped cement base.",
+      "material": "PE, Linen Fabric, Cement",
+      "dimensions": "Product Dimensions: 1.3 x 3 ft; Tree Height: 3 ft; Tree Width: 1.3 ft; Base Size: 6\" x 3\"",
+      "weight": "3.5 lbs",
+      "color": "Green+White",
+      "colorHex": "#3b614b",
+      "features": [
+        "Three-foot height",
+        "25 branch tips",
+        "Seven pine cones",
+        "Linen-wrapped cement base"
+      ],
+      "included": [
+        "One tabletop tree"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Green+White"
+        },
+        {
+          "label": "Material",
+          "value": "PE, Linen Fabric, Cement"
+        },
+        {
+          "label": "Product Dimensions",
+          "value": "1.3 x 3 ft"
+        },
+        {
+          "label": "Tree Height",
+          "value": "3 ft"
+        },
+        {
+          "label": "Tree Width",
+          "value": "1.3 ft"
+        },
+        {
+          "label": "Base Size",
+          "value": "6\" x 3\""
+        },
+        {
+          "label": "Number of Branch Tips",
+          "value": "25"
+        },
+        {
+          "label": "Number of Pine Cones",
+          "value": "7"
+        },
+        {
+          "label": "Net Weight of a Single Tree",
+          "value": "3.5 lbs"
+        },
+        {
+          "label": "Is Assembly Required",
+          "value": "Yes"
+        }
+      ],
+      "priceCents": 4499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/3ft-mini-tabletop-christmas-tree-with-snow-flocked-palm-shaped-pe-leaves.html",
+      "sourceSelection": [
+        "Select: with Snow Flocked Palm-Shaped PE Leaves"
+      ],
+      "selectedSize": "3 ft / single tree",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 4499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Shape the branches before display. The tree has a supplied cement-filled base; follow the included setup guide.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/01.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701078873264_804480.jpeg",
+          "imageId": "CM25569-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "bcadc809eabfe746fcfda504b52e1985051768441d4878fd63d7b4954a9ede3a"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/02.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701079701379_809175.jpeg",
+          "imageId": "CM25569-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "258a9168cfb189e96010de6f8e7db955ee852f1f0b16d8d0cf9df5b1c58d3700"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/03.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701078117970_499817.jpeg",
+          "imageId": "CM25569-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "92e0053ad8d1daa37bfa06ae0979e174b56a234804cc660d5acf863465fc8e25"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/04.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701085350530_462823.jpeg",
+          "imageId": "CM25569-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "167042a3522fe133d325e558ea09b3b7cf27e2d65bad133fdea619835cf99d3c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/05.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701080509716_398191.jpeg",
+          "imageId": "CM25569-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "b91c7b8395c67c21cbe0465112f6848a93082304e41f1c1d6499bdabbee5190c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/06.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — room or display setting 6",
+          "kind": "LIFESTYLE",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701081319883_749224.jpeg",
+          "imageId": "CM25569-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "1d1b4f67162ea87d6ae96ed93b96a50993294dc4ca96a682d8aff2d66fb87333"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/07.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701082087109_802267.jpeg",
+          "imageId": "CM25569-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "3baf17f9b43d4a11a162773f8d70dd0114aff0b77d9161015b403b79e0b2193f"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/08.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701082927754_981956.jpeg",
+          "imageId": "CM25569-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "e2e77228349f4c2a31b55f79aeb89f6469613b66b1d5bbe90c1a76bc679bad2d"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/09.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701083750727_834986.jpeg",
+          "imageId": "CM25569-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "494582748a3c51c2dca7de9cfccec0f6735a48e0484c1014ecfc5f81d3231db7"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm25569/10.jpeg",
+          "alt": "3 ft Snow-flocked Tabletop Cypress Tree — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/f/3FT_Mini_Tabletop_Ch_1789701084584094_995709.jpeg",
+          "imageId": "CM25569-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "7308d372fdaf1ac76caeab95f31e76b48fa77f90e9444d7f8e6287db38ebf51d"
+        }
+      ],
+      "variants": [
+        {
+          "name": "3 ft / single tree",
+          "color": "Green+White",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM25569-STANDARD",
+          "priceCents": 4499
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm22873",
+      "slug": "costway-7-5-ft-unlit-snow-flocked-pencil-tree-cm22873",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "Costway 7.5 ft Unlit Snow-flocked Pencil Tree",
+      "brand": "Costway",
+      "model": "CM22873",
+      "sku": "HRD-XMAS-CM22873",
+      "description": "A slim snow-flocked silhouette brings winter texture to a smaller floor space. The unlit branches let you choose your own lights, and hinged sections pack away between seasons.",
+      "material": "PVC, Metal",
+      "dimensions": "Tree Height: 7.5 ft; Tree Width: 2.2 ft",
+      "weight": "10.5 lbs",
+      "color": "White & Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "641 branch tips",
+        "2.2-foot diameter",
+        "Unlit design",
+        "Three hinged sections"
+      ],
+      "included": [
+        "Artificial tree",
+        "Metal stand"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "White & Green"
+        },
+        {
+          "label": "Material",
+          "value": "PVC, Metal"
+        },
+        {
+          "label": "Tree Height",
+          "value": "7.5 ft"
+        },
+        {
+          "label": "Tree Width",
+          "value": "2.2 ft"
+        },
+        {
+          "label": "Diameter of Stand",
+          "value": "16 in"
+        },
+        {
+          "label": "Number of Branch Tips",
+          "value": "641"
+        },
+        {
+          "label": "Number of Sections",
+          "value": "3"
+        },
+        {
+          "label": "Net Weight",
+          "value": "10.5 lbs"
+        }
+      ],
+      "priceCents": 6499,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/7-5-feet-unlit-hinged-snow-flocked-artificial-pencil-christmas-tree-with-641-tips.html",
+      "sourceSelection": [
+        "Select: 7.5 Feet"
+      ],
+      "selectedSize": "7.5 ft",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 6499,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, connect the base and any tree sections, and shape the branches before decorating. Lights and ornaments are included only where listed.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/01.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280724480760_132642.jpeg",
+          "imageId": "CM22873-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "37b4065e7759f395e93b3f3744a365398e83e7b6c173d3ea4309ff0c62c35e81"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/02.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280725341770_648248.jpeg",
+          "imageId": "CM22873-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "906707c0dd6460742233be1aea081e5cc2aefe24f3c8de967daf6448ae1ac279"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/03.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280726092419_839656.jpeg",
+          "imageId": "CM22873-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "89099311d31799a38fc8316b24419c86532dba7283706482b523c1bec5550af9"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/04.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280723617197_539102.jpeg",
+          "imageId": "CM22873-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "e7efbbe8aea3936b6a26460c9ee1f0faf8a7d364c270ae5618b574d9579f36ae"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/05.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280726882960_637101.jpeg",
+          "imageId": "CM22873-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "31ec91afabc4674e29cb9277f54f6aebba8800399e95e7e2abba4d1377b6c56b"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/06.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280727744852_258520.jpeg",
+          "imageId": "CM22873-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "cfee1b0e00c7982cc702f534dccf4ec0705ab4abd94e572b068ea3a97bb42cb8"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/07.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280728649438_645910.jpeg",
+          "imageId": "CM22873-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "32c7f2076f7581c70e24dffcf0dc1a1d5863600461c1ef4a314ace89c9d40670"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/08.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280729460130_869040.jpeg",
+          "imageId": "CM22873-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "80be165169c4d992aa8047d9eb1614290a54b03b3625569c12ceb7d8f0bf953e"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/09.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280730303660_713512.jpeg",
+          "imageId": "CM22873-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "04ed818bd2091d9f9b693cf0b95f45943d3c51822cfbde82593a7382893dfd81"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22873/10.jpeg",
+          "alt": "7.5 ft Unlit Snow-flocked Pencil Tree — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_5_Feet_Unlit_Hinge_1787280731154014_520400.jpeg",
+          "imageId": "CM22873-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "918618d3b95644a988b3f9109f5e2576fb45dc49ec3c9fbf3667876be7cfe546"
+        }
+      ],
+      "variants": [
+        {
+          "name": "7.5 ft",
+          "color": "White & Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM22873-STANDARD",
+          "priceCents": 6499
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-cm22798",
+      "slug": "costway-9-ft-berry-garland-with-100-leds-cm22798",
+      "asin": "",
+      "category": "christmas-wreaths-garlands",
+      "name": "Costway 9 ft Berry Garland with 100 LEDs",
+      "brand": "Costway",
+      "model": "CM22798",
+      "sku": "HRD-XMAS-CM22798",
+      "description": "Red berries and pine cones decorate a mix of PE and PVC greenery. Battery-powered warm white lights and a daily timer suit a mantel, stair rail or doorway.",
+      "material": "New PVC, PE",
+      "dimensions": "Length: 9ft",
+      "weight": "2.8 lbs",
+      "color": "Green",
+      "colorHex": "#3b614b",
+      "features": [
+        "Nine-foot length",
+        "100 warm white LEDs",
+        "Red berries and pine cones",
+        "Daily timer"
+      ],
+      "included": [
+        "One pre-lit garland"
+      ],
+      "specifications": [
+        {
+          "label": "Color",
+          "value": "Green"
+        },
+        {
+          "label": "Material",
+          "value": "New PVC, PE"
+        },
+        {
+          "label": "Net weight",
+          "value": "2.8 lbs"
+        },
+        {
+          "label": "Length",
+          "value": "9ft"
+        },
+        {
+          "label": "Number of LED light",
+          "value": "100"
+        },
+        {
+          "label": "Number of PVC tips",
+          "value": "140 tips"
+        },
+        {
+          "label": "Number of PE tips",
+          "value": "60 tips"
+        }
+      ],
+      "priceCents": 4299,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/9-feet-pre-lit-artificial-christmas-garland-red-berries-with-led.html",
+      "sourceSelection": [
+        "Select: Green"
+      ],
+      "selectedSize": "9 ft / green",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 4299,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/01.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_10.jpg",
+          "imageId": "CM22798-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "f5b206adeb8d737573b8fa2d85e8a41ffdb11347b33bb94a56e4c188b483a6a8"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/02.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_6.jpg",
+          "imageId": "CM22798-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "3ac4ee2baf117675cad171ce9d3316807b279765cdb4609bb1788b00f48c1a55"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/03.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_405_104.jpg",
+          "imageId": "CM22798-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "0066992b011677f6637454a540441a9437652dce80e2653996b7375ca584b55b"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/04.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_12.jpg",
+          "imageId": "CM22798-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "312fe9d5465e4c3f3ba9e0a6e69f0519788498477da85b88601f28d6916ca47c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/05.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_5.jpg",
+          "imageId": "CM22798-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "99d0eebb4e5ef80a9a430d0d58825870acf81b4b12c03bc61e46e340bb90f7a6"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/06.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_9.jpg",
+          "imageId": "CM22798-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "77808f5fbdf258cc069a4fefd1182c5ad2da024e9fa043319666540a8fee68c3"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/07.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_11.jpg",
+          "imageId": "CM22798-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "92abc88ed06b03fb41a84d57ced9269cd044af9f179f41e07ef4713aed804e35"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/08.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_7.jpg",
+          "imageId": "CM22798-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "8c3147ff09289abb3caa473307084a2c2219f43715aa70f948a80321264090d5"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/09.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_2.jpg",
+          "imageId": "CM22798-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "611e4cf021a46aff8723f463c11eb8e220507145bf347c982b31120620b9ee6d"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/10.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_3.jpg",
+          "imageId": "CM22798-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "47fd1a4344cce1764c49cffa45ef1babd634ae057a2e9638310d52f4c6f7cb34"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-cm22798/11.jpg",
+          "alt": "9 ft Berry Garland with 100 LEDs — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/c/m/cm22798_-_8.jpg",
+          "imageId": "CM22798-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "97d9463be4472f8ab31ca149907abb7b6fcbeb7265867c4ce252fee9d3747e72"
+        }
+      ],
+      "variants": [
+        {
+          "name": "9 ft / green",
+          "color": "Green",
+          "colorHex": "#3b614b",
+          "sku": "HRD-XMAS-CM22798-STANDARD",
+          "priceCents": 4299
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-eu10020us",
+      "slug": "costway-lighted-gift-box-trio-with-60-leds-eu10020us",
+      "asin": "",
+      "category": "christmas-outdoor-decor",
+      "name": "Costway Lighted Gift Box Trio with 60 LEDs",
+      "brand": "Costway",
+      "model": "EU10020US",
+      "sku": "HRD-XMAS-EU10020US",
+      "description": "Three decorative gift boxes add a warm illuminated accent beside a tree or entrance. Different sizes allow a layered arrangement, linked by connecting cords.",
+      "material": "PVC, Steel, fabric",
+      "dimensions": "Small gift box: 6\" x 6\" x 6\"; Medium gift box: 8\" x 8\" x 8\"; Large gift box: 10\" x 10\" x 10\"",
+      "weight": "2 lbs",
+      "color": "Red and white",
+      "colorHex": "#a93235",
+      "features": [
+        "Three gift boxes",
+        "60 LED lights",
+        "Six-, eight- and ten-inch boxes",
+        "16.5-foot power cable"
+      ],
+      "included": [
+        "Three connected lighted gift boxes"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "PVC, Steel, fabric"
+        },
+        {
+          "label": "Color",
+          "value": "As picture shows"
+        },
+        {
+          "label": "Net weight",
+          "value": "2 lbs"
+        },
+        {
+          "label": "Small gift box",
+          "value": "6\" x 6\" x 6\""
+        },
+        {
+          "label": "Medium gift box",
+          "value": "8\" x 8\" x 8\""
+        },
+        {
+          "label": "Large gift box",
+          "value": "10\" x 10\" x 10\""
+        },
+        {
+          "label": "The length between each box",
+          "value": "3.3ft"
+        },
+        {
+          "label": "Power cable",
+          "value": "16.5 ft"
+        }
+      ],
+      "priceCents": 4299,
+      "discountPercent": 15,
+      "pricingBasis": "Selected product variant USD selling price checked on the official Costway page; Home Retreat Direct applies its own 15% discount.",
+      "source": "https://www.costway.com/3-pieces-christmas-lighted-gift-boxes-decorations-with-60-led-lights-for-indoor-and-outdoor.html",
+      "sourceSelection": [
+        "Select: 3 Pieces with 60 LED Lights"
+      ],
+      "selectedSize": "Three-box set",
+      "checkedAt": "2026-10-14T12:36:27.112Z",
+      "sourcePriceCents": 4299,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied installation instructions and use the specified hanging or anchoring accessories.",
+      "care": "Keep away from heat sources. Disconnect electrical lights before cleaning or storage. Follow the supplied care instructions.",
+      "shippingWeight": "",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original product photographs retained without alteration; storefront previews are resized for display.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/01.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/3/_/3_618_122.jpg",
+          "imageId": "EU10020US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "280e1cab538c68f4f4ecc8cd01a9318e8698240a27e894d305be1e86e13c52ec"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/02.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/_/1_658_137.jpg",
+          "imageId": "EU10020US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "677a0d21d34301645930e310381a6ced3d493882845691b4a72467b03ceadeaa"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/03.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/e/u/eu10020us-1_1_.jpg",
+          "imageId": "EU10020US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "707433c8ae22eeca22b4501bef34d7e26ef17f509ee90cda8f482ddea0bbf8b9"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/04.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/9/_/9_495_177.jpg",
+          "imageId": "EU10020US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "a2eb4d08f13f5653bfec9a74e3e4d82a39bb72d23552f8b7475d70ccfad96fcf"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/05.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/_/2_620_131.jpg",
+          "imageId": "EU10020US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "ca81eddcc674e0004724ea413126385d6b17fc5c401aff6ff012e816e91ba8fe"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/06.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/1/11_392_122.jpg",
+          "imageId": "EU10020US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "5a6a058fe888dea3c51663b34469a02c61d54779a6de8866559848c5ca9ff7b3"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/07.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/1/0/10_435_145.jpg",
+          "imageId": "EU10020US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "0a15444bbdd3995602ce2369f2f78bc1da5596428ed74c9c1b9a48722ea971cd"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/08.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/4/_/4_610_199.jpg",
+          "imageId": "EU10020US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "049eca31aa97e491c1470b1a470e36e54e81477ff7790907f6cb5b711e452eff"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/09.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/5/_/5_579_199.jpg",
+          "imageId": "EU10020US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "c477838642677bd3c69bd8373185a2dd163713d9e0297cd81a7a0735644d47ba"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/10.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/7/_/7_567_197.jpg",
+          "imageId": "EU10020US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "5ba36e7ac6a8361574dce4722d089e207c11aad671cdfed301e4f7618cb59d46"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/11.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/6/_/6_589_120.jpg",
+          "imageId": "EU10020US-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "45f049e26a491688b2ef61647843a4e4ff2e6347aacf60402709de973cc51021"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-eu10020us/12.jpg",
+          "alt": "Lighted Gift Box Trio with 60 LEDs — product detail 12",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/8/_/8_541_118.jpg",
+          "imageId": "EU10020US-12",
+          "width": 750,
+          "height": 750,
+          "sha256": "de9df7404eaa364f03751af4ade4792e4c851e86eca6bb45ed125e55bf82c685"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Three-box set",
+          "color": "Red and white",
+          "colorHex": "#a93235",
+          "sku": "HRD-XMAS-EU10020US-STANDARD",
+          "priceCents": 4299
+        }
+      ]
+    }
+  ]
+}

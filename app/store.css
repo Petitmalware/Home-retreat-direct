@@ -50,3 +50,9 @@
 
 /* Keep every product detail in server HTML while preserving the active-tab layout. */
 .product-tabs [data-slot="tabs-content"][hidden]{display:none}
+
+/* Seasonal collection uses the existing store palette and typography. */
+.product-detail-grid>.gallery,.product-detail-grid>.purchase-panel{min-width:0}
+.christmas-feature{display:grid;grid-template-columns:1fr 1fr;min-height:440px;margin-top:55px;margin-bottom:55px;background:#f3efe5;overflow:hidden;border-radius:4px}
+.christmas-feature-copy{padding:55px 45px;align-self:center}.christmas-feature h2{font-family:Georgia,serif;font-size:clamp(32px,3.4vw,50px);line-height:1.12;margin:14px 0 22px}.christmas-feature-copy>p:not(.eyebrow){max-width:360px;line-height:1.75;margin-bottom:26px}.christmas-feature-image{position:relative;min-height:400px}.christmas-feature-image img{object-fit:cover}.christmas-feature-links{display:flex;flex-wrap:wrap;gap:12px 18px;margin-top:25px;font-size:13px}.christmas-feature-links a{text-decoration:underline;text-underline-offset:4px}.product-video-panel{margin-top:25px}.product-video-panel h2{font-size:19px;margin-bottom:12px}.product-video-panel video{width:100%;max-height:500px;background:#252a25;border-radius:3px}.seasonal-controls .switch-label{font-size:17px}.seasonal-product-list article{display:flex;align-items:center;gap:20px;padding:17px 0;border-top:1px solid #e7e4dc}.seasonal-product-list article>div{flex:1}.seasonal-product-list article p{margin:6px 0 0}.seasonal-product-list article strong{white-space:nowrap}
+@media(max-width:760px){.christmas-feature{grid-template-columns:1fr;margin-top:30px;margin-bottom:30px}.christmas-feature-copy{padding:30px 25px}.christmas-feature-image{min-height:310px}.seasonal-product-list article{flex-wrap:wrap;gap:12px}.seasonal-product-list article>div{flex-basis:100%}}

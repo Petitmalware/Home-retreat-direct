@@ -138,6 +138,8 @@ hrd up --detach --no-build --wait --wait-timeout 90 db
 hrd run --rm --no-deps --pull never -T tools node node_modules/prisma/build/index.js migrate deploy
 hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts
 hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts --verify-initialized
+hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/install-christmas.ts
+hrd run --rm --no-deps --pull never -T tools node node_modules/tsx/dist/cli.mjs deploy/install-christmas.ts
 node --input-type=module - "$smoke_environment_file" <<'NODE'
 import {readFileSync, writeFileSync} from 'node:fs';
 const file = process.argv[2], source = readFileSync(file, 'utf8');
@@ -242,6 +244,22 @@ assert.ok(help.includes('How to run your store.') && help.includes('Payment rece
 const settings = await api('/api/admin/settings');
 assert.equal(settings.response.status, 200);
 assert.equal(settings.data.launchReadiness.acceptingOrders, true);
+const seasonal = await api('/api/admin/seasonal');
+assert.equal(seasonal.response.status, 200);
+assert.equal(seasonal.data.settings.active, true);
+assert.equal(seasonal.data.products.length, 20);
+assert.ok(seasonal.data.products.every(product => product._count.images >= 6));
+const christmas = JSON.parse(readFileSync('data/christmas-catalog.json', 'utf8')).products[0];
+assert.ok((await (await request('/collections/christmas', 'text/html')).text()).includes('Christmas at Home'));
+assert.ok((await (await request('/products/' + christmas.slug, 'text/html')).text()).includes(christmas.name));
+assert.equal((await api('/api/admin/seasonal', 'POST', {mode:'off',startsOn:'',endsOn:''})).response.status, 200);
+const hidden = await fetch(origin + '/products/' + christmas.slug, {signal:AbortSignal.timeout(15000)});
+assert.equal(hidden.status, 404);
+const hiddenSitemap = await (await request('/sitemap.xml', 'application/xml')).text();
+assert.ok(!hiddenSitemap.includes('/collections/christmas') && !hiddenSitemap.includes('/products/' + christmas.slug));
+const rejectedCart = await api('/api/cart','POST',{variantId:christmas.id+'-standard',quantity:1});
+assert.equal(rejectedCart.response.status,400);
+assert.equal((await api('/api/admin/seasonal', 'POST', {mode:'on',startsOn:'',endsOn:''})).response.status, 200);
 assert.equal((await api('/api/admin/settings', 'POST', {announcement: 'Considered design. Everyday retreat.'})).response.status, 200);
 const contacts = await api('/api/admin/business-contacts');
 assert.equal(contacts.response.status, 200);

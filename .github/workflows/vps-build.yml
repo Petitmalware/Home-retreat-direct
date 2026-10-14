@@ -141,6 +141,8 @@ jobs:
         run: |
           docker run --rm home-retreat-direct-tools:ci \
             node node_modules/tsx/dist/cli.mjs deploy/init-production.ts --check
+          docker run --rm --network none home-retreat-direct-tools:ci \
+            node node_modules/tsx/dist/cli.mjs deploy/install-christmas.ts --check
 
       - name: Test policy publication and reviewed checkout
         run: |
@@ -148,7 +150,8 @@ jobs:
             --mount "type=bind,source=${GITHUB_WORKSPACE}/tests,target=/app/tests,readonly" \
             home-retreat-direct-tools:ci node node_modules/tsx/dist/cli.mjs --test \
             tests/business-policies.test.ts tests/launch-readiness.test.ts tests/store-opening.test.ts \
-            tests/admin-order-guide.test.ts tests/email-content.test.ts tests/order-documents.test.ts tests/email-provider.test.ts tests/email-routing.test.ts
+            tests/admin-order-guide.test.ts tests/email-content.test.ts tests/order-documents.test.ts tests/email-provider.test.ts tests/email-routing.test.ts \
+            tests/seasonal.test.ts tests/seasonal-catalog.test.ts
 
       - name: Verify production runtime and image processing
         run: |

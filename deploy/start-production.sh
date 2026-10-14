@@ -53,6 +53,8 @@ if [ "$startup_mode" = fresh ]; then
   hrd run --rm -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts
 fi
 hrd run --rm -T tools node node_modules/tsx/dist/cli.mjs deploy/init-production.ts --verify-initialized
+printf '%s\n' 'Adding the Christmas collection; existing products and display settings are preserved...'
+hrd run --rm -T tools node node_modules/tsx/dist/cli.mjs deploy/install-christmas.ts
 printf '%s\n' 'Starting the app and checking database connectivity...'
 hrd up -d --wait app
 app_endpoint=$(hrd port app 3000)
