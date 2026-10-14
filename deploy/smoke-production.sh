@@ -235,6 +235,10 @@ assert.ok(confirmation.includes('Order Received') && confirmation.includes('subm
 const fixtureEnvironment = Object.fromEntries(readFileSync(process.argv[2], 'utf8').trim().split('\n').map(line => {const i = line.indexOf('='); return [line.slice(0, i), line.slice(i + 1)];}));
 const login = await api('/api/auth/login', 'POST', {email: fixtureEnvironment.SEED_OWNER_EMAIL, password: fixtureEnvironment.SEED_OWNER_PASSWORD});
 assert.equal(login.response.status, 200);
+const helpResponse = await fetch(origin + '/admin/help', {headers:{cookie:[...cookies].map(([name,value])=>name+'='+value).join('; ')},signal:AbortSignal.timeout(15000)});
+assert.equal(helpResponse.status,200);
+const help = await helpResponse.text();
+assert.ok(help.includes('How to run your store.') && help.includes('Payment receipt'), 'Staff order/email guide must render');
 const settings = await api('/api/admin/settings');
 assert.equal(settings.response.status, 200);
 assert.equal(settings.data.launchReadiness.acceptingOrders, true);

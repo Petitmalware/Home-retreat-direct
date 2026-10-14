@@ -1,5 +1,6 @@
 'use client';
 import {useEffect,useState} from 'react';
+import {useSearchParams} from 'next/navigation';
 import {Switch} from '@/components/ui/switch';
 import {Select,SelectContent,SelectItem,SelectTrigger,SelectValue} from '@/components/ui/select';
 import {Tabs,TabsList,TabsTrigger,TabsContent} from '@/components/ui/tabs';
@@ -13,7 +14,8 @@ const editableSettingKeys=new Set([...businessFields.map(([key])=>key),'currency
 const editableSettings=(settings:Record<string,string>)=>Object.fromEntries(Object.entries(settings).filter(([key])=>editableSettingKeys.has(key)));
 const emailHelp:Record<string,string>={generalEmail:'General enquiries, suppliers, partnerships and business communication.',ordersEmail:'Order approvals, confirmations, invoices, payment requests and receipts.',supportEmail:'Customer questions, delivery issues, cancellations and refunds.'};
 export function Settings(){
- const[data,setData]=useState<Data|null>(null),[values,setValues]=useState<Record<string,string>>({}),[method,setMethod]=useState('BUSINESS_INVOICE'),[error,setError]=useState(''),[tab,setTab]=useState('business');
+ const requestedTab=useSearchParams().get('tab');
+ const[data,setData]=useState<Data|null>(null),[values,setValues]=useState<Record<string,string>>({}),[method,setMethod]=useState('BUSINESS_INVOICE'),[error,setError]=useState(''),[tab,setTab]=useState(requestedTab&&['business','payments','services'].includes(requestedTab)?requestedTab:'business');
  const load=()=>api<Data>('/api/admin/settings').then(data=>{setData(data);setValues(editableSettings(Object.fromEntries(data.settings.map(setting=>[setting.key,setting.value]))));}).catch(error=>setError(error.message));
  useEffect(()=>{void load()},[]);
  async function save(event:React.FormEvent<HTMLFormElement>){event.preventDefault();try{await api('/api/admin/settings','POST',editableSettings(values));toast.success('Store settings updated.');await load();}catch(error){toast.error((error as Error).message);}}

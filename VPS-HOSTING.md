@@ -390,6 +390,8 @@ Run `sudo bash deploy/backup.sh` from the checkout on the VPS. It creates a priv
 
 ### Pull a later GitHub release
 
+For the simplified admin and redesigned order documents, see [the admin guide](ADMIN-GUIDE.md). It includes the email sequence, mailbox responsibilities and a short update command for an already initialized store. The update keeps existing order records and saved email attachments.
+
 Log in again with `ssh administrator@63.141.255.57`, change to the checkout and define the `hrd` function from section 2. First inspect the incoming release without changing the running application:
 
 ```sh

@@ -12,14 +12,14 @@ export const emailDocumentKind=(template:string):OrderDocumentKind|undefined=>['
 export async function prepareOrderEmail(tx:TX,to:string,template:string,subject:string,body:string,orderId?:string):Promise<PreparedEmail>{
  const settings=await tx.siteSetting.findMany({where:{key:{in:['storeName','address','supportEmail','phone']}}}),value=(key:string)=>settings.find(item=>item.key===key)?.value||undefined;
  const channel=emailChannelForTemplate(template),business:EmailBusiness={name:value('storeName')??'Home Retreat Direct',address:value('address'),supportEmail:businessEmailAddress(channel),phone:value('phone')};
- const order=orderId?await tx.order.findUnique({where:{id:orderId},include:{items:true,shippingAddress:true,billingAddress:true,payments:true}}):null;
+ const order=orderId?await tx.order.findUnique({where:{id:orderId},include:{items:true,shippingAddress:true,billingAddress:true,payments:{include:{method:{select:{name:true}}}}}}):null;
  if(order&&order.email!==to)throw new HttpError(400,'Order documents can only be queued to the order customer.');
  const kind=emailDocumentKind(template),attachments=[];
  if(kind&&order){const document=await orderDocumentAttachment(order,business,kind);attachments.push({...document,content:Buffer.from(document.content).toString('base64')});}
- return {...renderEmailContent(subject,body,business,order??undefined,attachments),channel};
+ return {...renderEmailContent(subject,body,business,order??undefined,attachments,{kind,orderUrl:order?`${process.env.APP_ORIGIN}/orders/${order.number}?token=${orderAccessToken(order.idempotencyKey)}`:undefined}),channel};
 }
 export async function prepareOrderTemplate(tx:TX,orderId:string,template:OrderEmailTemplate){
- const order=await tx.order.findUnique({where:{id:orderId},include:{items:true,shippingAddress:true,billingAddress:true,payments:true}});
+ const order=await tx.order.findUnique({where:{id:orderId},include:{items:true,shippingAddress:true,billingAddress:true,payments:{include:{method:{select:{name:true}}}}}});
  if(!order)throw new HttpError(404,'Order not found.');
  const known=order.shippingConfirmed&&order.taxConfirmed&&order.shippingCents!==null&&order.taxCents!==null;
  const received=order.payments.filter(payment=>['CONFIRMED','REFUNDED'].includes(payment.status)).reduce((sum,payment)=>sum+payment.amountReceivedCents,0);

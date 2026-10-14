@@ -90,6 +90,38 @@ test('opening publishes adopted policies and real checkout preserves unpaid revi
       await assert.rejects(submitOrder({...payload, idempotencyKey: randomUUID()}, another.id), error => (error as {status: number}).status === 503);
       assert.equal(await database.order.count(), 1);
     });
+    await t.test('guided order actions queue invoice, instructions and receipt in the correct sequence', async () => {
+      const {changeOrder} = await import('../lib/orders');
+      const {readEmailContent} = await import('../lib/email');
+      const {encrypt} = await import('../lib/security');
+      const {prepareOrderTemplate} = await import('../lib/order-email');
+      const staff = await database.staff.findUniqueOrThrow({where:{userId:owner.id}});
+      let order = await database.order.findFirstOrThrow();
+      await assert.rejects(database.$transaction(tx=>prepareOrderTemplate(tx,order.id,'INVOICE')),/after order approval/);
+      await changeOrder(order.id,staff.id,{action:'approve',version:order.version,shippingCents:1000,taxCents:1200,inventoryConfirmed:true,customerConfirmed:true,deliveryConfirmed:true});
+      order = await database.order.findUniqueOrThrow({where:{id:order.id}});
+      const invoice = await database.emailLog.findFirstOrThrow({where:{orderId:order.id,template:'APPROVED'}});
+      const invoiceContent = readEmailContent(invoice.bodyCipher);
+      assert.equal(invoiceContent.attachments.length,1);assert.match(invoiceContent.attachments[0].filename,/-invoice.pdf$/);
+      assert.match(invoiceContent.html,/Your invoice/);assert.match(invoiceContent.text,/Amount due: \$192\.00/);
+      await assert.rejects(database.$transaction(tx=>prepareOrderTemplate(tx,order.id,'PAYMENT_RECEIPT')),/after payment/);
+      const method = await database.businessPaymentMethod.create({data:{name:'Isolated test transfer',type:'BANK_TRANSFER',instructionsCipher:encrypt('Isolated test instructions. No real account or transfer exists.')}});
+      await changeOrder(order.id,staff.id,{action:'request-payment',version:order.version,methodId:method.id});
+      order = await database.order.findUniqueOrThrow({where:{id:order.id}});
+      const instructions = await database.emailLog.findFirstOrThrow({where:{orderId:order.id,template:'PAYMENT_INSTRUCTIONS'}});
+      assert.match(readEmailContent(instructions.bodyCipher).text,/Isolated test instructions/);
+      assert.match(readEmailContent(instructions.bodyCipher).attachments[0].filename,/-invoice.pdf$/);
+      const payment = await database.payment.findFirstOrThrow({where:{orderId:order.id}});
+      await assert.rejects(changeOrder(order.id,staff.id,{action:'confirm-payment',version:order.version,paymentId:payment.id,amountReceivedCents:1,reference:'ISOLATED-REFERENCE',receiptConfirmed:true}),/match the approved order total/);
+      assert.equal(await database.emailLog.count({where:{orderId:order.id,template:'PAYMENT_RECEIVED'}}),0);
+      await changeOrder(order.id,staff.id,{action:'confirm-payment',version:order.version,paymentId:payment.id,amountReceivedCents:order.totalCents,reference:'ISOLATED-REFERENCE',receiptConfirmed:true});
+      const receipt = await database.emailLog.findFirstOrThrow({where:{orderId:order.id,template:'PAYMENT_RECEIVED'}});
+      const receiptContent = readEmailContent(receipt.bodyCipher);
+      assert.match(receiptContent.attachments[0].filename,/-receipt.pdf$/);assert.match(receiptContent.html,/ISOLATED-REFERENCE/);
+      assert.match(receiptContent.text,/Isolated test transfer/);assert.match(receiptContent.text,/Amount due: \$0\.00/);assert.match(receiptContent.text,/Payment received: \$192\.00/);
+      assert.equal((await database.order.findUniqueOrThrow({where:{id:order.id}})).status,'PAYMENT_RECEIVED');
+      assert.equal(receipt.status,'QUEUED');assert.equal(receipt.sentAt,null);
+    });
   } finally {
     if (db) await db.$disconnect();
     if (socket) await socket.stop();

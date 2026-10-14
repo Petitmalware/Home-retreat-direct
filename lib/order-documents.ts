@@ -13,6 +13,7 @@ const date=(value:Date|string)=>{
  return parsed.toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric',timeZone:'UTC'});
 };
 const labels:Record<OrderDocumentKind,string>={ORDER_CONFIRMATION:'Order confirmation',INVOICE:'Invoice',RECEIPT:'Payment receipt'};
+export const orderDocumentReference=(kind:OrderDocumentKind,number:string)=>`${kind==='INVOICE'?'INV':kind==='RECEIPT'?'RCT':'ORD'}-${number}`;
 
 export function orderDocumentSummary(order:InvoiceData){
  const finalized=order.shippingCents!==null&&order.taxCents!==null&&order.shippingConfirmed!==false&&order.taxConfirmed!==false;
@@ -48,7 +49,7 @@ function validate(order:InvoiceData,kind:OrderDocumentKind){
 export async function orderDocumentPDF(order:InvoiceData,business:DocumentBusiness,kind:OrderDocumentKind):Promise<Uint8Array>{
  validate(order,kind);
  const summary=orderDocumentSummary(order),pdf=await PDFDocument.create();
- const regular=await pdf.embedFont(StandardFonts.Helvetica),bold=await pdf.embedFont(StandardFonts.HelveticaBold);
+ const regular=await pdf.embedFont(StandardFonts.Helvetica),bold=await pdf.embedFont(StandardFonts.HelveticaBold),display=await pdf.embedFont(StandardFonts.TimesRoman);
  const ink=rgb(.16,.21,.17),muted=rgb(.4,.45,.41),rule=rgb(.85,.88,.84),wash=rgb(.96,.97,.95);
  const left=48,right=564,width=right-left,bottom=62;
  let page!:PDFPage;let y=0;
@@ -69,10 +70,16 @@ export async function orderDocumentPDF(order:InvoiceData,business:DocumentBusine
   return lines;
  };
  function newPage(){
-  page=pdf.addPage([612,792]);y=742;
-  write(business.name||'Home Retreat Direct',left,y,17,bold);rightText(labels[kind].toUpperCase(),right,y,10,bold,muted);
-  y-=20;write('Order '+order.number,left,y,9,regular,muted);rightText(date(order.createdAt),right,y,9,regular,muted);
-  y-=15;page.drawLine({start:{x:left,y},end:{x:right,y},thickness:1.1,color:rule});y-=26;
+  page=pdf.addPage([612,792]);
+  page.drawRectangle({x:0,y:700,width:612,height:92,color:ink});
+  const brand=wrap(business.name||'Home Retreat Direct',width,18,bold);
+  brand.slice(0,2).forEach((line,index)=>write(line,left,754-index*22,18,bold,rgb(1,1,1)));
+  write([business.supportEmail,business.phone].filter(Boolean).join('  |  '),left,718,9,regular,rgb(.86,.9,.84));
+  write(labels[kind],left,664,28,display);
+  rightText(summary.refundedCents?'REFUND RECORDED':kind==='RECEIPT'?'PAYMENT CONFIRMED':summary.paid?'PAID':kind==='INVOICE'?'PAYMENT DUE':'ORDER RECEIVED',right,669,9,bold,muted);
+  write(orderDocumentReference(kind,order.number),left,640,9,bold);
+  rightText('Order date: '+date(order.createdAt),right,640,9,regular,muted);
+  y=624;page.drawLine({start:{x:left,y},end:{x:right,y},thickness:1,color:rule});y-=24;
  }
  function ensure(height:number){if(y-height<bottom)newPage();}
  function paragraph(value:string,size=10,color=ink,space=8){
@@ -81,16 +88,16 @@ export async function orderDocumentPDF(order:InvoiceData,business:DocumentBusine
  function section(value:string){ensure(30);write(value.toUpperCase(),left,y,10,bold,muted);y-=20;}
  function addressLines(address:DocumentAddress){return [address.firstName+' '+address.lastName,address.line1,...(address.line2?[address.line2]:[]),address.city+', '+address.state+' '+address.postalCode,...(address.country&&address.country!=='US'?[address.country]:[])];}
  newPage();
- const contact=[business.address,business.supportEmail,business.phone].filter((value):value is string=>!!value?.trim());
+ const contact=[business.address].filter((value):value is string=>!!value?.trim());
  for(const value of contact)paragraph(value,9,muted,2);
  if(contact.length)y-=7;
  const shipping=addressLines(order.shippingAddress).flatMap(value=>wrap(value,246,10));
  const billing=addressLines(order.billingAddress??order.shippingAddress).flatMap(value=>wrap(value,246,10));
  const addressHeight=30+Math.max(shipping.length,billing.length)*15;
  ensure(addressHeight+40);
- write('DELIVER TO',left,y,10,bold,muted);write('BILL TO',318,y,10,bold,muted);y-=20;
+ write('BILL TO',left,y,9,bold,muted);write('DELIVER TO',318,y,9,bold,muted);y-=20;
  const addressTop=y;
- shipping.forEach((value,index)=>write(value,left,addressTop-index*15));billing.forEach((value,index)=>write(value,318,addressTop-index*15));
+ billing.forEach((value,index)=>write(value,left,addressTop-index*15));shipping.forEach((value,index)=>write(value,318,addressTop-index*15));
  y-=Math.max(shipping.length,billing.length)*15+4;
  paragraph(order.email,10,muted,14);
  function tableHeader(){
@@ -109,20 +116,23 @@ export async function orderDocumentPDF(order:InvoiceData,business:DocumentBusine
   y=continued?detailY-13:Math.min(rowTop-height,detailY-13);page.drawLine({start:{x:left,y:y+7},end:{x:right,y:y+7},thickness:.5,color:rule});y-=10;
  }
  y-=12;ensure(205);
- const totalLine=(label:string,value:string,strong=false)=>{write(label,318,y,strong?12:10,strong?bold:regular,strong?ink:muted);rightText(value,right,y,strong?12:10,strong?bold:regular);y-=strong?25:20;};
+ const totalLine=(label:string,value:string,strong=false)=>{
+  if(strong)page.drawRectangle({x:306,y:y-9,width:258,height:26,color:wash});
+  write(label,318,y,strong?11:10,strong?bold:regular,strong?ink:muted);rightText(value,right-10,y,strong?13:10,strong?bold:regular);y-=strong?36:20;
+ };
  totalLine('Item subtotal',dollars(order.subtotalCents));
- totalLine('Shipping',order.shippingCents===null?'To be confirmed':dollars(order.shippingCents));
- totalLine('Tax',order.taxCents===null?'To be confirmed':dollars(order.taxCents));
+ totalLine('Shipping',summary.finalized?dollars(order.shippingCents!):'To be confirmed');
+ totalLine('Tax',summary.finalized?dollars(order.taxCents!):'To be confirmed');
  if(summary.finalized){
   totalLine('Order total (USD)',dollars(order.totalCents),true);
   totalLine('Payment received',dollars(summary.receivedCents));
   if(summary.refundedCents)totalLine('Refund recorded',dollars(summary.refundedCents));
-  totalLine('Balance due',dollars(summary.balanceDueCents),true);
- }else totalLine('Current amount (USD)',dollars(order.totalCents),true);
+  totalLine('Amount due (USD)',dollars(summary.balanceDueCents),true);
+ }else totalLine('Item total (USD)',dollars(order.subtotalCents),true);
  y-=8;
  if(kind==='RECEIPT'){
   section('Payment confirmed');
-  paragraph('Thank you. The full approved order payment was confirmed. This receipt records the payment received for the items and charges listed above.'+(summary.refundedCents?' A refund has subsequently been recorded; see the refund amount above.':''));
+  paragraph('Thank you for your payment. Keep this receipt for your records.'+(summary.refundedCents?' A refund has subsequently been recorded; see the refund amount above.':''));
   for(const payment of order.payments.filter(value=>['CONFIRMED','REFUNDED'].includes(value.status))){
    const details=[dollars(payment.amountReceivedCents),payment.receivedAt?'Received '+date(payment.receivedAt):'',payment.method?.name??'',payment.reference?'Payment reference: '+payment.reference:'',payment.status==='REFUNDED'?'Subsequently refunded':''].filter(Boolean);
    paragraph(details.join(' | '),9,muted,4);
@@ -142,7 +152,7 @@ export async function orderDocumentPDF(order:InvoiceData,business:DocumentBusine
   current.drawText(printable(order.number+' | '+labels[kind]),{x:left,y:30,size:8,font:regular,color:muted});
   const text=`Page ${index+1} of ${pages.length}`;current.drawText(text,{x:right-regular.widthOfTextAtSize(text,8),y:30,size:8,font:regular,color:muted});
  });
- pdf.setTitle(labels[kind]+' '+order.number);pdf.setAuthor(business.name||'Home Retreat Direct');pdf.setSubject(labels[kind]+' for saved order '+order.number);pdf.setCreator('Home Retreat Direct');
+ pdf.setTitle(labels[kind]+' '+order.number);pdf.setAuthor(business.name||'Home Retreat Direct');pdf.setSubject(labels[kind]+' for saved order '+order.number);pdf.setCreator('Home Retreat Direct');pdf.setLanguage('en-US');
  return pdf.save();
 }
 
