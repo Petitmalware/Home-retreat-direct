@@ -398,7 +398,7 @@
           "priceCents": 11999
         }
       ],
-      "videoUrl": "https://cdn1.costway.com/media/us/Install_video/48265971.mp4",
+      "videoUrl": "https://hooya.s3.us-west-1.amazonaws.com/media/us/Install_video/48265971.mp4",
       "videoTitle": "Tree assembly video",
       "videoSource": "https://www.costway.com/7-7-5-8-feet-artificial-christmas-tree-with-led-lights-and-pine-cones.html"
     },
@@ -1169,7 +1169,7 @@
           "priceCents": 7499
         }
       ],
-      "videoUrl": "https://cdn1.costway.com/Display+video/CM22830.mp4",
+      "videoUrl": "https://hooya.s3.us-west-1.amazonaws.com/Display+video/CM22830.mp4",
       "videoTitle": "Rainbow tree product video",
       "videoSource": "https://www.costway.com/7-feet-artificial-hinged-traditional-christmas-tree-with-metal-stand.html"
     },
@@ -4862,7 +4862,7 @@
           "priceCents": 33999
         }
       ],
-      "videoUrl": "https://cdn1.costway.com/media/us/Install_video/32943220.mp4",
+      "videoUrl": "https://hooya.s3.us-west-1.amazonaws.com/media/us/Install_video/32943220.mp4",
       "videoTitle": "Toyota LC250 ride-on assembly video",
       "videoSource": "https://www.costway.com/24v-2-seater-ride-on-car-4wd-2wd-switchable-for-kids-with-remote-for-ages-3.html"
     },
@@ -5449,7 +5449,7 @@
           "priceCents": 99999
         }
       ],
-      "videoUrl": "https://cdn1.costway.com/media/us/Install_video/59871243.mp4",
+      "videoUrl": "https://hooya.s3.us-west-1.amazonaws.com/media/us/Install_video/59871243.mp4",
       "videoTitle": "Wooden playset assembly video",
       "videoSource": "https://www.costway.com/wooden-swing-set-with-large-upper-deck-slide-and-steering-wheel.html"
     },

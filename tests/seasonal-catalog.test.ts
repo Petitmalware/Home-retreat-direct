@@ -61,6 +61,18 @@ test('seasonal install and checkout use an isolated database and preserve staff 
    assert.equal((await db.product.findUniqueOrThrow({where:{id:p.id}})).priceCents,9999);assert.equal((await db.productImage.findUniqueOrThrow({where:{id:image.id}})).alt,'Staff-selected alternate text');assert.equal((await db.orderItem.findFirstOrThrow()).unitPriceCents,Math.round(p.priceCents*.85));
    assert((await db.emailLog.findMany()).every(email=>email.status==='QUEUED'&&!email.sentAt));
   });
+  await t.test('bundled video repairs retain staff replacement links and intentional removals',async()=>{
+   const [legacy,custom,removed]=catalog.products.filter(product=>product.videoUrl);
+   await db.product.update({where:{id:legacy.id},data:{videoUrl:legacy.videoUrl!.replace('https://hooya.s3.us-west-1.amazonaws.com/','https://cdn1.costway.com/')}});
+   const staffVideo='https://res.cloudinary.com/store/video/upload/staff-tree.mp4';
+   await db.product.update({where:{id:custom.id},data:{videoUrl:staffVideo}});
+   await db.product.update({where:{id:removed.id},data:{videoUrl:null}});
+   const repair=await installChristmasCatalog(db);assert.equal(repair.added,0);assert.equal(repair.repairedVideos,1);
+   assert.equal((await db.product.findUniqueOrThrow({where:{id:legacy.id}})).videoUrl,legacy.videoUrl);
+   assert.equal((await db.product.findUniqueOrThrow({where:{id:custom.id}})).videoUrl,staffVideo);
+   assert.equal((await db.product.findUniqueOrThrow({where:{id:removed.id}})).videoUrl,null);
+   assert.equal((await installChristmasCatalog(db)).repairedVideos,0);
+  });
   await t.test('a version-one store receives only the ten additions and retains its switch and staff prices',async()=>{
    const newIds=catalog.products.slice(20).map(product=>product.id);
    await db.product.deleteMany({where:{id:{in:newIds}}});

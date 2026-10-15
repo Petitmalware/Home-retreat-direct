@@ -24,7 +24,7 @@ The new source prices were checked on October 14, 2026. For example, the 10-foot
 
 No warehouse quantities, customer reviews or supplier partnership have been invented. These products use the store's existing availability review before payment. Product-specific shipping dates and Christmas delivery eligibility must be confirmed for each order.
 
-Photography and video sources are retained in private staff records. Supplier photography is copyrighted; these records do not establish a commercial reuse licence or an authorized supplier relationship. Videos stream from the recorded manufacturer URLs on playback and have a fallback link if playback fails. They are not customer review videos.
+Photography and video sources are retained in private staff records. Supplier photography is copyrighted; these records do not establish a commercial reuse licence or an authorized supplier relationship. Videos stream from the supplier's public media host on playback and have a fallback link if playback fails. All five supplied videos were checked for actual Chrome playback. The update repairs exact older bundled CDN video links, while preserving staff replacements and intentional removals. They are not customer review videos.
 
 ## Update the existing VPS
 

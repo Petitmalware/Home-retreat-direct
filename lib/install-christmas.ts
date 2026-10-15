@@ -16,9 +16,17 @@ export async function installChristmasCatalog(database:PrismaClient){
    const saved=await tx.category.upsert({where:{slug:category.slug},create:{id:category.slug,slug:category.slug,name:category.name,group:category.group,description:category.intro,image},update:{}});
    categoryIds.set(category.slug,saved.id);
   }
-  let added=0;
+  let added=0,repairedVideos=0;
   for(const entry of catalog.products){
-   if(await tx.product.findUnique({where:{id:entry.id},select:{id:true}}))continue;
+   if(await tx.product.findUnique({where:{id:entry.id},select:{id:true}})){
+    // Repair only an exact bundled CDN link; retain staff replacements and removals.
+    if(entry.videoUrl?.startsWith('https://hooya.s3.us-west-1.amazonaws.com/')){
+     const legacyUrl=entry.videoUrl.replace('https://hooya.s3.us-west-1.amazonaws.com/','https://cdn1.costway.com/');
+     const repaired=await tx.product.updateMany({where:{id:entry.id,videoUrl:legacyUrl},data:{videoUrl:entry.videoUrl}});
+     repairedVideos+=repaired.count;
+    }
+    continue;
+   }
    await tx.product.create({data:{
     id:entry.id,sku:entry.sku,slug:entry.slug,name:entry.name,brand:entry.brand,model:entry.model,
     description:entry.description,shortDescription:entry.description,priceCents:entry.priceCents,discountPercent:entry.discountPercent,
@@ -35,6 +43,6 @@ export async function installChristmasCatalog(database:PrismaClient){
   }
   await tx.siteSetting.upsert({where:{key:CHRISTMAS_SETTING},create:{key:CHRISTMAS_SETTING,value:JSON.stringify({mode:'on',startsOn:'',endsOn:''})},update:{}});
   await tx.siteSetting.upsert({where:{key:'christmasCatalogVersion'},create:{key:'christmasCatalogVersion',value:String(catalog.version)},update:{value:String(catalog.version)}});
-  return {added,existingPreserved:catalog.products.length-added,products:catalog.products.length,images:catalog.products.reduce((sum,p)=>sum+p.images.length,0),videos:catalog.products.filter(p=>p.videoUrl).length};
+  return {added,repairedVideos,existingPreserved:catalog.products.length-added,products:catalog.products.length,images:catalog.products.reduce((sum,p)=>sum+p.images.length,0),videos:catalog.products.filter(p=>p.videoUrl).length};
  },{timeout:60000});
 }
