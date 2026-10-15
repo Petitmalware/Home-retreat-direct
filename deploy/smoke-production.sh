@@ -247,7 +247,7 @@ assert.equal(settings.data.launchReadiness.acceptingOrders, true);
 const seasonal = await api('/api/admin/seasonal');
 assert.equal(seasonal.response.status, 200);
 assert.equal(seasonal.data.settings.active, true);
-assert.equal(seasonal.data.products.length, 20);
+assert.equal(seasonal.data.products.length, 30);
 assert.ok(seasonal.data.products.every(product => product._count.images >= 6));
 const christmas = JSON.parse(readFileSync('data/christmas-catalog.json', 'utf8')).products[0];
 assert.ok((await (await request('/collections/christmas', 'text/html')).text()).includes('Christmas at Home'));

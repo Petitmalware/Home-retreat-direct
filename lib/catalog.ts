@@ -7,7 +7,7 @@ export const categories=[
  {slug:'massage-chairs',name:'Massage Chairs',group:'Wellness',count:12,image:'/images/massage.jpg',intro:'Find your own moment of quiet.'},
  {slug:'saunas',name:'Saunas',group:'Wellness',count:12,image:'/images/sauna.jpg',intro:'Bring a slower ritual home.'},
 ] as const;
-export type CategorySlug=typeof categories[number]['slug']|'christmas-trees'|'christmas-wreaths-garlands'|'christmas-outdoor-decor';
+export type CategorySlug=typeof categories[number]['slug']|'christmas-trees'|'christmas-unlit-trees'|'christmas-toys-gifts'|'christmas-wreaths-garlands'|'christmas-outdoor-decor';
 export type Spec={label:string;value:string};
 export type Variant={id:string;name:string;color:string;colorHex:string;size:string;price:number;compareAt?:number;stock:number};
 export type CatalogProduct={id:string;sku:string;slug:string;name:string;category:CategorySlug;collections:string[];price:number;compareAt:number|null;discountPercent?:number;brand:string;model:string;description:string;shortDescription:string;image:string;images:string[];galleryColorNote?:string;galleryNote?:string;gallery?:{url:string;alt:string;kind:string;variantId:string|null}[];previewOnly?:boolean;hasCatalogPhotos?:boolean;featured:boolean;bestSeller:boolean;newArrival:boolean;stockStatus:string;material:string;dimensions:string;weight:string;shippingWeight:string;deliveryType:string;deliveryWindow:string;warranty:string;assembly:string;care:string;features:string[];included:string[];specs:Spec[];variants:Variant[];demoRating:number;demoCount:number;rating:number;reviewCount:number;isDemo:boolean;seoTitle:string;seoDescription:string;videoUrl?:string;videoTitle?:string;categoryName?:string;categories?:string[]};

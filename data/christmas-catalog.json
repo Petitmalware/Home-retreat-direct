@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "checkedAt": "2026-10-14T12:36:27.112Z",
+  "version": 2,
+  "checkedAt": "2026-10-15T00:12:05.244Z",
   "collection": {
     "id": "christmas",
     "slug": "christmas",
@@ -3866,6 +3866,1783 @@
           "priceCents": 4299
         }
       ]
+    },
+    {
+      "id": "xmas-koc-cs-t7-5-u",
+      "slug": "king-of-christmas-7-5-ft-cypress-spruce-unlit-tree",
+      "asin": "",
+      "category": "christmas-unlit-trees",
+      "name": "King of Christmas 7.5 ft Cypress Spruce Unlit Tree",
+      "brand": "King of Christmas",
+      "model": "CS-T7.5-U",
+      "sku": "HRD-XMAS-CS-T7.5-U",
+      "description": "A full, undecorated artificial spruce with dense green branches and a 64-inch spread. Add your own lights and ornaments to create your Christmas style. Lights, ornaments and room accessories shown in styled photographs are not included.",
+      "material": "PE and PVC",
+      "dimensions": "7.5 ft H × 64 in W",
+      "weight": "65 lbs",
+      "shippingWeight": "",
+      "color": "Green",
+      "colorHex": "#31543b",
+      "features": [
+        "5,219 branch tips",
+        "70% PE / 30% PVC needles",
+        "Plain green branches, ready for your decorations",
+        "Tree stand included"
+      ],
+      "included": [
+        "Artificial tree sections",
+        "Tree stand",
+        "Storage bag",
+        "Protective gloves",
+        "Instructions"
+      ],
+      "specifications": [
+        {
+          "label": "Height (including stand)",
+          "value": "7.5 ft"
+        },
+        {
+          "label": "Width",
+          "value": "64 in"
+        },
+        {
+          "label": "Branch tips",
+          "value": "5,219"
+        },
+        {
+          "label": "Needle material",
+          "value": "70% PE / 30% PVC"
+        },
+        {
+          "label": "Lighting",
+          "value": "Unlit; no lights included"
+        },
+        {
+          "label": "Ornaments",
+          "value": "Not included"
+        }
+      ],
+      "priceCents": 74900,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.kingofchristmas.com/products/7-5-foot-cypress-spruce-tree-unlit",
+      "sourceSelection": [
+        "7.5' / Unlit"
+      ],
+      "selectedSize": "7.5 ft / Full / Unlit",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 74900,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, assemble the stand and tree sections, and shape the branches before decorating. Large trees require more than one adult for setup.",
+      "care": "Keep away from heat sources and follow the supplied cleaning and storage instructions. Disconnect any lights before cleaning.",
+      "credit": "Product photography © King of Christmas",
+      "license": "King of Christmas product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.kingofchristmas.com/products/7-5-foot-cypress-spruce-tree-unlit",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-koc-cs-t7-5-u/01.jpeg",
+          "alt": "King of Christmas 7.5 ft Cypress Spruce Unlit Tree — undecorated tree, lights and ornaments not included",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Cypress_Spruce_White_Background_Unlit.jpg?v=1786027746&width=1200&format=jpg",
+          "imageId": "CS-T7.5-U-1",
+          "width": 1200,
+          "height": 1500,
+          "sha256": "4850905bb2bb23ba81105108274afe662717dbde25cfc1ce01e7245d5097d3f7"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-cs-t7-5-u/02.jpeg",
+          "alt": "King of Christmas 7.5 ft Cypress Spruce Unlit Tree — tree and branch detail 2",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/CypressSunroomVertical.jpg?v=1718158662&width=1200&format=jpg",
+          "imageId": "CS-T7.5-U-2",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "9d094c35e918626272de4906272c5f57a60c03db51246453a891ea5a2a016df5"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-cs-t7-5-u/03.jpeg",
+          "alt": "King of Christmas 7.5 ft Cypress Spruce Unlit Tree — tree and branch detail 3",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/CypressSpruce1.jpg?v=1770224053&width=1200&format=jpg",
+          "imageId": "CS-T7.5-U-3",
+          "width": 1080,
+          "height": 1440,
+          "sha256": "9db1f7b51c2c65286e91dc89ccc1e7bd453b3a40b59009c5bc00586c91bd0627"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-cs-t7-5-u/04.jpeg",
+          "alt": "King of Christmas 7.5 ft Cypress Spruce Unlit Tree — tree and branch detail 4",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Cypresstips.png?v=1770224053&width=1200&format=jpg",
+          "imageId": "CS-T7.5-U-4",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "f43557e19f4317dd366479fb127bd8dbcf8b20b3eddb098bba9d4de293b61f4d"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-cs-t7-5-u/05.jpeg",
+          "alt": "King of Christmas 7.5 ft Cypress Spruce Unlit Tree — tree and branch detail 5",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/CypressSpruce_f2a3b9fc-0674-4bbd-a7bd-63a413d4ebc7.jpg?v=1770224001&width=1200&format=jpg",
+          "imageId": "CS-T7.5-U-5",
+          "width": 1200,
+          "height": 1575,
+          "sha256": "2f6a9bdc67f4ddae11700bf0ac00d2edafda40e19144810cfe8440a5f5d479a4"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-cs-t7-5-u/06.jpeg",
+          "alt": "King of Christmas 7.5 ft Cypress Spruce Unlit Tree — tree and branch detail 6",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Stand_b516f323-97f4-4d95-b8f3-84684b98d8d1.png?v=1770224053&width=1200&format=jpg",
+          "imageId": "CS-T7.5-U-6",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "aee587e3ad7e5eb9b2bf64da31414e48bf79c6f2f403e9317904c18ec061ec0c"
+        }
+      ],
+      "variants": [
+        {
+          "name": "7.5 ft / Full / Unlit",
+          "color": "Green",
+          "colorHex": "#31543b",
+          "sku": "HRD-XMAS-CS-T7.5-U-STANDARD",
+          "priceCents": 74900
+        }
+      ]
+    },
+    {
+      "id": "xmas-koc-rfs-t9-u",
+      "slug": "king-of-christmas-9-ft-royal-fir-slim-unlit-tree",
+      "asin": "",
+      "category": "christmas-unlit-trees",
+      "name": "King of Christmas 9 ft Royal Fir Slim Unlit Tree",
+      "brand": "King of Christmas",
+      "model": "RFS-T9-U",
+      "sku": "HRD-XMAS-RFS-T9-U",
+      "description": "A tall, slim artificial fir supplied undecorated, with green branches ready for your own lights and ornaments. Its 48-inch width suits a narrower display space. Styled room accessories, lights and ornaments are not included.",
+      "material": "PE and PVC",
+      "dimensions": "9 ft H × 48 in W",
+      "weight": "53 lbs",
+      "shippingWeight": "",
+      "color": "Green",
+      "colorHex": "#31543b",
+      "features": [
+        "2,693 branch tips",
+        "70% PE / 30% PVC needles",
+        "Plain green branches, ready for your decorations",
+        "Tree stand included"
+      ],
+      "included": [
+        "Artificial tree sections",
+        "Tree stand",
+        "Storage bag",
+        "Protective gloves",
+        "Instructions"
+      ],
+      "specifications": [
+        {
+          "label": "Height (including stand)",
+          "value": "9 ft"
+        },
+        {
+          "label": "Width",
+          "value": "48 in"
+        },
+        {
+          "label": "Branch tips",
+          "value": "2,693"
+        },
+        {
+          "label": "Needle material",
+          "value": "70% PE / 30% PVC"
+        },
+        {
+          "label": "Lighting",
+          "value": "Unlit; no lights included"
+        },
+        {
+          "label": "Ornaments",
+          "value": "Not included"
+        }
+      ],
+      "priceCents": 79900,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.kingofchristmas.com/products/9-foot-royal-fir-slim-tree-unlit",
+      "sourceSelection": [
+        "9' / Slim / Unlit"
+      ],
+      "selectedSize": "9 ft / Slim / Unlit",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 79900,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, assemble the stand and tree sections, and shape the branches before decorating. Large trees require more than one adult for setup.",
+      "care": "Keep away from heat sources and follow the supplied cleaning and storage instructions. Disconnect any lights before cleaning.",
+      "credit": "Product photography © King of Christmas",
+      "license": "King of Christmas product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.kingofchristmas.com/products/9-foot-royal-fir-slim-tree-unlit",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-koc-rfs-t9-u/01.jpeg",
+          "alt": "King of Christmas 9 ft Royal Fir Slim Unlit Tree — undecorated tree, lights and ornaments not included",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Royal_Fir_Slim_Unlit_White_Background.jpg?v=1786032642&width=1200&format=jpg",
+          "imageId": "RFS-T9-U-1",
+          "width": 1200,
+          "height": 1500,
+          "sha256": "035fa966b68789b389d8e934051166d7a7a5fd6a26cac51fe3cc6c4069045f4d"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rfs-t9-u/02.jpeg",
+          "alt": "King of Christmas 9 ft Royal Fir Slim Unlit Tree — tree and branch detail 2",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/FlockedGroup-6_238d705f-e530-4c9a-a2be-08de0d33e68b.jpg?v=1718159044&width=1200&format=jpg",
+          "imageId": "RFS-T9-U-2",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "93fb3f5f714e238e35f5671d7cc5698ea6fd762596583961fe65ff2945a86100"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rfs-t9-u/03.jpeg",
+          "alt": "King of Christmas 9 ft Royal Fir Slim Unlit Tree — tree and branch detail 3",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Royal_Fir_Slim.png?v=1761155227&width=1200&format=jpg",
+          "imageId": "RFS-T9-U-3",
+          "width": 1058,
+          "height": 1320,
+          "sha256": "6cc886c8482a5918f8ad807e5172259c19724b82c62a47a1851857ff987d003c"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rfs-t9-u/04.jpeg",
+          "alt": "King of Christmas 9 ft Royal Fir Slim Unlit Tree — tree and branch detail 4",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Royal_Fir_Tips.png?v=1770223758&width=1200&format=jpg",
+          "imageId": "RFS-T9-U-4",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "d4a74546c5720ebee9a07e804920d656d90afde9126689a3d0c339582dfc41d6"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rfs-t9-u/05.jpeg",
+          "alt": "King of Christmas 9 ft Royal Fir Slim Unlit Tree — tree and branch detail 5",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Royal_Fir_Slim_2.png?v=1762197028&width=1200&format=jpg",
+          "imageId": "RFS-T9-U-5",
+          "width": 1062,
+          "height": 1324,
+          "sha256": "117b9b19f83ebb02ed79586807ceaee16524ef52f8e2518d4fb6ea70627156cf"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rfs-t9-u/06.jpeg",
+          "alt": "King of Christmas 9 ft Royal Fir Slim Unlit Tree — tree and branch detail 6",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/RoyalFirQuick-ShapeArtificialChristmasTreeSide.jpg?v=1770223758&width=1200&format=jpg",
+          "imageId": "RFS-T9-U-6",
+          "width": 1200,
+          "height": 1648,
+          "sha256": "853f296e673d4682acc3c1aa7ff30d6af4e170c8cf2d34b8e90b5d7d2754c678"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rfs-t9-u/07.jpeg",
+          "alt": "King of Christmas 9 ft Royal Fir Slim Unlit Tree — tree and branch detail 7",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Royal-Fir-Slim-Quick-Shape-Artificial-Christmas-Tree-2_556085cb-9a3c-4e3f-9727-e4a51659db33.jpg?v=1762197003&width=1200&format=jpg",
+          "imageId": "RFS-T9-U-7",
+          "width": 1080,
+          "height": 1080,
+          "sha256": "66ecaf935faf7a1afd5572930d15a929468045207ecdfa324ba45b4eb3e4048b"
+        }
+      ],
+      "variants": [
+        {
+          "name": "9 ft / Slim / Unlit",
+          "color": "Green",
+          "colorHex": "#31543b",
+          "sku": "HRD-XMAS-RFS-T9-U-STANDARD",
+          "priceCents": 79900
+        }
+      ]
+    },
+    {
+      "id": "xmas-koc-kf-t10-l",
+      "slug": "king-of-christmas-10-ft-king-flock-tree-with-1-250-leds",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs",
+      "brand": "King of Christmas",
+      "model": "KF-T10-L",
+      "sku": "HRD-XMAS-KF-T10-L",
+      "description": "A large flocked artificial fir with a snowy finish and warm white lighting. The power-pole connection, lighting controls and substantial 60-inch width make it a centerpiece for a room with a high ceiling. Decorative ornaments are not included.",
+      "material": "PE and PVC",
+      "dimensions": "10 ft H × 60 in W",
+      "weight": "97 lbs",
+      "shippingWeight": "",
+      "color": "Flocked white",
+      "colorHex": "#ecebe4",
+      "features": [
+        "3,270 branch tips",
+        "37% PE / 63% PVC needles",
+        "1,250 warm white micro LEDs",
+        "Power-pole lighting connection"
+      ],
+      "included": [
+        "Artificial tree sections",
+        "Tree stand",
+        "Storage bag",
+        "Protective gloves",
+        "Instructions",
+        "Remote and foot pedal"
+      ],
+      "specifications": [
+        {
+          "label": "Height (including stand)",
+          "value": "10 ft"
+        },
+        {
+          "label": "Width",
+          "value": "60 in"
+        },
+        {
+          "label": "Branch tips",
+          "value": "3,270"
+        },
+        {
+          "label": "Needle material",
+          "value": "37% PE / 63% PVC"
+        },
+        {
+          "label": "Lighting",
+          "value": "1,250 warm white micro LEDs"
+        },
+        {
+          "label": "Ornaments",
+          "value": "Not included"
+        }
+      ],
+      "priceCents": 129900,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.kingofchristmas.com/products/10-foot-king-flock-tree-led",
+      "sourceSelection": [
+        "10' / Full / LED"
+      ],
+      "selectedSize": "10 ft / Full / Warm white LED",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 129900,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, assemble the stand and tree sections, and shape the branches before decorating. Large trees require more than one adult for setup.",
+      "care": "Keep away from heat sources and follow the supplied cleaning and storage instructions. Disconnect any lights before cleaning.",
+      "credit": "Product photography © King of Christmas",
+      "license": "King of Christmas product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.kingofchristmas.com/products/10-foot-king-flock-tree-led",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-koc-kf-t10-l/01.jpeg",
+          "alt": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs — tree and branch detail 1",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/KingFlock.jpg?v=1714673347&width=1200&format=jpg",
+          "imageId": "KF-T10-L-1",
+          "width": 1080,
+          "height": 1545,
+          "sha256": "a25f568917ab7c4d06b4ac2ccf05f132144204c39201a4ae0c343c6a3bc17a6b"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-kf-t10-l/02.jpeg",
+          "alt": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs — tree and branch detail 2",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/king-flock-artificial-christmas-tree_092cbcb1-94de-4ad0-a189-5b4a7fa8c2c5.jpg?v=1718158083&width=1200&format=jpg",
+          "imageId": "KF-T10-L-2",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "1a1252906dc9d18c683e2c8934c2b9889f0c227e4f2a0d1071b3383c5a4b8ed0"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-kf-t10-l/03.jpeg",
+          "alt": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs — tree and branch detail 3",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Flocked_Remote.png?v=1768326493&width=1200&format=jpg",
+          "imageId": "KF-T10-L-3",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "94a60f96450f6f8eec0c000f8fdbbe68ebb194899e0ba339a2c3e6276796a519"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-kf-t10-l/04.jpeg",
+          "alt": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs — tree and branch detail 4",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/King_Flock_Full_White_Background.jpg?v=1786030152&width=1200&format=jpg",
+          "imageId": "KF-T10-L-4",
+          "width": 1200,
+          "height": 1500,
+          "sha256": "6e8d3ae1075f898eb076820c8f67ccde4bbe3054e140c349b34374b27501f67a"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-kf-t10-l/05.jpeg",
+          "alt": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs — tree and branch detail 5",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Flocked_Lights.png?v=1768326493&width=1200&format=jpg",
+          "imageId": "KF-T10-L-5",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "089a0b24b86dd658c9b01d3f39b51ecdf38751d2c925197217a5b86f2896c73b"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-kf-t10-l/06.jpeg",
+          "alt": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs — tree and branch detail 6",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/King-flock-artificial-christmas-trees_2c784b22-32ab-4460-af79-349aebb2b58c.jpg?v=1761161922&width=1200&format=jpg",
+          "imageId": "KF-T10-L-6",
+          "width": 1200,
+          "height": 1500,
+          "sha256": "74db935a75a8c122c121aca0be977920c6285763ace307c5106b9b4760ccc0d7"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-kf-t10-l/07.jpeg",
+          "alt": "King of Christmas 10 ft King Flock Tree with 1,250 LEDs — tree and branch detail 7",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/KingFlockLed_b6ff6a0d-e6a8-4b85-83d2-f4e7c5d4348b.png?v=1761161922&width=1200&format=jpg",
+          "imageId": "KF-T10-L-7",
+          "width": 1024,
+          "height": 1280,
+          "sha256": "69c7bf6781937931a20957a82e76c6310c7833b822c69ffb26602d22b31f58eb"
+        }
+      ],
+      "variants": [
+        {
+          "name": "10 ft / Full / Warm white LED",
+          "color": "Flocked white",
+          "colorHex": "#ecebe4",
+          "sku": "HRD-XMAS-KF-T10-L-STANDARD",
+          "priceCents": 129900
+        }
+      ]
+    },
+    {
+      "id": "xmas-koc-qf-t9-l",
+      "slug": "king-of-christmas-9-ft-queen-flock-tree-with-1-100-leds",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "King of Christmas 9 ft Queen Flock Tree with 1,100 LEDs",
+      "brand": "King of Christmas",
+      "model": "QF-T9-L",
+      "sku": "HRD-XMAS-QF-T9-L",
+      "description": "A full, snow-flocked artificial tree with 4,377 tips and warm white lighting. Its wide silhouette gives larger rooms a substantial seasonal focal point. The supplied lighting controls let you change the display; ornaments are not included.",
+      "material": "PE and PVC",
+      "dimensions": "9 ft H × 67 in W",
+      "weight": "74 lbs",
+      "shippingWeight": "",
+      "color": "Flocked white",
+      "colorHex": "#ecebe4",
+      "features": [
+        "4,377 branch tips",
+        "39% PE / 61% PVC needles",
+        "1,100 warm white micro LEDs",
+        "Power-pole lighting connection"
+      ],
+      "included": [
+        "Artificial tree sections",
+        "Tree stand",
+        "Storage bag",
+        "Protective gloves",
+        "Instructions",
+        "Remote and foot pedal"
+      ],
+      "specifications": [
+        {
+          "label": "Height (including stand)",
+          "value": "9 ft"
+        },
+        {
+          "label": "Width",
+          "value": "67 in"
+        },
+        {
+          "label": "Branch tips",
+          "value": "4,377"
+        },
+        {
+          "label": "Needle material",
+          "value": "39% PE / 61% PVC"
+        },
+        {
+          "label": "Lighting",
+          "value": "1,100 warm white micro LEDs"
+        },
+        {
+          "label": "Ornaments",
+          "value": "Not included"
+        }
+      ],
+      "priceCents": 99900,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.kingofchristmas.com/products/9-foot-queen-flock-tree-led",
+      "sourceSelection": [
+        "9' / Full / LED"
+      ],
+      "selectedSize": "9 ft / Full / Warm white LED",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 99900,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, assemble the stand and tree sections, and shape the branches before decorating. Large trees require more than one adult for setup.",
+      "care": "Keep away from heat sources and follow the supplied cleaning and storage instructions. Disconnect any lights before cleaning.",
+      "credit": "Product photography © King of Christmas",
+      "license": "King of Christmas product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.kingofchristmas.com/products/9-foot-queen-flock-tree-led",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-koc-qf-t9-l/01.jpeg",
+          "alt": "King of Christmas 9 ft Queen Flock Tree with 1,100 LEDs — tree and branch detail 1",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/QueenFlock_570c2957-702c-4393-95f3-99e0455c528e.jpg?v=1722012619&width=1200&format=jpg",
+          "imageId": "QF-T9-L-1",
+          "width": 1080,
+          "height": 1545,
+          "sha256": "a91b103dbe90762f11f588948ace8dcf30f3741d3da501ed3acce8bef085cdce"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-qf-t9-l/02.jpeg",
+          "alt": "King of Christmas 9 ft Queen Flock Tree with 1,100 LEDs — tree and branch detail 2",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/FlockedGroup-5_b6c3bf6a-e680-4bc3-86e4-e52c7973c576.jpg?v=1718159045&width=1200&format=jpg",
+          "imageId": "QF-T9-L-2",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "738a1f153ce0070395326ed57642d6c4012e7b5a5bfd0e6cbcabaf1c4073fec8"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-qf-t9-l/03.jpeg",
+          "alt": "King of Christmas 9 ft Queen Flock Tree with 1,100 LEDs — tree and branch detail 3",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/Queen-Flock-Artificial-Christmas-Tree-Unlit9_9450b76c-3139-4217-ac1a-faca73728ab1.jpg?v=1761234792&width=1200&format=jpg",
+          "imageId": "QF-T9-L-3",
+          "width": 1200,
+          "height": 1242,
+          "sha256": "1a2706db30c0cced4a3fc85930abd6a59eef31ccfc8a96001a03d3c2eb8c5b1f"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-qf-t9-l/04.jpeg",
+          "alt": "King of Christmas 9 ft Queen Flock Tree with 1,100 LEDs — tree and branch detail 4",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Queen_Flock_Tip.jpg?v=1787597193&width=1200&format=jpg",
+          "imageId": "QF-T9-L-4",
+          "width": 1150,
+          "height": 1438,
+          "sha256": "802d0cee8c2cb038ebafa24874c4dec976dc05a5c9f171ab5ed1d592838e2359"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-qf-t9-l/05.jpeg",
+          "alt": "King of Christmas 9 ft Queen Flock Tree with 1,100 LEDs — tree and branch detail 5",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/QueenFlockFullUnlitWhiteBackground.jpg?v=1786029940&width=1200&format=jpg",
+          "imageId": "QF-T9-L-5",
+          "width": 1200,
+          "height": 1500,
+          "sha256": "68bd8c58ff12998d390546adfb090dd09a0ab5a3d1f3333439c6cbfd2276f1fa"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-qf-t9-l/06.jpeg",
+          "alt": "King of Christmas 9 ft Queen Flock Tree with 1,100 LEDs — tree and branch detail 6",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/Queen-Flock-Artificial-Christmas-Tree-14_228f4c2f-bfc0-43f1-b738-8f15a963812b.jpg?v=1761580892&width=1200&format=jpg",
+          "imageId": "QF-T9-L-6",
+          "width": 1080,
+          "height": 1350,
+          "sha256": "e6001d7de3f6f0f53b16b995c8e4a8b219ac85e260a98f594a79e2099a7a75f3"
+        }
+      ],
+      "variants": [
+        {
+          "name": "9 ft / Full / Warm white LED",
+          "color": "Flocked white",
+          "colorHex": "#ecebe4",
+          "sku": "HRD-XMAS-QF-T9-L-STANDARD",
+          "priceCents": 99900
+        }
+      ]
+    },
+    {
+      "id": "xmas-koc-rf-t10-l",
+      "slug": "king-of-christmas-10-ft-royal-fir-tree-with-1-600-leds",
+      "asin": "",
+      "category": "christmas-trees",
+      "name": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs",
+      "brand": "King of Christmas",
+      "model": "RF-T10-L",
+      "sku": "HRD-XMAS-RF-T10-L",
+      "description": "A premium full-size artificial fir with dense green foliage and a 71-inch spread. Choose warm white or multicolor lighting for a traditional or colorful display. Allow space for this large tree and its topper; decorative ornaments are not included.",
+      "material": "PE and PVC",
+      "dimensions": "10 ft H × 71 in W",
+      "weight": "141 lbs",
+      "shippingWeight": "",
+      "color": "Green",
+      "colorHex": "#31543b",
+      "features": [
+        "5,654 branch tips",
+        "70% PE / 30% PVC needles",
+        "1,600 warm white and multicolor micro LEDs",
+        "Power-pole lighting connection"
+      ],
+      "included": [
+        "Artificial tree sections",
+        "Tree stand",
+        "Storage bag",
+        "Protective gloves",
+        "Instructions",
+        "Remote and foot pedal"
+      ],
+      "specifications": [
+        {
+          "label": "Height (including stand)",
+          "value": "10 ft"
+        },
+        {
+          "label": "Width",
+          "value": "71 in"
+        },
+        {
+          "label": "Branch tips",
+          "value": "5,654"
+        },
+        {
+          "label": "Needle material",
+          "value": "70% PE / 30% PVC"
+        },
+        {
+          "label": "Lighting",
+          "value": "1,600 warm white and multicolor micro LEDs"
+        },
+        {
+          "label": "Ornaments",
+          "value": "Not included"
+        }
+      ],
+      "priceCents": 189900,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.kingofchristmas.com/products/10-foot-royal-fir-tree-led",
+      "sourceSelection": [
+        "10' / Full / LED"
+      ],
+      "selectedSize": "10 ft / Full / Dual-color LED",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 189900,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Follow the supplied instructions, assemble the stand and tree sections, and shape the branches before decorating. Large trees require more than one adult for setup.",
+      "care": "Keep away from heat sources and follow the supplied cleaning and storage instructions. Disconnect any lights before cleaning.",
+      "credit": "Product photography © King of Christmas",
+      "license": "King of Christmas product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.kingofchristmas.com/products/10-foot-royal-fir-tree-led",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/01.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 1",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/RoyalFir_59c675e2-b8a7-4062-af58-098f2e9b8021.png?v=1722013217&width=1200&format=jpg",
+          "imageId": "RF-T10-L-1",
+          "width": 1024,
+          "height": 1466,
+          "sha256": "9619e62b78265ce72795bf6630816e7d667fc2290dc097da164307bbb7cc6ed0"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/02.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 2",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/products/FlockedGroup-8_43f42ac9-3e20-4448-a77b-84541b42dfad.jpg?v=1718158267&width=1200&format=jpg",
+          "imageId": "RF-T10-L-2",
+          "width": 1200,
+          "height": 1600,
+          "sha256": "11a412d7d59948fae264123fb1019bdadc91ec7738f828ea278bf4204fff416b"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/03.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 3",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/RoyalFir2_e329c630-166c-4ae1-976e-93f6aac08678.png?v=1761153391&width=1200&format=jpg",
+          "imageId": "RF-T10-L-3",
+          "width": 1024,
+          "height": 1577,
+          "sha256": "3fdb5a208c7bfd71cade9060e8eed12fd356e12626cd3c0ab2ddd23c691664a4"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/04.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 4",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/GreenRemote.png?v=1770224053&width=1200&format=jpg",
+          "imageId": "RF-T10-L-4",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "61b7a3a67910a52bce93f4aab81e7870321bc594321e62488fdc202973ab487a"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/05.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 5",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/Royal_Fir_Full_White_Background_Unlit.jpg?v=1786032587&width=1200&format=jpg",
+          "imageId": "RF-T10-L-5",
+          "width": 1200,
+          "height": 1500,
+          "sha256": "2aeb54fdb84271cddd04b02bab00413d9a6a12aa30074aa0bf1dca3c8eb46ca2"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/06.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 6",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/GreenLights.png?v=1770224053&width=1200&format=jpg",
+          "imageId": "RF-T10-L-6",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "007cbe9dd5e4437ce59a6d403f7fa029fe1a1fbab683c63eba1841d114a2bd0d"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/07.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 7",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/RealisticTipsBlendofPVCandPEMaterial_ae275045-79d6-46c2-bbc4-e0c660012c3b.png?v=1770224053&width=1200&format=jpg",
+          "imageId": "RF-T10-L-7",
+          "width": 1024,
+          "height": 1465,
+          "sha256": "778bfa5ca2d19ee4682a3473c0d628af3aedcbe7e579028401b7751989863dab"
+        },
+        {
+          "url": "/images/christmas/xmas-koc-rf-t10-l/08.jpeg",
+          "alt": "King of Christmas 10 ft Royal Fir Tree with 1,600 LEDs — tree and branch detail 8",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0130/8226/3616/files/RobynChubey2.jpg?v=1761153634&width=1200&format=jpg",
+          "imageId": "RF-T10-L-8",
+          "width": 1080,
+          "height": 1350,
+          "sha256": "e4b35ec0b9975e7e95f3e5c2ff54b310be48fd383feb5339713d831e77262d42"
+        }
+      ],
+      "variants": [
+        {
+          "name": "10 ft / Full / Dual-color LED",
+          "color": "Green",
+          "colorHex": "#31543b",
+          "sku": "HRD-XMAS-RF-T10-L-STANDARD",
+          "priceCents": 189900
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-tq10350us",
+      "slug": "costway-24v-toyota-lc250-two-seater-ride-on-car-navy",
+      "asin": "",
+      "category": "christmas-toys-gifts",
+      "name": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy",
+      "brand": "Costway",
+      "model": "TQ10350US",
+      "sku": "HRD-XMAS-TQ10350US",
+      "description": "A Toyota-licensed battery ride-on with two seats, parent remote control and switchable two- or four-wheel drive. LED lights and an onboard audio player add to pretend driving. For children aged 3 and over, with adult supervision and a 110 lb combined weight limit.",
+      "material": "PP, Metal",
+      "dimensions": "45\" × 29.5\" × 28\"(L x W x H)",
+      "weight": "53 lbs",
+      "shippingWeight": "",
+      "color": "Navy",
+      "colorHex": "#253e60",
+      "features": [
+        "24V 7Ah rechargeable battery",
+        "Four 100W motors; 2WD/4WD selection",
+        "Parent remote and child-operated controls",
+        "2.2–3.5 mph speed; soft start"
+      ],
+      "included": [
+        "Ride-on car",
+        "Parent remote",
+        "Charger"
+      ],
+      "specifications": [
+        {
+          "label": "Materials",
+          "value": "PP, Metal"
+        },
+        {
+          "label": "Product Dimensions",
+          "value": "45\" × 29.5\" × 28\"(L x W x H)"
+        },
+        {
+          "label": "Size of Each Seat",
+          "value": "9.5\" × 7.5\" × 12\"(L x W x H)"
+        },
+        {
+          "label": "Weight Capacity",
+          "value": "110 lbs"
+        },
+        {
+          "label": "Suitable Ages",
+          "value": "3+ Years Old"
+        },
+        {
+          "label": "Battery",
+          "value": "24V 7AH"
+        },
+        {
+          "label": "Motor",
+          "value": "4 x 100W"
+        },
+        {
+          "label": "Speed",
+          "value": "2.2-3.5 MPH"
+        },
+        {
+          "label": "Charging Time",
+          "value": "8-12 Hours"
+        },
+        {
+          "label": "Selected color",
+          "value": "Navy"
+        }
+      ],
+      "priceCents": 33999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.costway.com/24v-2-seater-ride-on-car-4wd-2wd-switchable-for-kids-with-remote-for-ages-3.html",
+      "sourceSelection": [
+        "Select: [24V] Toyota LC250 with 2-Seater",
+        "Color: Navy"
+      ],
+      "selectedSize": "Toyota LC250 / Navy / 24V",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 33999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Adult assembly required. Read and follow the supplied instructions before use.",
+      "care": "Use with adult supervision. Follow the manufacturer’s age, weight, assembly, inspection and care instructions.",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/01.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586048368703_890404.jpg",
+          "imageId": "TQ10350US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "78cdbb9c4354004cae4f6cc5140ec391297f00a3643f0f5ab65d6451c6f88afd"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/02.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1761031777712691_290798.jpg",
+          "imageId": "TQ10350US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "c7ada485bf5da7c72ef4e1cf0051ea394d543ab2f6a39ff9d5080498377487f0"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/03.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586049869111_682611.jpg",
+          "imageId": "TQ10350US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "05c483f213d87435b617f9052ee4cde5e0bd416ee2057d97312ba7d1619ca35c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/04.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — dimensions and assembly layout",
+          "kind": "DIMENSIONS",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586052285524_516578.jpg",
+          "imageId": "TQ10350US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "4d02ee7494fd8a35babc8546a9550a41a5d924e6b45431897bbf0d54f030fc1e"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/05.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586049130579_268962.jpg",
+          "imageId": "TQ10350US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "835b9b5102850a0c23286df4fb719bc5097de760d94a848dbcaceea520281dd4"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/06.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586057200435_928371.jpg",
+          "imageId": "TQ10350US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "743d1c0fc87464977e22d691151c4e5b98ee15aafd0edbfc98c4b7c89ede256c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/07.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586054733377_602131.jpg",
+          "imageId": "TQ10350US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "afcc8e204827fdfa0c82db186389e7f5294e9fbf8a1f3981af1c3b495143d9a2"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/08.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586051491859_222711.jpg",
+          "imageId": "TQ10350US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "83fde2f83eaf52defd2556e5d7651cf4ca4302236b11dab65e1f854619e02338"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/11.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 11",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586050656153_390761.jpg",
+          "imageId": "TQ10350US-11",
+          "width": 750,
+          "height": 750,
+          "sha256": "a78545b7be8f298458d6a1f54bdc7ea4965ffb4e3e71731f392043b8924fc2d7"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/12.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 12",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586056407219_272209.jpg",
+          "imageId": "TQ10350US-12",
+          "width": 750,
+          "height": 750,
+          "sha256": "6e8dd508d9e05834d3c0067ae6228ad3ae93e2458a95aa18f1b48f89d0bc522e"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-tq10350us/13.jpg",
+          "alt": "Costway 24V Toyota LC250 Two-Seater Ride-On Car — Navy — product view 13",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/2/4/24V_2_Seater_Ride_on_1757586055546765_776698.jpg",
+          "imageId": "TQ10350US-13",
+          "width": 750,
+          "height": 750,
+          "sha256": "baa629c30432c5b5ca257320e4b1b67518b11e2faa97e7247a45fbd4eede2abf"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Toyota LC250 / Navy / 24V",
+          "color": "Navy",
+          "colorHex": "#253e60",
+          "sku": "HRD-XMAS-TQ10350US-STANDARD",
+          "priceCents": 33999
+        }
+      ],
+      "videoUrl": "https://cdn1.costway.com/media/us/Install_video/32943220.mp4",
+      "videoTitle": "Toyota LC250 ride-on assembly video",
+      "videoSource": "https://www.costway.com/24v-2-seater-ride-on-car-4wd-2wd-switchable-for-kids-with-remote-for-ages-3.html"
+    },
+    {
+      "id": "xmas-cw-np11806-es10151us",
+      "slug": "costway-double-slide-inflatable-water-park-with-750w-blower",
+      "asin": "",
+      "category": "christmas-toys-gifts",
+      "name": "Costway Double-Slide Inflatable Water Park with 750W Blower",
+      "brand": "Costway",
+      "model": "NP11806+ES10151US",
+      "sku": "HRD-XMAS-NP11806ES10151US",
+      "description": "An inflatable backyard water park with two slides, splash pools and a climbing wall. A basketball hoop and ring-toss area add more ways to play. The selected bundle includes a 750W blower. Use with adult supervision, within the stated age and weight limits.",
+      "material": "420D Oxford Cloth, 500D PVC",
+      "dimensions": "225\" x 145.5\" x 105\"",
+      "weight": "75 lbs",
+      "shippingWeight": "",
+      "color": "Multicolor",
+      "colorHex": "#b17639",
+      "features": [
+        "Two water slides and climbing wall",
+        "Splash pools and water cannon",
+        "Basketball hoop and ring-toss game",
+        "100 lb individual limit; 200 lb inflatable-area limit"
+      ],
+      "included": [
+        "Inflatable water park",
+        "750W blower",
+        "User guide"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "420D Oxford Cloth, 500D PVC"
+        },
+        {
+          "label": "Overall Dimensions",
+          "value": "225\" x 145.5\" x 105\""
+        },
+        {
+          "label": "Dimensions of Slide(Left)",
+          "value": "91.5\" x 16\""
+        },
+        {
+          "label": "Dimensions of Slide(Right)",
+          "value": "103\" x 25.5\""
+        },
+        {
+          "label": "Dimensions of Large Pool",
+          "value": "153.5\" x 90\""
+        },
+        {
+          "label": "Dimensions of Small Pool",
+          "value": "95.5\" x 29\""
+        },
+        {
+          "label": "Height of Guardrails",
+          "value": "21″"
+        },
+        {
+          "label": "Recommended Age",
+          "value": "3-12 years old"
+        },
+        {
+          "label": "Individual Weight Limit",
+          "value": "100 lbs"
+        },
+        {
+          "label": "Max. Weight Limit of Inflatable Part",
+          "value": "200 lbs"
+        },
+        {
+          "label": "Blower",
+          "value": "750W"
+        }
+      ],
+      "priceCents": 38799,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.costway.com/inflatable-water-slide-park-giant-bounce-house-with-750w-blower.html",
+      "sourceSelection": [
+        "Select: 750W Blower Bundle (Standard Setup)"
+      ],
+      "selectedSize": "Water park / 750W blower bundle",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 38799,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Adult assembly required. Read and follow the supplied instructions before use.",
+      "care": "Use with adult supervision. Follow the manufacturer’s age, weight, assembly, inspection and care instructions.",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/01.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-1.jpg",
+          "imageId": "NP11806+ES10151US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "0d54316e761a3b6328159e616cbc787cda519c9f3eb75474375782aac803e51e"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/02.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-2.jpg",
+          "imageId": "NP11806+ES10151US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "8446b61a7efe27edd0555222580d61acb9ecfacc3dd8022b3f068278291d8e64"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/03.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-3.jpg",
+          "imageId": "NP11806+ES10151US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "88525683784b86a53700bb7e21dfbfc25373184ce7c2a5c38095b174b0daa583"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/04.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-4.jpg",
+          "imageId": "NP11806+ES10151US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "e4285ff98a66bdd2df15661a3cc4122699490dbe679848df55be34db7424c6de"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/05.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — dimensions and assembly layout",
+          "kind": "DIMENSIONS",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-size-5.jpg",
+          "imageId": "NP11806+ES10151US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "7c365724f5bcadb49a8bcfb713d392fbf0505206c641b1984e8f9cbe0a1ee6df"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/06.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-6.jpg",
+          "imageId": "NP11806+ES10151US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "42fa6771889cb6cae3279e60f5939f95b4e9eed4c6366b7fcdec42ecab0f0e47"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/07.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-7.jpg",
+          "imageId": "NP11806+ES10151US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "f8fa0630b38d8fba15c2575c371d3f9fa7d961f6b7e21029ccec785b111c8ebc"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/08.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-8.jpg",
+          "imageId": "NP11806+ES10151US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "1390da965703562e2e4f73a9d6f1106813a5cc2f7d639f871cbdf04aaa17b9ee"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/09.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-9.jpg",
+          "imageId": "NP11806+ES10151US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "a32363bf48b58cff13c07d4b3699b0aa8b95a10dd1bcc85eb879f2b691739823"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np11806-es10151us/10.jpg",
+          "alt": "Costway Double-Slide Inflatable Water Park with 750W Blower — product view 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/n/NP11806+ES10151US/Inflatable_Water_Slide_Park_Giant-10.jpg",
+          "imageId": "NP11806+ES10151US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "c3e5fc0d39a4dcae60940552fd669853fa8f175e5c04ec3fe2cced07b9d1ee26"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Water park / 750W blower bundle",
+          "color": "Multicolor",
+          "colorHex": "#b17639",
+          "sku": "HRD-XMAS-NP11806ES10151US-STANDARD",
+          "priceCents": 38799
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-np12767-es10151us",
+      "slug": "costway-excavator-bounce-house-playset-with-750w-blower",
+      "asin": "",
+      "category": "christmas-toys-gifts",
+      "name": "Costway Excavator Bounce House Playset with 750W Blower",
+      "brand": "Costway",
+      "model": "NP12767+ES10151US",
+      "sku": "HRD-XMAS-NP12767ES10151US",
+      "description": "An excavator-themed inflatable playset with a jumping area, two slides, climbing wall and ball pit. The selected bundle includes a 750W blower. Mesh sides allow a view of the play area; adult supervision and the published weight limits still apply.",
+      "material": "420D Oxford Cloth, PVC",
+      "dimensions": "150\" x 126\" x 88.5\"",
+      "weight": "57.5 lbs",
+      "shippingWeight": "",
+      "color": "Multicolor",
+      "colorHex": "#b17639",
+      "features": [
+        "Jumping area, climbing wall and two slides",
+        "Ball pit, hoop, ring toss and punch bag",
+        "420D Oxford cloth and PVC construction",
+        "100 lb individual limit; 200 lb inflatable-area limit"
+      ],
+      "included": [
+        "Inflatable bounce house",
+        "750W blower"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "420D Oxford Cloth, PVC"
+        },
+        {
+          "label": "Overall Dimensions",
+          "value": "150\" x 126\" x 88.5\""
+        },
+        {
+          "label": "Dimensions of Jumping Area",
+          "value": "63.5\" x 62.5\""
+        },
+        {
+          "label": "Dimensions of Ball Pit",
+          "value": "63.5\" x 27.5\""
+        },
+        {
+          "label": "Dimensions of Long Slide",
+          "value": "90\" x 17.5\""
+        },
+        {
+          "label": "Dimensions of Short Slide",
+          "value": "38\" x 19.5\""
+        },
+        {
+          "label": "Guardrail Height",
+          "value": "14\""
+        },
+        {
+          "label": "Recommended Age",
+          "value": "3-12 years old"
+        },
+        {
+          "label": "Individual Weight Limit",
+          "value": "100 lbs"
+        },
+        {
+          "label": "Max. Weight Limit of Inflatable Part",
+          "value": "200 lbs"
+        }
+      ],
+      "priceCents": 32999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.costway.com/inflatable-bounce-house-8-in-1-excavator-themed-kids-bouncer-with-750w-blower.html",
+      "sourceSelection": [
+        "Select: 8-in-1 with 750W blower"
+      ],
+      "selectedSize": "Excavator playset / 750W blower bundle",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 32999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Adult assembly required. Read and follow the supplied instructions before use.",
+      "care": "Use with adult supervision. Follow the manufacturer’s age, weight, assembly, inspection and care instructions.",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/01.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905534136932_350556.jpeg",
+          "imageId": "NP12767+ES10151US-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "981286a70012862ab50fd50ab8fb51da7e01bfc5844eaf009dcd3820f1c406fe"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/02.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905531320698_532775.jpeg",
+          "imageId": "NP12767+ES10151US-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "c55acbbc9fa013b7c33a1a5922c9e36c8f3ecb5a690ded9f1a9fac56199e9c8d"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/03.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905533101305_967335.jpeg",
+          "imageId": "NP12767+ES10151US-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "3d209defb4f0a6d9f55056a746d05d0428ce03904e53b32a696b48239ffea864"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/04.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905541079655_542988.jpeg",
+          "imageId": "NP12767+ES10151US-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "34ed558dded4e3ea0f25e91447382fc1a44eb396d413b7645ef9102f41377712"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/05.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905532228028_123894.jpeg",
+          "imageId": "NP12767+ES10151US-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "b39cb0a01eef27ef2eb5a8a222db0f4b05c8ae5669c084d9479ead20bc908877"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/06.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905535141396_929262.jpeg",
+          "imageId": "NP12767+ES10151US-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "31e599df35782ff24a1d1aed57ed3ed37f0e47ddae4c3b23f1e4a2e5c7482296"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/07.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905536076957_964510.jpeg",
+          "imageId": "NP12767+ES10151US-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "4a65625b1250ec03dcb73e8e71e7d5f16a518904ef9adfe7ad0d118cc8e7b3e6"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/08.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905537091377_430124.jpeg",
+          "imageId": "NP12767+ES10151US-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "906abbec9ecda7303f0d3193906ed7512f8599f345eafa4a5bf85ab0c3a30a77"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/09.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905538160456_682547.jpeg",
+          "imageId": "NP12767+ES10151US-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "173764f13c02c8243cd84ad01fca3ad3b774f2ef4c9f29135db00c68a41c2ed6"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-np12767-es10151us/10.jpeg",
+          "alt": "Costway Excavator Bounce House Playset with 750W Blower — product view 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/i/n/Inflatable_Bounce_Ho_1771905540180923_775030.jpeg",
+          "imageId": "NP12767+ES10151US-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "6b27d0f17e6c6b5082dfd8d82342123d38f377af1314b5388e9445e997794740"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Excavator playset / 750W blower bundle",
+          "color": "Multicolor",
+          "colorHex": "#b17639",
+          "sku": "HRD-XMAS-NP12767ES10151US-STANDARD",
+          "priceCents": 32999
+        }
+      ]
+    },
+    {
+      "id": "xmas-cw-ts10064",
+      "slug": "costway-wooden-adventure-playset-with-swings-and-slide",
+      "asin": "",
+      "category": "christmas-toys-gifts",
+      "name": "Costway Wooden Adventure Playset with Swings and Slide",
+      "brand": "Costway",
+      "model": "TS10064+",
+      "sku": "HRD-XMAS-TS10064",
+      "description": "A large wooden backyard playset with swings, monkey bars, a climbing wall and slide. The upper deck includes a play steering wheel and telescope, while the lower area has a sandbox space and snack bench. Adult assembly and supervision are required. Sand is not included.",
+      "material": "Fir Wood, HDPE, 500D Oxford Fabric",
+      "dimensions": "172.5\" x 186\" x 118\" (L x W x H)",
+      "weight": "",
+      "shippingWeight": "",
+      "color": "Multicolor",
+      "colorHex": "#b17639",
+      "features": [
+        "Fir-wood structure with canopy",
+        "Three swings, monkey bars and climbing wall",
+        "Slide, play telescope and steering wheel",
+        "110 lb individual weight limit"
+      ],
+      "included": [
+        "Wooden playset with slide and swing equipment",
+        "Assembly instructions"
+      ],
+      "specifications": [
+        {
+          "label": "Material",
+          "value": "Fir Wood, HDPE, 500D Oxford Fabric"
+        },
+        {
+          "label": "Overall Dimension",
+          "value": "172.5\" x 186\" x 118\" (L x W x H)"
+        },
+        {
+          "label": "Individual Weight Limit",
+          "value": "110 lbs"
+        },
+        {
+          "label": "Recommended age",
+          "value": "3–10 years"
+        }
+      ],
+      "priceCents": 99999,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.costway.com/wooden-swing-set-with-large-upper-deck-slide-and-steering-wheel.html",
+      "sourceSelection": [
+        "Select: Wooden Swing Set with Large Upper Deck"
+      ],
+      "selectedSize": "Wooden playset / Large upper deck",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 99999,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Adult assembly required. Read and follow the supplied instructions before use.",
+      "care": "Use with adult supervision. Follow the manufacturer’s age, weight, assembly, inspection and care instructions.",
+      "credit": "Product photography © Costway",
+      "license": "Costway product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.costway.com/terms-conditions",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/01.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 1",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-1.jpg",
+          "imageId": "TS10064+-1",
+          "width": 750,
+          "height": 750,
+          "sha256": "ccb4371494fa3c68cafc93ac1d1f00b56261e02a64fc495e5fd7a4abcb6eb629"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/02.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 2",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-3.jpg",
+          "imageId": "TS10064+-2",
+          "width": 750,
+          "height": 750,
+          "sha256": "b4e7623a6e9d1478a08fc3471ac15e04476b6bac3706128e9b7331865d8a8442"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/03.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 3",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-4.jpg",
+          "imageId": "TS10064+-3",
+          "width": 750,
+          "height": 750,
+          "sha256": "9d0051825f67ccb9d42dadbf0c782f2ad3cca1cbc287c8914f99ee3a024ac751"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/04.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 4",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide_size-5.jpg",
+          "imageId": "TS10064+-4",
+          "width": 750,
+          "height": 750,
+          "sha256": "e57596c5d83132207c627c7c20c583c6bb0b5b49f2bbdbc03fe16f9e59950580"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/05.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 5",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-6.jpg",
+          "imageId": "TS10064+-5",
+          "width": 750,
+          "height": 750,
+          "sha256": "ca16516f7310ef56022c48b2941e05aec1cfc06c739bb8ecd60a501f1fc666ef"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/06.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 6",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-7.jpg",
+          "imageId": "TS10064+-6",
+          "width": 750,
+          "height": 750,
+          "sha256": "9276fc987d142eb03c410a30aa11470a55b5609aa3716d5d4569cdf369a53e00"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/07.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 7",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-8.jpg",
+          "imageId": "TS10064+-7",
+          "width": 750,
+          "height": 750,
+          "sha256": "43b6993e80e75246ef7eff7f82bbb327f6aa5478c81516cd19104f6176a1e23c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/08.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 8",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-9.jpg",
+          "imageId": "TS10064+-8",
+          "width": 750,
+          "height": 750,
+          "sha256": "0d86210703c22a6368fbe0af076535a55883cc9442aa068c84e7e19092e47b0c"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/09.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 9",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-10.jpg",
+          "imageId": "TS10064+-9",
+          "width": 750,
+          "height": 750,
+          "sha256": "bf8e028d486ae1eb32935048fd770dcfff0f5cd01e4802e16e2c9fca8f51e438"
+        },
+        {
+          "url": "/images/christmas/xmas-cw-ts10064/10.jpg",
+          "alt": "Costway Wooden Adventure Playset with Swings and Slide — product view 10",
+          "kind": "PRODUCT",
+          "source": "https://assets.costway.com/media/catalog/product/cache/0/thumbnail/750x/9df78eab33525d08d6e5fb8d27136e95/t/TS10064+/Wooden_Swing_Set_with_Large_Upper_Deck_Slide-11.jpg",
+          "imageId": "TS10064+-10",
+          "width": 750,
+          "height": 750,
+          "sha256": "a2bee0427d49492f612ad45a3d91bacd14f69c14a10c7741ab2557e7fed346f0"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Wooden playset / Large upper deck",
+          "color": "Multicolor",
+          "colorHex": "#b17639",
+          "sku": "HRD-XMAS-TS10064-STANDARD",
+          "priceCents": 99999
+        }
+      ],
+      "videoUrl": "https://cdn1.costway.com/media/us/Install_video/59871243.mp4",
+      "videoTitle": "Wooden playset assembly video",
+      "videoSource": "https://www.costway.com/wooden-swing-set-with-large-upper-deck-slide-and-steering-wheel.html"
+    },
+    {
+      "id": "xmas-bd-6113dcom",
+      "slug": "backyard-discovery-skyfort-ii-cedar-swing-set",
+      "asin": "",
+      "category": "christmas-toys-gifts",
+      "name": "Backyard Discovery Skyfort II Cedar Swing Set",
+      "brand": "Backyard Discovery",
+      "model": "6113Dcom",
+      "sku": "HRD-XMAS-6113DCOM",
+      "description": "A cedar backyard playset with a raised clubhouse, crow’s nest, 10-foot slide and monkey bars. Two belt swings, a trapeze and a covered picnic area offer several play spaces. This version requires adult assembly; installation service and sandbox sand are not included. Residential use only.",
+      "material": "Cedar wood",
+      "dimensions": "263 in W × 201 in D × 148 in H",
+      "weight": "709.9 lbs",
+      "shippingWeight": "",
+      "color": "Multicolor",
+      "colorHex": "#b17639",
+      "features": [
+        "Cedar wood structure",
+        "10-foot slide and rock climbing wall",
+        "Two belt swings and a trapeze",
+        "Crow’s nest, toy telescope and picnic area"
+      ],
+      "included": [
+        "Cedar playset kit",
+        "Slide, swing and climbing equipment",
+        "Assembly instructions"
+      ],
+      "specifications": [
+        {
+          "label": "Width",
+          "value": "263 in"
+        },
+        {
+          "label": "Depth",
+          "value": "201 in"
+        },
+        {
+          "label": "Height",
+          "value": "148 in"
+        },
+        {
+          "label": "Slide length",
+          "value": "10 ft"
+        },
+        {
+          "label": "Use",
+          "value": "Residential only"
+        },
+        {
+          "label": "Recommended age",
+          "value": "3–10 years"
+        },
+        {
+          "label": "Assembly service",
+          "value": "Not included"
+        }
+      ],
+      "priceCents": 219900,
+      "discountPercent": 15,
+      "pricingBasis": "Selected variant current USD selling price on the official product page, checked 2026-10-15. Store discount: 15%.",
+      "source": "https://www.backyarddiscovery.com/products/skyfort-ii",
+      "sourceSelection": [
+        "Shipping Included"
+      ],
+      "selectedSize": "Skyfort II / Without installation service",
+      "checkedAt": "2026-10-15T00:12:05.244Z",
+      "sourcePriceCents": 219900,
+      "stockStatus": "Special Order",
+      "deliveryType": "Standard Shipping",
+      "deliveryWindow": "Delivery timing and charges are confirmed before payment. Christmas delivery depends on the confirmed shipping date.",
+      "warranty": "Manufacturer warranty eligibility and applicable coverage are confirmed with your order before payment.",
+      "assembly": "Adult assembly, anchoring and suitable protective surfacing required. Follow the included site-clearance instructions. Installation service is not included.",
+      "care": "Use with adult supervision. Follow the manufacturer’s age, weight, assembly, inspection and care instructions.",
+      "credit": "Product photography © Backyard Discovery",
+      "license": "Backyard Discovery product photography; no open reuse license recorded",
+      "licenseUrl": "https://www.backyarddiscovery.com/products/skyfort-ii",
+      "reuseStatus": "Official product page media. Commercial reuse authorization has not been independently verified; no supplier partnership is claimed.",
+      "changes": "Original supplier images downloaded at the available display size; no generated product views.",
+      "images": [
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/01.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 1",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/files/6113D-Skyfort-II-Hero-CC_d3805e29-c520-40f1-a437-982e7c81f2d3.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-1",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "3abf6a9b2c65fff3f9efffab2e2cc92224ee073d40cd30dd18068566d5734b52"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/02.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — dimensions and assembly layout",
+          "kind": "DIMENSIONS",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/Skyfort-II-rD-Diagram.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-2",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "7421979fdd73072251db61a26c1d9bf14af4d6e4e6a739c7aeb193907614d200"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/03.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 3",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/Skyfort-II-Monkey-Bars-3.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-3",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "132fe6b80d4c5465dfa66bf56f676cd360c960a4edefa4d94f4c21ee4b88d501"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/04.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 4",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/Skyfort6113TrapCrowsNestcopy.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-4",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "f200885a470c88a398176d29eb707d60be630eb12b0a9912045604f4706ddebc"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/05.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 5",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/Skyfort6113TrapTable.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-5",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "0b8fef587dc5daceebb725e4ade90e08069145d36a404c3821b0188ba6ff537f"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/06.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 6",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/Skyfort-II-sand-box-2.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-6",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "728b51228f04e81c581ba94e596e8e415b151be9ba2ba28855ec85257c22a586"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/07.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 7",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/SkyfortIIFlatPackOutdoorTrapezeSwingbeam.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-7",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "4e5661d9dad146c6657406b0e665a915cd1f067cd06941a22a88a326e8e461d0"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/08.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 8",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/Skyfort6113TrapLadder.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-8",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "2ba6097f2a89a1d776827581efb22805d309ec009f8ab1444410183b8822238c"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/09.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — product view 9",
+          "kind": "PRODUCT",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/SkyfortIINightShotTrapcopy.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-9",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "1d83345de6bae774edd7a1f3ed5745a62d6a16546bcc22efc7d5d41d3286fa02"
+        },
+        {
+          "url": "/images/christmas/xmas-bd-6113dcom/10.jpeg",
+          "alt": "Backyard Discovery Skyfort II Cedar Swing Set — dimensions and assembly layout",
+          "kind": "DIMENSIONS",
+          "source": "https://cdn.shopify.com/s/files/1/0545/0041/products/Skyfort-II-rD-Exploded-2.jpg?v=1755870505&width=1200&format=jpg",
+          "imageId": "6113Dcom-10",
+          "width": 1200,
+          "height": 1200,
+          "sha256": "ef1376f26d16878747cc2ee29a2b4eea6d2e824ceb54d40642283d5cfd982dd0"
+        }
+      ],
+      "variants": [
+        {
+          "name": "Skyfort II / Without installation service",
+          "color": "Multicolor",
+          "colorHex": "#b17639",
+          "sku": "HRD-XMAS-6113DCOM-STANDARD",
+          "priceCents": 219900
+        }
+      ],
+      "specificationSource": "https://media.backyarddiscovery.com/manuals/INS-6113-C-SKYFORT_II-ENG-07-25-19.pdf"
     }
   ]
 }

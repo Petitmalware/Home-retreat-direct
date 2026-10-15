@@ -4,6 +4,8 @@ export const CHRISTMAS_SETTING='christmasSeason';
 export const SEASON_TIME_ZONE='America/New_York';
 export const christmasCategories=[
  {slug:'christmas-trees',name:'Christmas Trees',group:'Christmas',intro:'Find the tree that makes the season feel like home.'},
+ {slug:'christmas-unlit-trees',name:'Unlit & Undecorated Trees',group:'Christmas',intro:'Plain green artificial trees, ready for your own lights and ornaments.'},
+ {slug:'christmas-toys-gifts',name:'Kids’ Toys & Gifts',group:'Christmas',intro:'Ride-on adventures, backyard playsets and gifts made for play.'},
  {slug:'christmas-wreaths-garlands',name:'Wreaths & Garlands',group:'Christmas',intro:'A welcoming door. A beautifully dressed mantel.'},
  {slug:'christmas-outdoor-decor',name:'Christmas Lights & Outdoor Décor',group:'Christmas',intro:'Bring a little Christmas magic to your porch and garden.'},
 ] as const;

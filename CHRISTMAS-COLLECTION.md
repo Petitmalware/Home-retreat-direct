@@ -1,6 +1,8 @@
 # Christmas collection
 
-The first deployment adds 20 real Costway products to the existing store: 10 Christmas trees, 6 wreaths and garlands, and 4 illuminated or inflatable outdoor decorations. Every product has at least six distinct local image files; the range also includes official product/assembly videos where available. The first installation turns Christmas **on**, as requested by the owner.
+The seasonal range contains 30 real products: 15 artificial Christmas trees (including two plain green unlit trees), 5 children's toys and playsets, 6 wreaths and garlands, and 4 illuminated or inflatable outdoor decorations. Brands include Costway, King of Christmas and Backyard Discovery. Every product has at least six distinct local image files; official product/assembly videos are included where available. The first installation turns Christmas **on**, as requested by the owner.
+
+Version 2 adds ten products to the original twenty. It includes premium trees and larger children's gifts, using the current USD price of each exact source variant. It does not raise lower-cost products to an arbitrary minimum. The unlit category contains artificial trees supplied without lights or ornaments, with undecorated primary photographs. These are not fresh-cut trees. Styled photographs may contain accessories that are not supplied; the product details identify what is included.
 
 ## Show or hide the collection
 
@@ -17,6 +19,8 @@ Owner, administrator and product manager roles can use these controls. Customers
 Open any listed product from the seasonal admin page. Staff can replace/reorder images, edit details and prices, change its discount, or replace/remove its video URL. Active Christmas products require at least six gallery images and at least four product photographs. Select the **Christmas at Home** collection when adding another seasonal product. Christmas categories also inherit the visibility controls.
 
 Regular prices were matched to the selected size/pack/colour displayed on the official product page, rather than the parent product's potentially different JSON-LD price. The store applies the owner's requested **15% discount**. Source prices and availability can change; each source quote and its check date are recorded privately in **Price records**. Existing orders keep their original price snapshots.
+
+The new source prices were checked on October 14, 2026. For example, the 10-foot Royal Fir LED tree was $1,899 ($1,614.15 after the store discount), and the Skyfort II assembly-required playset was $2,199 ($1,869.15 after discount). The Skyfort price excludes installation service. Toys show the sourced age and weight limits where available. Adult assembly and supervision are required as described on their product pages. The Christmas switch also controls the new unlit-tree and children's-gift categories.
 
 No warehouse quantities, customer reviews or supplier partnership have been invented. These products use the store's existing availability review before payment. Product-specific shipping dates and Christmas delivery eligibility must be confirmed for each order.
 

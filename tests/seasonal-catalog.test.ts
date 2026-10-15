@@ -12,12 +12,15 @@ import {productVideoUrl} from '../lib/product-video';
 
 test('every Christmas product has six or more distinct real image files and a sourced selling price',()=>{
  const hashes=new Set<string>();
- assert.equal(catalog.products.length,20);
- for(const p of catalog.products){assert(p.images.length>=6&&galleryReady(p.images));assert(p.priceCents>0&&p.sourcePriceCents===p.priceCents);assert.equal(p.discountPercent,15);assert.match(p.source,/^https:\/\/www\.costway\.com\//);
+ assert.equal(catalog.products.length,30);
+ for(const p of catalog.products){assert(p.images.length>=6&&galleryReady(p.images));assert(p.priceCents>0&&p.sourcePriceCents===p.priceCents);assert.equal(p.discountPercent,15);assert.match(p.source,/^https:\/\/www\.(costway|kingofchristmas|backyarddiscovery)\.com\//);
   for(const image of p.images){const bytes=fs.readFileSync(path.join('public',image.url));const sha=createHash('sha256').update(bytes).digest('hex');assert.equal(sha,image.sha256);assert(!hashes.has(sha));hashes.add(sha);}
   if(p.videoUrl)assert(productVideoUrl(p.videoUrl));
  }
  assert(catalog.products.filter(p=>p.videoUrl).length>=3);
+ const unlit=catalog.products.filter(p=>p.category==='christmas-unlit-trees');assert.equal(unlit.length,2);assert(unlit.every(p=>p.specifications.some(s=>s.label==='Lighting'&&s.value.includes('Unlit'))&&p.images[0].alt.includes('undecorated')));
+ const toys=catalog.products.filter(p=>p.category==='christmas-toys-gifts');assert.equal(toys.length,5);assert(toys.every(p=>p.specifications.some(s=>/age/i.test(s.label))));
+ assert(catalog.products.some(p=>p.priceCents>=100000&&p.brand==='King of Christmas'));
 });
 
 test('seasonal install and checkout use an isolated database and preserve staff edits and existing orders',{timeout:120000},async t=>{
@@ -32,15 +35,15 @@ test('seasonal install and checkout use an isolated database and preserve staff 
   assert.equal(await db.collection.count(),0);
   await db.user.create({data:{email:'owner@example.test',name:'Fixture owner',passwordHash:'fixture',staff:{create:{role:'OWNER'}}}});
   await db.product.create({data:{id:'fixture-core',sku:'CORE',slug:'fixture-core',name:'Fixture core product',description:'Isolated test product; never sold.',shortDescription:'Fixture',priceCents:12345,brand:'Fixture',model:'Fixture',material:'Fixture',dimensions:'Fixture',weight:'',shippingWeight:'',warranty:'Fixture',deliveryType:'Standard Shipping',deliveryWindow:'Fixture',assembly:'',care:'',features:[],included:[],seoTitle:'Fixture',seoDescription:'Fixture'}});
-  const installed=await installChristmasCatalog(db);assert.equal(installed.added,20);assert.equal((await readChristmasSeason()).active,true);
-  assert.equal(await db.product.count(),21);assert.equal((await db.product.findUniqueOrThrow({where:{id:'fixture-core'}})).priceCents,12345);assert.equal(await db.review.count(),0);
+  const installed=await installChristmasCatalog(db);assert.equal(installed.added,30);assert.equal((await readChristmasSeason()).active,true);
+  assert.equal(await db.product.count(),31);assert.equal((await db.product.findUniqueOrThrow({where:{id:'fixture-core'}})).priceCents,12345);assert.equal(await db.review.count(),0);
   const {completeStoreOpening}=await import('../lib/open-store');await db.$transaction(tx=>completeStoreOpening(tx));
   const {products,product}=await import('../lib/products');const {submitOrder}=await import('../lib/orders');const sitemap=(await import('../app/sitemap')).default;
   const p=catalog.products[0];const variant=await db.productVariant.findFirstOrThrow({where:{productId:p.id}});
   const cart=await db.cart.create({data:{tokenHash:Buffer.from(randomBytes(32)).toString('hex'),items:{create:{variantId:variant.id,quantity:1}}}});
   const payload={email:'customer@example.test',phone:'317-555-0100',shipping:{firstName:'Fixture',lastName:'Customer',line1:'100 Test Street',city:'Indianapolis',state:'IN',postalCode:'46204',country:'US'},acceptTerms:true,idempotencyKey:randomUUID()};
   await t.test('on publishes product content and indexable URLs and accepts an unpaid order',async()=>{
-   assert.equal((await products()).length,21);const publicProduct=await product(p.slug);assert(publicProduct&&publicProduct.images.length>=6);assert((await sitemap()).some(page=>page.url.endsWith('/collections/christmas')));
+   assert.equal((await products()).length,31);const publicProduct=await product(p.slug);assert(publicProduct&&publicProduct.images.length>=6);assert((await sitemap()).some(page=>page.url.endsWith('/collections/christmas')));
    const order=await submitOrder(payload,cart.id);assert.equal(order.order.totalCents,Math.round(p.priceCents*.85));assert.equal(await db.payment.count(),0);assert.equal(await db.order.count(),1);
   });
   await t.test('off hides seasonal pages and prevents stale-cart checkout while retaining the order',async()=>{
@@ -57,6 +60,17 @@ test('seasonal install and checkout use an isolated database and preserve staff 
    assert.equal((await installChristmasCatalog(db)).added,0);assert.equal((await readChristmasSeason()).active,false);
    assert.equal((await db.product.findUniqueOrThrow({where:{id:p.id}})).priceCents,9999);assert.equal((await db.productImage.findUniqueOrThrow({where:{id:image.id}})).alt,'Staff-selected alternate text');assert.equal((await db.orderItem.findFirstOrThrow()).unitPriceCents,Math.round(p.priceCents*.85));
    assert((await db.emailLog.findMany()).every(email=>email.status==='QUEUED'&&!email.sentAt));
+  });
+  await t.test('a version-one store receives only the ten additions and retains its switch and staff prices',async()=>{
+   const newIds=catalog.products.slice(20).map(product=>product.id);
+   await db.product.deleteMany({where:{id:{in:newIds}}});
+   await db.siteSetting.update({where:{key:'christmasCatalogVersion'},data:{value:'1'}});
+   const upgrade=await installChristmasCatalog(db);assert.equal(upgrade.added,10);assert.equal(upgrade.existingPreserved,20);
+   assert.equal((await readChristmasSeason()).active,false);assert.equal((await db.product.findUniqueOrThrow({where:{id:p.id}})).priceCents,9999);
+   const gift=catalog.products.find(product=>product.category==='christmas-toys-gifts')!;
+   const giftCart=await db.cart.create({data:{tokenHash:Buffer.from(randomBytes(32)).toString('hex'),items:{create:{variantId:gift.id+'-standard',quantity:1}}}});
+   await assert.rejects(submitOrder({...payload,idempotencyKey:randomUUID()},giftCart.id),error=>(error as {status:number}).status===400);
+   assert.equal(await db.order.count(),1);assert.equal(await db.product.count(),31);
   });
  }finally{if(database)await database.$disconnect();if(socket)await socket.stop();await memory.close();}
 });

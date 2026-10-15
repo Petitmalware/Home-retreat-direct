@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseSeason,seasonActive,seasonSchema,seasonalProductVisible} from '../lib/seasonal';
+import {parseSeason,seasonActive,seasonSchema,seasonalProductVisible,christmasCategorySlugs} from '../lib/seasonal';
 import {variantAvailable} from '../lib/variant-availability';
 import {productVideoUrl} from '../lib/product-video';
 
@@ -23,7 +23,7 @@ test('scheduled visibility includes the whole last day in Eastern Time and handl
 test('hidden seasonal variants cannot be bought through collection or category membership',()=>{
  const plain={status:'ACTIVE',stockStatus:'Special Order',isDemo:false};
  assert.equal(variantAvailable({active:true,product:plain},false),true);
- for(const membership of [{collections:[{collection:{slug:'christmas'}}]},{categories:[{category:{group:'Christmas',slug:'custom-christmas-category'}}]}]){
+ for(const membership of [{collections:[{collection:{slug:'christmas'}}]},{categories:[{category:{group:'Christmas',slug:'custom-christmas-category'}}]},...christmasCategorySlugs.map(slug=>({categories:[{category:{group:'Staff custom group',slug}}]}))]){
   const product={...plain,...membership};assert.equal(seasonalProductVisible(product,false),false);
   assert.equal(variantAvailable({active:true,product},false),false);
   assert.equal(variantAvailable({active:true,product},true),true);

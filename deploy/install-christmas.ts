@@ -7,7 +7,7 @@ import {productVideoUrl} from '../lib/product-video';
 import {galleryReady} from '../lib/product-gallery';
 function check(){
  const hashes=new Set<string>(),ids=new Set<string>();
- if(catalog.products.length!==20)throw new Error('Expected the curated 20-product Christmas range.');
+ if(catalog.products.length!==30)throw new Error('Expected the curated 30-product Christmas range.');
  for(const p of catalog.products){
   if(ids.has(p.id)||!christmasCategories.some(c=>c.slug===p.category)||!Number.isSafeInteger(p.priceCents)||p.priceCents<1||p.images.length<6||!galleryReady(p.images))throw new Error('Invalid seasonal product: '+p.id);
   ids.add(p.id);
